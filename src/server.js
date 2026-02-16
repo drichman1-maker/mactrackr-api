@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3001;
 let serverState = {
   isAlive: true,
   startupTime: new Date().toISOString(),
-  errors: [] as string[]
+  errors: []
 };
 
 // Basic middleware
