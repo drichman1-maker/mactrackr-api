@@ -631,6 +631,161 @@ const products = [
       target: { price: 3999, inStock: false },
       cdw: { price: 3999, inStock: true }
     }
+  },
+  // iPhone 17 Series (2026)
+  {
+    id: 'iphone-17-pro-max-256',
+    name: 'iPhone 17 Pro Max 256GB',
+    modelNumber: 'A3257',
+    sku: 'MYWX3LL/A',
+    category: 'iphone',
+    specs: { display: '6.9" Super Retina XDR', chip: 'A19 Pro', storage: '256GB', camera: '48MP Triple', colors: 'Silver, Cosmic Orange, Deep Blue' },
+    prices: {
+      apple: { price: 1199, inStock: true },
+      amazon: { price: 1149, inStock: true },
+      bestbuy: { price: 1149, inStock: true },
+      bh: { price: 1149, inStock: true },
+      adorama: { price: 1139, inStock: true },
+      ebay: { price: 1099, inStock: true },
+      walmart: { price: 1199, inStock: true },
+      target: { price: 1199, inStock: true },
+      cdw: { price: 1199, inStock: true }
+    }
+  },
+  {
+    id: 'iphone-17-pro-256',
+    name: 'iPhone 17 Pro 256GB',
+    modelNumber: 'A3256',
+    sku: 'MYWY3LL/A',
+    category: 'iphone',
+    specs: { display: '6.3" Super Retina XDR', chip: 'A19 Pro', storage: '256GB', camera: '48MP Triple', colors: 'Silver, Cosmic Orange, Deep Blue' },
+    prices: {
+      apple: { price: 999, inStock: true },
+      amazon: { price: 949, inStock: true },
+      bestbuy: { price: 949, inStock: true },
+      bh: { price: 949, inStock: true },
+      adorama: { price: 939, inStock: true },
+      ebay: { price: 899, inStock: true },
+      walmart: { price: 999, inStock: true },
+      target: { price: 999, inStock: true },
+      cdw: { price: 999, inStock: true }
+    }
+  },
+  {
+    id: 'iphone-17-air-256',
+    name: 'iPhone 17 Air 256GB',
+    modelNumber: 'A3255',
+    sku: 'MYWZ3LL/A',
+    category: 'iphone',
+    specs: { display: '6.7" Super Retina XDR', chip: 'A19', storage: '256GB', camera: '48MP Dual', colors: 'Space Black, Cloud White, Light Gold, Sky Blue' },
+    prices: {
+      apple: { price: 899, inStock: true },
+      amazon: { price: 849, inStock: true },
+      bestbuy: { price: 849, inStock: true },
+      bh: { price: 849, inStock: true },
+      adorama: { price: 839, inStock: true },
+      ebay: { price: 799, inStock: true },
+      walmart: { price: 899, inStock: true },
+      target: { price: 899, inStock: true },
+      cdw: { price: 899, inStock: true }
+    }
+  },
+  {
+    id: 'iphone-17-256',
+    name: 'iPhone 17 256GB',
+    modelNumber: 'A3255',
+    sku: 'MYXA3LL/A',
+    category: 'iphone',
+    specs: { display: '6.1" Super Retina XDR', chip: 'A19', storage: '256GB', camera: '48MP Dual', colors: 'Black, White, Mist Blue, Sage, Lavender' },
+    prices: {
+      apple: { price: 799, inStock: true },
+      amazon: { price: 749, inStock: true },
+      bestbuy: { price: 749, inStock: true },
+      bh: { price: 749, inStock: true },
+      adorama: { price: 739, inStock: true },
+      ebay: { price: 699, inStock: true },
+      walmart: { price: 799, inStock: true },
+      target: { price: 799, inStock: true },
+      cdw: { price: 799, inStock: true }
+    }
+  },
+  // iPhone 16e (Budget)
+  {
+    id: 'iphone-16e-128',
+    name: 'iPhone 16e 128GB',
+    modelNumber: 'A3212',
+    sku: 'MMYE3LL/A',
+    category: 'iphone',
+    specs: { display: '6.1" Super Retina XDR', chip: 'A18', storage: '128GB', camera: '48MP Single', colors: 'Black, White' },
+    prices: {
+      apple: { price: 599, inStock: true },
+      amazon: { price: 579, inStock: true },
+      bestbuy: { price: 579, inStock: true },
+      bh: { price: 579, inStock: true },
+      adorama: { price: 569, inStock: true },
+      ebay: { price: 549, inStock: true },
+      walmart: { price: 599, inStock: true },
+      target: { price: 599, inStock: true },
+      cdw: { price: 599, inStock: true }
+    }
+  },
+  // iPad Pro M5 Series (2026)
+  {
+    id: 'ipad-pro-13-m5-cellular',
+    name: 'iPad Pro 13" M5 Wi-Fi + Cellular',
+    modelNumber: 'A3361',
+    sku: 'MVX53LL/A',
+    category: 'ipad',
+    specs: { display: '13" Tandem OLED', chip: 'M5', storage: '256GB', ram: '8GB', connectivity: 'Wi-Fi + Cellular' },
+    prices: {
+      apple: { price: 1499, inStock: true },
+      amazon: { price: 1449, inStock: true },
+      bestbuy: { price: 1449, inStock: true },
+      bh: { price: 1449, inStock: true },
+      adorama: { price: 1439, inStock: true },
+      ebay: { price: 1399, inStock: true },
+      walmart: { price: 1499, inStock: true },
+      target: { price: 1499, inStock: true },
+      cdw: { price: 1499, inStock: true }
+    }
+  },
+  {
+    id: 'ipad-pro-11-m5-cellular',
+    name: 'iPad Pro 11" M5 Wi-Fi + Cellular',
+    modelNumber: 'A3358',
+    sku: 'MVVA3LL/A',
+    category: 'ipad',
+    specs: { display: '11" Tandem OLED', chip: 'M5', storage: '256GB', ram: '8GB', connectivity: 'Wi-Fi + Cellular' },
+    prices: {
+      apple: { price: 1199, inStock: true },
+      amazon: { price: 1149, inStock: true },
+      bestbuy: { price: 1149, inStock: true },
+      bh: { price: 1149, inStock: true },
+      adorama: { price: 1139, inStock: true },
+      ebay: { price: 1099, inStock: true },
+      walmart: { price: 1199, inStock: true },
+      target: { price: 1199, inStock: true },
+      cdw: { price: 1199, inStock: true }
+    }
+  },
+  {
+    id: 'ipad-air-13-m3-cellular',
+    name: 'iPad Air 13" M3 Wi-Fi + Cellular',
+    modelNumber: 'A3269',
+    sku: 'MV2D3LL/A',
+    category: 'ipad',
+    specs: { display: '13" Liquid Retina', chip: 'M3', storage: '128GB', ram: '8GB', connectivity: 'Wi-Fi + Cellular', colors: 'Blue, Purple, Space Gray, Starlight' },
+    prices: {
+      apple: { price: 999, inStock: true },
+      amazon: { price: 949, inStock: true },
+      bestbuy: { price: 949, inStock: true },
+      bh: { price: 949, inStock: true },
+      adorama: { price: 939, inStock: true },
+      ebay: { price: 899, inStock: true },
+      walmart: { price: 999, inStock: true },
+      target: { price: 999, inStock: true },
+      cdw: { price: 999, inStock: true }
+    }
   }
 ];
 
