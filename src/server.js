@@ -222,6 +222,151 @@ const products = [
       ebay: { price: 349, inStock: true },
       cdw: { price: 399, inStock: true }
     }
+  },
+  // 2026 Products
+  {
+    id: 'macbook-pro-14-m5',
+    name: 'MacBook Pro 14" M5',
+    modelNumber: 'A3400',
+    sku: 'MP5X3LL/A',
+    category: 'mac',
+    specs: { chip: 'M5 Pro', color: 'Space Black', storage: '512GB SSD', ram: '24GB', display: '14.2" XDR ProMotion' },
+    prices: {
+      apple: { price: 1599, inStock: true },
+      amazon: { price: 1549, inStock: true },
+      bestbuy: { price: 1549, inStock: true },
+      bh: { price: 1529, inStock: true },
+      adorama: { price: 1529, inStock: true },
+      ebay: { price: 1499, inStock: true }
+    }
+  },
+  {
+    id: 'macbook-air-13-m4',
+    name: 'MacBook Air 13" M4',
+    modelNumber: 'A3401',
+    sku: 'MC5X3LL/A',
+    category: 'mac',
+    specs: { chip: 'M4', color: 'Starlight', storage: '256GB SSD', ram: '16GB', display: '13.6" Liquid Retina' },
+    prices: {
+      apple: { price: 999, inStock: true },
+      amazon: { price: 949, inStock: true },
+      bestbuy: { price: 949, inStock: true },
+      bh: { price: 929, inStock: true },
+      adorama: { price: 929, inStock: true },
+      ebay: { price: 899, inStock: true }
+    }
+  },
+  {
+    id: 'ipad-pro-13-m5',
+    name: 'iPad Pro 13" M5',
+    modelNumber: 'A3500',
+    sku: 'IP5PR013M5',
+    category: 'ipad',
+    specs: { chip: 'M5 Pro', storage: '256GB', display: '13" Tandem OLED', connectivity: 'WiFi' },
+    prices: {
+      apple: { price: 1099, inStock: true },
+      amazon: { price: 1049, inStock: true },
+      bestbuy: { price: 1049, inStock: true },
+      bh: { price: 1029, inStock: true },
+      adorama: { price: 1029, inStock: true },
+      ebay: { price: 999, inStock: true }
+    }
+  },
+  {
+    id: 'mac-mini-m4',
+    name: 'Mac mini M4',
+    modelNumber: 'A3010',
+    sku: 'MINIM4X3',
+    category: 'mac',
+    specs: { chip: 'M4 Pro', color: 'Silver', storage: '512GB SSD', ports: 'Thunderbolt 5, HDMI, Ethernet' },
+    prices: {
+      apple: { price: 599, inStock: true },
+      amazon: { price: 579, inStock: true },
+      bestbuy: { price: 579, inStock: true },
+      bh: { price: 559, inStock: true },
+      adorama: { price: 559, inStock: true },
+      ebay: { price: 549, inStock: true }
+    }
+  },
+  {
+    id: 'apple-watch-series-11',
+    name: 'Apple Watch Series 11',
+    modelNumber: 'A3100',
+    sku: 'WATCH11X3',
+    category: 'watch',
+    specs: { size: '46mm', case: 'Aluminum', display: 'Always-On Retina', sensors: 'Blood Oxygen, ECG, Temp' },
+    prices: {
+      apple: { price: 399, inStock: true },
+      amazon: { price: 379, inStock: true },
+      bestbuy: { price: 379, inStock: true },
+      bh: { price: 369, inStock: true },
+      adorama: { price: 369, inStock: true },
+      ebay: { price: 359, inStock: true }
+    }
+  },
+  {
+    id: 'airpods-pro-3',
+    name: 'AirPods Pro 3rd Gen',
+    modelNumber: 'A3200',
+    sku: 'AIRPODS3PRO',
+    category: 'airpods',
+    specs: { chip: 'H3', anc: true, 'Spatial Audio': true, 'Battery Life': '6h + 30h case' },
+    prices: {
+      apple: { price: 249, inStock: true },
+      amazon: { price: 239, inStock: true },
+      bestbuy: { price: 229, inStock: true },
+      bh: { price: 229, inStock: true },
+      adorama: { price: 219, inStock: true },
+      ebay: { price: 209, inStock: true }
+    }
+  },
+  {
+    id: 'airpods-4-nc',
+    name: 'AirPods 4 with ANC',
+    modelNumber: 'A3100',
+    sku: 'AIRPODS4ANC',
+    category: 'airpods',
+    specs: { chip: 'H3', anc: true, 'Spatial Audio': true, 'Battery Life': '5h + 20h case' },
+    prices: {
+      apple: { price: 179, inStock: true },
+      amazon: { price: 169, inStock: true },
+      bestbuy: { price: 169, inStock: true },
+      bh: { price: 159, inStock: true },
+      adorama: { price: 159, inStock: true },
+      ebay: { price: 149, inStock: true }
+    }
+  },
+  {
+    id: 'iphone-17-pro',
+    name: 'iPhone 17 Pro',
+    modelNumber: 'A3700',
+    sku: 'IP17PROX3',
+    category: 'iphone',
+    specs: { display: '6.3" Super Retina XDR', chip: 'A19 Pro', camera: '48MP Triple', battery: '3500mAh' },
+    prices: {
+      apple: { price: 999, inStock: true },
+      amazon: { price: 979, inStock: true },
+      bestbuy: { price: 979, inStock: true },
+      bh: { price: 959, inStock: true },
+      adorama: { price: 959, inStock: true },
+      ebay: { price: 929, inStock: true }
+    }
+  },
+  {
+    id: 'iphone-17-pro-max',
+    name: 'iPhone 17 Pro Max',
+    modelNumber: 'A3800',
+    sku: 'IP17PRMXX3',
+    category: 'iphone',
+    specs: { display: '6.9" Super Retina XDR', chip: 'A19 Pro', camera: '48MP Triple', battery: '5000mAh' },
+    prices: {
+      apple: { price: 1199, inStock: true },
+      amazon: { price: 1169, inStock: true },
+      bestbuy: { price: 1169, inStock: true },
+      bh: { price: 1149, inStock: true },
+      adorama: { price: 1149, inStock: true },
+      ebay: { price: 1099, inStock: true }
+    }
   }
 ];
 
