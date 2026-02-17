@@ -31,6 +31,11 @@ const products = [
       adorama: { price: 1649, inStock: true },
       ebay: { price: 1599, inStock: true },
       cdw: { price: 1699, inStock: true }
+    },
+    refurbishedPrices: {
+      apple: { price: 1449, inStock: true, url: 'https://apple.com/shop/product/MTQM3LL/A' },
+      amazon: { price: 1299, inStock: true, url: 'https://amazon.com' },
+      bestbuy: { price: 1399, inStock: true, url: 'https://bestbuy.com' }
     }
   },
   {
@@ -107,6 +112,11 @@ const products = [
       adorama: { price: 579, inStock: true },
       ebay: { price: 549, inStock: true },
       cdw: { price: 599, inStock: true }
+    },
+    refurbishedPrices: {
+      apple: { price: 509, inStock: true },
+      amazon: { price: 449, inStock: true },
+      bestbuy: { price: 499, inStock: true }
     }
   },
   {
@@ -238,6 +248,11 @@ const products = [
       bh: { price: 1529, inStock: true },
       adorama: { price: 1529, inStock: true },
       ebay: { price: 1499, inStock: true }
+    },
+    refurbishedPrices: {
+      apple: { price: 1359, inStock: true },
+      amazon: { price: 1199, inStock: true },
+      bestbuy: { price: 1319, inStock: true }
     }
   },
   {
@@ -254,6 +269,11 @@ const products = [
       bh: { price: 929, inStock: true },
       adorama: { price: 929, inStock: true },
       ebay: { price: 899, inStock: true }
+    },
+    refurbishedPrices: {
+      apple: { price: 849, inStock: true },
+      amazon: { price: 749, inStock: true },
+      bestbuy: { price: 799, inStock: true }
     }
   },
   {
