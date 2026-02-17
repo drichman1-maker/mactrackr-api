@@ -367,6 +367,136 @@ const products = [
       adorama: { price: 1149, inStock: true },
       ebay: { price: 1099, inStock: true }
     }
+  },
+  // iPhone 16 Series (Current Gen)
+  {
+    id: 'iphone-16-pro-max-256',
+    name: 'iPhone 16 Pro Max 256GB',
+    modelNumber: 'A3084',
+    sku: 'MYTM3LL/A',
+    category: 'iphone',
+    specs: { display: '6.9" Super Retina XDR', chip: 'A18 Pro', storage: '256GB', camera: '48MP Triple', color: 'Natural Titanium' },
+    prices: {
+      apple: { price: 1199, inStock: true },
+      amazon: { price: 1149, inStock: true },
+      bestbuy: { price: 1149, inStock: true },
+      bh: { price: 1149, inStock: true },
+      adorama: { price: 1139, inStock: true },
+      ebay: { price: 1099, inStock: true }
+    }
+  },
+  {
+    id: 'iphone-16-pro-128',
+    name: 'iPhone 16 Pro 128GB',
+    modelNumber: 'A3083',
+    sku: 'MYMC3LL/A',
+    category: 'iphone',
+    specs: { display: '6.3" Super Retina XDR', chip: 'A18 Pro', storage: '128GB', camera: '48MP Triple', color: 'Black Titanium' },
+    prices: {
+      apple: { price: 999, inStock: true },
+      amazon: { price: 949, inStock: true },
+      bestbuy: { price: 949, inStock: true },
+      bh: { price: 949, inStock: true },
+      adorama: { price: 939, inStock: true },
+      ebay: { price: 899, inStock: true }
+    }
+  },
+  {
+    id: 'iphone-16-plus-128',
+    name: 'iPhone 16 Plus 128GB',
+    modelNumber: 'A3082',
+    sku: 'MYAC3LL/A',
+    category: 'iphone',
+    specs: { display: '6.7" Super Retina XDR', chip: 'A18', storage: '128GB', camera: '48MP Dual', color: 'Ultramarine' },
+    prices: {
+      apple: { price: 899, inStock: true },
+      amazon: { price: 849, inStock: true },
+      bestbuy: { price: 849, inStock: true },
+      bh: { price: 849, inStock: true },
+      adorama: { price: 839, inStock: true },
+      ebay: { price: 799, inStock: true }
+    }
+  },
+  {
+    id: 'iphone-16-128',
+    name: 'iPhone 16 128GB',
+    modelNumber: 'A3081',
+    sku: 'MYLJ3LL/A',
+    category: 'iphone',
+    specs: { display: '6.1" Super Retina XDR', chip: 'A18', storage: '128GB', camera: '48MP Dual', color: 'Teal' },
+    prices: {
+      apple: { price: 799, inStock: true },
+      amazon: { price: 749, inStock: true },
+      bestbuy: { price: 749, inStock: true },
+      bh: { price: 749, inStock: true },
+      adorama: { price: 739, inStock: true },
+      ebay: { price: 699, inStock: true }
+    }
+  },
+  {
+    id: 'iphone-16e-128',
+    name: 'iPhone 16e 128GB',
+    modelNumber: 'A3212',
+    sku: 'MMYE3LL/A',
+    category: 'iphone',
+    specs: { display: '6.1" Super Retina XDR', chip: 'A18', storage: '128GB', camera: '48MP Single', color: 'Black' },
+    prices: {
+      apple: { price: 599, inStock: true },
+      amazon: { price: 579, inStock: true },
+      bestbuy: { price: 579, inStock: true },
+      bh: { price: 579, inStock: true },
+      adorama: { price: 569, inStock: true },
+      ebay: { price: 549, inStock: true }
+    }
+  },
+  // iPad Pro M5 Series (2026)
+  {
+    id: 'ipad-pro-13-m5-wifi',
+    name: 'iPad Pro 13" M5 Wi-Fi',
+    modelNumber: 'A3360',
+    sku: 'MVX43LL/A',
+    category: 'ipad',
+    specs: { display: '13" Tandem OLED', chip: 'M5', storage: '256GB', ram: '8GB', connectivity: 'Wi-Fi' },
+    prices: {
+      apple: { price: 1299, inStock: true },
+      amazon: { price: 1249, inStock: true },
+      bestbuy: { price: 1249, inStock: true },
+      bh: { price: 1249, inStock: true },
+      adorama: { price: 1239, inStock: true },
+      ebay: { price: 1199, inStock: true }
+    }
+  },
+  {
+    id: 'ipad-pro-11-m5-wifi',
+    name: 'iPad Pro 11" M5 Wi-Fi',
+    modelNumber: 'A3357',
+    sku: 'MVV93LL/A',
+    category: 'ipad',
+    specs: { display: '11" Tandem OLED', chip: 'M5', storage: '256GB', ram: '8GB', connectivity: 'Wi-Fi' },
+    prices: {
+      apple: { price: 999, inStock: true },
+      amazon: { price: 949, inStock: true },
+      bestbuy: { price: 949, inStock: true },
+      bh: { price: 949, inStock: true },
+      adorama: { price: 939, inStock: true },
+      ebay: { price: 899, inStock: true }
+    }
+  },
+  {
+    id: 'ipad-air-13-m3',
+    name: 'iPad Air 13" M3',
+    modelNumber: 'A3268',
+    sku: 'MV2C3LL/A',
+    category: 'ipad',
+    specs: { display: '13" Liquid Retina', chip: 'M3', storage: '128GB', ram: '8GB', connectivity: 'Wi-Fi', color: 'Blue' },
+    prices: {
+      apple: { price: 799, inStock: true },
+      amazon: { price: 749, inStock: true },
+      bestbuy: { price: 749, inStock: true },
+      bh: { price: 749, inStock: true },
+      adorama: { price: 739, inStock: true },
+      ebay: { price: 699, inStock: true }
+    }
   }
 ];
 
