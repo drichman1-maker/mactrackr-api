@@ -497,6 +497,140 @@ const products = [
       adorama: { price: 739, inStock: true },
       ebay: { price: 699, inStock: true }
     }
+  },
+  // New Mac products from Apple Store screenshots (Feb 2026)
+  {
+    id: 'macbook-pro-14-m5',
+    name: 'MacBook Pro 14" M5',
+    modelNumber: 'A3401',
+    sku: 'MHWC3LL/A',
+    category: 'mac',
+    specs: { chip: 'M5', color: 'Space Black', storage: '512GB SSD', ram: '16GB', display: '14.2" XDR', cpu: '10-core', gpu: '10-core' },
+    prices: {
+      apple: { price: 1599, inStock: true },
+      amazon: { price: 1549, inStock: true },
+      bestbuy: { price: 1549, inStock: true },
+      bh: { price: 1549, inStock: true },
+      adorama: { price: 1539, inStock: true },
+      ebay: { price: 1499, inStock: true },
+      walmart: { price: 1599, inStock: true },
+      target: { price: 1599, inStock: false },
+      cdw: { price: 1599, inStock: true }
+    }
+  },
+  {
+    id: 'macbook-air-13-m4',
+    name: 'MacBook Air 13" M4',
+    modelNumber: 'A3402',
+    sku: 'MC7V3LL/A',
+    category: 'mac',
+    specs: { chip: 'M4', color: 'Sky Blue', storage: '256GB SSD', ram: '16GB', display: '13.6" Liquid Retina', colors: 'Sky Blue, Starlight, Silver, Midnight' },
+    prices: {
+      apple: { price: 999, inStock: true },
+      amazon: { price: 949, inStock: true },
+      bestbuy: { price: 949, inStock: true },
+      bh: { price: 949, inStock: true },
+      adorama: { price: 939, inStock: true },
+      ebay: { price: 899, inStock: true },
+      walmart: { price: 999, inStock: true },
+      target: { price: 999, inStock: true },
+      cdw: { price: 999, inStock: true }
+    }
+  },
+  {
+    id: 'macbook-air-15-m4',
+    name: 'MacBook Air 15" M4',
+    modelNumber: 'A3403',
+    sku: 'MC9F3LL/A',
+    category: 'mac',
+    specs: { chip: 'M4', color: 'Sky Blue', storage: '256GB SSD', ram: '16GB', display: '15.3" Liquid Retina', colors: 'Sky Blue, Starlight, Silver, Midnight' },
+    prices: {
+      apple: { price: 1199, inStock: true },
+      amazon: { price: 1149, inStock: true },
+      bestbuy: { price: 1149, inStock: true },
+      bh: { price: 1149, inStock: true },
+      adorama: { price: 1139, inStock: true },
+      ebay: { price: 1099, inStock: true },
+      walmart: { price: 1199, inStock: true },
+      target: { price: 1199, inStock: true },
+      cdw: { price: 1199, inStock: true }
+    }
+  },
+  {
+    id: 'imac-24-m4-2port',
+    name: 'iMac 24" M4 (2 Thunderbolt)',
+    modelNumber: 'A2875',
+    sku: 'MQRC3LL/A',
+    category: 'mac',
+    specs: { chip: 'M4', color: 'Blue', storage: '256GB SSD', ram: '8GB', display: '24" 4.5K Retina', ports: '2x Thunderbolt', colors: 'Blue, Green, Pink, Silver, Yellow, Orange, Purple' },
+    prices: {
+      apple: { price: 1299, inStock: true },
+      amazon: { price: 1249, inStock: true },
+      bestbuy: { price: 1249, inStock: true },
+      bh: { price: 1249, inStock: true },
+      adorama: { price: 1239, inStock: true },
+      ebay: { price: 1199, inStock: true },
+      walmart: { price: 1299, inStock: true },
+      target: { price: 1299, inStock: true },
+      cdw: { price: 1299, inStock: true }
+    }
+  },
+  {
+    id: 'imac-24-m4-4port',
+    name: 'iMac 24" M4 (4 Thunderbolt)',
+    modelNumber: 'A2876',
+    sku: 'MQRD3LL/A',
+    category: 'mac',
+    specs: { chip: 'M4', color: 'Blue', storage: '256GB SSD', ram: '8GB', display: '24" 4.5K Retina', ports: '4x Thunderbolt', colors: 'Blue, Green, Pink, Silver, Yellow, Orange, Purple' },
+    prices: {
+      apple: { price: 1499, inStock: true },
+      amazon: { price: 1449, inStock: true },
+      bestbuy: { price: 1449, inStock: true },
+      bh: { price: 1449, inStock: true },
+      adorama: { price: 1439, inStock: true },
+      ebay: { price: 1399, inStock: true },
+      walmart: { price: 1499, inStock: true },
+      target: { price: 1499, inStock: true },
+      cdw: { price: 1499, inStock: true }
+    }
+  },
+  {
+    id: 'mac-studio-m4-max',
+    name: 'Mac Studio M4 Max',
+    modelNumber: 'A3232',
+    sku: 'MQGJ3LL/A',
+    category: 'mac',
+    specs: { chip: 'M4 Max', color: 'Silver', storage: '512GB SSD', ram: '36GB', ports: '6x Thunderbolt', cpu: 'up to 16-core', gpu: 'up to 40-core' },
+    prices: {
+      apple: { price: 1999, inStock: true },
+      amazon: { price: 1949, inStock: true },
+      bestbuy: { price: 1949, inStock: true },
+      bh: { price: 1949, inStock: true },
+      adorama: { price: 1939, inStock: true },
+      ebay: { price: 1899, inStock: true },
+      walmart: { price: 1999, inStock: false },
+      target: { price: 1999, inStock: false },
+      cdw: { price: 1999, inStock: true }
+    }
+  },
+  {
+    id: 'mac-studio-m3-ultra',
+    name: 'Mac Studio M3 Ultra',
+    modelNumber: 'A3233',
+    sku: 'MQGK3LL/A',
+    category: 'mac',
+    specs: { chip: 'M3 Ultra', color: 'Silver', storage: '1TB SSD', ram: '64GB', ports: '6x Thunderbolt', cpu: 'up to 32-core', gpu: 'up to 80-core' },
+    prices: {
+      apple: { price: 3999, inStock: true },
+      amazon: { price: 3899, inStock: true },
+      bestbuy: { price: 3899, inStock: true },
+      bh: { price: 3899, inStock: true },
+      adorama: { price: 3889, inStock: true },
+      ebay: { price: 3799, inStock: true },
+      walmart: { price: 3999, inStock: false },
+      target: { price: 3999, inStock: false },
+      cdw: { price: 3999, inStock: true }
+    }
   }
 ];
 
