@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // 9 Retailers
-const retailers = ['apple', 'amazon', 'walmart', 'target', 'bestbuy', 'bh', 'adorama', 'ebay', 'cdw'];
+const retailers = ['apple', 'amazon', 'walmart', 'target', 'bestbuy', 'bh', 'adorama', 'ebay', 'cdw', 'backmarket'];
 
 const products = [
   {
@@ -238,9 +238,9 @@ const products = [
       ebay: { price: 899, inStock: true }
     },
     refurbishedPrices: {
-      apple: { price: 849, inStock: true },
-      amazon: { price: 749, inStock: true },
-      bestbuy: { price: 799, inStock: true }
+      apple: { price: 849, inStock: true, url: 'https://apple.com/shop/product/MCW03LL/A/refurbished-13-inch-macbook-air-apple-m4-chip-10-core-cpu-and-8-core-gpu-256gb-sky-blue' },
+      bestbuy: { price: 799, inStock: true },
+      backmarket: { price: 699, inStock: true, url: 'https://www.backmarket.com/refurbished-macbook-air/13-inch-m4-8gb-256gb-sky-blue' }
     }
   },
   {
@@ -430,9 +430,9 @@ const products = [
       ebay: { price: 699, inStock: true }
     },
     refurbishedPrices: {
-      apple: { price: 559, inStock: true, url: 'https://apple.com/shop/product/...' },
-      amazon: { price: 549, inStock: true },
-      bestbuy: { price: 559, inStock: true }
+      apple: { price: 619, inStock: true, url: 'https://apple.com/shop/product/MYDN3LL/A/refurbished-iphone-16-128gb-black-unjpn' },
+      bestbuy: { price: 579, inStock: true },
+      backmarket: { price: 499, inStock: true, url: 'https://www.backmarket.com/refurbished-iphone-16/128gb-black-unlocked' }
     }
   },
   {
@@ -500,9 +500,9 @@ const products = [
       ebay: { price: 699, inStock: true }
     },
     refurbishedPrices: {
-      apple: { price: 465, inStock: true },
-      amazon: { price: 449, inStock: true },
-      bestbuy: { price: 459, inStock: true }
+      apple: { price: 509, inStock: true, url: 'https://apple.com/shop/product/MV273LL/A/refurbished-11-inch-ipad-air-a3-chip-128gb-wi-fi-space-gray' },
+      bestbuy: { price: 479, inStock: true },
+      backmarket: { price: 463, inStock: true, url: 'https://www.backmarket.com/refurbished-ipad-air/11-inch-m3-128gb-space-gray-wifi' }
     }
   },
   // New Mac products from Apple Store screenshots (Feb 2026)
