@@ -58,46 +58,6 @@ const products = [
       cdw: { price: 2499, inStock: true }
     }
   },
-  {
-    id: 'macbook-air-13-m3',
-    name: 'MacBook Air 13"',
-    modelNumber: 'A3113',
-    sku: 'MRXV3LL/A',
-    category: 'mac',
-    specs: { chip: 'M3', color: 'Midnight', storage: '256GB SSD', ram: '8GB', display: '13.6" Retina' },
-    prices: {
-      apple: { price: 1099, inStock: true },
-      amazon: { price: 1049, inStock: true },
-      walmart: { price: 1099, inStock: true },
-      target: { price: 1099, inStock: true },
-      bestbuy: { price: 1049, inStock: true },
-      bh: { price: 1049, inStock: true },
-      adorama: { price: 1049, inStock: true },
-      ebay: { price: 999, inStock: true },
-      cdw: { price: 1099, inStock: true }
-    }
-  },
-  {
-    id: 'macbook-air-15-m3',
-    name: 'MacBook Air 15"',
-    modelNumber: 'A3114',
-    sku: 'MRYU3LL/A',
-    category: 'mac',
-    specs: { chip: 'M3', color: 'Starlight', storage: '256GB SSD', ram: '8GB', display: '15.3" Retina' },
-    prices: {
-      apple: { price: 1299, inStock: true },
-      amazon: { price: 1249, inStock: true },
-      walmart: { price: 1299, inStock: true },
-      target: { price: 1299, inStock: true },
-      bestbuy: { price: 1249, inStock: true },
-      bh: { price: 1249, inStock: true },
-      adorama: { price: 1249, inStock: true },
-      ebay: { price: 1199, inStock: true },
-      cdw: { price: 1299, inStock: true }
-    }
-  },
-  {
-    id: 'mac-mini-m4',
     name: 'Mac mini',
     modelNumber: 'A3232',
     sku: 'MU9D3LL/A',
