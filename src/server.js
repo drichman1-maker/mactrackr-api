@@ -73,7 +73,7 @@ const products = [
       bestbuy: { price: 579, inStock: true },
       bh: { price: 579, inStock: true },
       adorama: { price: 579, inStock: true },
-      ebay: { price: 549, inStock: true },
+      ebay: { price: 549, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=Apple+Mac+mini+M4+256GB' },
       cdw: { price: 599, inStock: true }
     },
     refurbishedPrices: {
@@ -135,7 +135,7 @@ const products = [
       bestbuy: { price: 949, inStock: true },
       bh: { price: 949, inStock: true },
       adorama: { price: 949, inStock: true },
-      ebay: { price: 899, inStock: true },
+      ebay: { price: 899, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=Apple+MacBook+Air+13+M4' },
       cdw: { price: 999, inStock: true }
     }
   },
@@ -192,7 +192,7 @@ const products = [
       bestbuy: { price: 379, inStock: true },
       bh: { price: 379, inStock: true },
       adorama: { price: 379, inStock: true },
-      ebay: { price: 349, inStock: true },
+      ebay: { price: 349, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=Apple+Watch+Series+10+45mm' },
       cdw: { price: 399, inStock: true }
     },
     refurbishedPrices: {
@@ -429,7 +429,7 @@ const products = [
       bestbuy: { price: 749, inStock: true },
       bh: { price: 749, inStock: true },
       adorama: { price: 739, inStock: true },
-      ebay: { price: 699, inStock: true }
+      ebay: { price: 699, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=Apple+iPhone+16+128GB' }
     },
     refurbishedPrices: {
       apple: { price: 619, inStock: true, url: 'https://apple.com/shop/product/MYDN3LL/A/refurbished-iphone-16-128gb-black-unjpn' },
