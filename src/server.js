@@ -203,6 +203,7 @@ const products = [
     modelNumber: 'A3456',
     sku: 'MYWX3LL/A',
     category: 'iphone',
+    releaseDate: '2026-09-15',
     specs: { storage: '256GB', color: 'Natural Titanium', display: '6.7" Super Retina XDR' },
     prices: {
       apple: { price: 1199, inStock: true, url: 'https://apple.com/shop/buy-iphone/iphone-17-pro/MYWX3LL/A' },
