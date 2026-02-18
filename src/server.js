@@ -29,7 +29,7 @@ const products = [
       target: { price: 1999, inStock: false, url: 'https://target.com/p/apple-macbook-pro-14-m5/-/A-89012358' },
       bestbuy: { price: 1949, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-pro-14-laptop-m5-chip-24gb-memory-512gb-ssd-space-black/6534589.p' },
       bh: { price: 1949, inStock: true, url: 'https://bhphotovideo.com/c/product/1801684-REG/apple_mp5x3ll_a_14_macbook_pro_with.html' },
-      adorama: { price: 1949, inStock: true, url: 'https://adorama.com/acmp5x3lla.html' },
+      adorama: { price: 1949, inStock: true, url: 'https://www.adorama.com/search?query=MacBook%20Pro%2014' },
       cdw: { price: 1999, inStock: true, url: 'https://cdw.com/product/apple-macbook-pro-14-m5-512gb/7389034' }
     }
   },
@@ -48,7 +48,7 @@ const products = [
       target: { price: 2399, inStock: false, url: 'https://target.com/p/apple-macbook-pro-14-m5-1tb/-/A-89012359' },
       bestbuy: { price: 2349, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-pro-14-laptop-m5-chip-32gb-memory-1tb-ssd-space-black/6534590.p' },
       bh: { price: 2349, inStock: true, url: 'https://bhphotovideo.com/c/product/1801685-REG/apple_mhwc3ll_a_14_macbook_pro_with.html' },
-      adorama: { price: 2349, inStock: true, url: 'https://adorama.com/acmhwc3lla.html' },
+      adorama: { price: 2349, inStock: true, url: 'https://www.adorama.com/search?query=MacBook%20Pro%2014' },
       cdw: { price: 2399, inStock: true, url: 'https://cdw.com/product/apple-macbook-pro-14-m5-1tb/7389035' }
     }
   },
@@ -67,7 +67,7 @@ const products = [
       target: { price: 1099, inStock: true, url: 'https://target.com/p/apple-macbook-air-13-m4/-/A-89012360' },
       bestbuy: { price: 1049, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-air-13-laptop-m4-chip-16gb-memory-256gb-ssd-space-gray/6534591.p' },
       bh: { price: 1049, inStock: true, url: 'https://bhphotovideo.com/c/product/1801686-REG/apple_mc5x3ll_a_13_6_macbook_air.html' },
-      adorama: { price: 1049, inStock: true, url: 'https://adorama.com/acmc5x3lla.html' },
+      adorama: { price: 1049, inStock: true, url: 'https://www.adorama.com/search?query=MacBook%20Air%2013' },
       cdw: { price: 1099, inStock: true, url: 'https://cdw.com/product/apple-macbook-air-13-m4-256gb/7389036' }
     }
   },
@@ -86,7 +86,7 @@ const products = [
       target: { price: 1299, inStock: true, url: 'https://target.com/p/apple-macbook-air-13-m4-512gb/-/A-89012361' },
       bestbuy: { price: 1249, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-air-13-laptop-m4-chip-16gb-memory-512gb-ssd-space-gray/6534592.p' },
       bh: { price: 1249, inStock: true, url: 'https://bhphotovideo.com/c/product/1801687-REG/apple_mc7v3ll_a_13_6_macbook_air.html' },
-      adorama: { price: 1249, inStock: true, url: 'https://adorama.com/acmc7v3lla.html' },
+      adorama: { price: 1249, inStock: true, url: 'https://www.adorama.com/search?query=MacBook%20Air%2013' },
       cdw: { price: 1299, inStock: true, url: 'https://cdw.com/product/apple-macbook-air-13-m4-512gb/7389037' }
     }
   },
@@ -105,7 +105,7 @@ const products = [
       target: { price: 1499, inStock: true, url: 'https://target.com/p/apple-macbook-air-15-m4/-/A-89012362' },
       bestbuy: { price: 1449, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-air-15-laptop-m4-chip-16gb-memory-512gb-ssd-space-gray/6534593.p' },
       bh: { price: 1449, inStock: true, url: 'https://bhphotovideo.com/c/product/1801688-REG/apple_mc9f3ll_a_15_3_macbook_air.html' },
-      adorama: { price: 1449, inStock: true, url: 'https://adorama.com/acmc9f3lla.html' },
+      adorama: { price: 1449, inStock: true, url: 'https://www.adorama.com/search?query=MacBook%20Air%2015' },
       cdw: { price: 1499, inStock: true, url: 'https://cdw.com/product/apple-macbook-air-15-m4-512gb/7389038' }
     }
   },
@@ -124,8 +124,8 @@ const products = [
       target: { price: 1699, inStock: false, url: 'https://target.com/p/apple-macbook-pro-14-m4-pro/-/A-89012345' },
       bestbuy: { price: 1649, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-pro-14-laptop-m4-pro-chip-24gb-memory-512gb-ssd-space-black/6534576.p' },
       bh: { price: 1649, inStock: true, url: 'https://bhphotovideo.com/c/product/1801670-REG/apple_mrx33ll_a_14_macbook_pro_with.html' },
-      adorama: { price: 1649, inStock: true, url: 'https://adorama.com/acmrx33lla.html' },
-      ebay: { price: 1599, inStock: true, url: 'https://ebay.com/itm/295812345678' },
+      adorama: { price: 1649, inStock: true, url: 'https://www.adorama.com/search?query=MacBook%20Pro%2014' },
+      ebay: { price: 1599, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=MacBook%20Pro%2014' },
       cdw: { price: 1699, inStock: true, url: 'https://cdw.com/product/apple-macbook-pro-14-m4-pro-512gb/7389021' }
     },
     refurbishedPrices: {
@@ -148,8 +148,8 @@ const products = [
       bh: { price: 2449, inStock: true, url: 'https://bhphotovideo.com/c/product/1801672-REG/apple_mrw13ll_a_16_macbook_pro_with.html' },
       walmart: { price: 2499, inStock: true, url: 'https://walmart.com/ip/Apple-MacBook-Pro-16-M4-Pro-512GB/975631210' },
       target: { price: 2499, inStock: false, url: 'https://target.com/p/apple-macbook-pro-16-m4-pro/-/A-89012346' },
-      adorama: { price: 2449, inStock: true, url: 'https://adorama.com/acmrw13lla.html' },
-      ebay: { price: 2399, inStock: true, url: 'https://ebay.com/itm/295812345679' },
+      adorama: { price: 2449, inStock: true, url: 'https://www.adorama.com/search?query=MacBook%20Pro%2016' },
+      ebay: { price: 2399, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=MacBook%20Pro%2016' },
       cdw: { price: 2499, inStock: true, url: 'https://cdw.com/product/apple-macbook-pro-16-m4-pro-512gb/7389022' }
     }
   },
@@ -167,8 +167,8 @@ const products = [
       target: { price: 599, inStock: true, url: 'https://target.com/p/apple-mac-mini-m4/-/A-89012347' },
       bestbuy: { price: 579, inStock: true, url: 'https://bestbuy.com/site/apple-mac-mini-m4-chip-16gb-memory-256gb-ssd/6534578.p' },
       bh: { price: 579, inStock: true, url: 'https://bhphotovideo.com/c/product/1801673-REG/apple_mu9d3ll_a_mac_mini_m4.html' },
-      adorama: { price: 579, inStock: true, url: 'https://adorama.com/acmu9d3lla.html' },
-      ebay: { price: 549, inStock: true, url: 'https://ebay.com/itm/295812345680' },
+      adorama: { price: 579, inStock: true, url: 'https://www.adorama.com/search?query=Mac%20mini' },
+      ebay: { price: 549, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=Mac%20mini' },
       cdw: { price: 599, inStock: true, url: 'https://cdw.com/product/apple-mac-mini-m4-256gb/7389023' }
     },
     refurbishedPrices: {
@@ -192,8 +192,8 @@ const products = [
       target: { price: 3999, inStock: false, url: 'https://target.com/p/apple-mac-studio-m2-ultra/-/A-89012348' },
       bestbuy: { price: 3899, inStock: true, url: 'https://bestbuy.com/site/apple-mac-studio-m2-ultra-64gb-memory-1tb-ssd/6534579.p' },
       bh: { price: 3899, inStock: true, url: 'https://bhphotovideo.com/c/product/1801674-REG/apple_mqh63ll_a_mac_studio_m2_ultra.html' },
-      adorama: { price: 3899, inStock: true, url: 'https://adorama.com/acmqh63lla.html' },
-      ebay: { price: 3799, inStock: true, url: 'https://ebay.com/itm/295812345681' },
+      adorama: { price: 3899, inStock: true, url: 'https://www.adorama.com/search?query=Mac%20Studio' },
+      ebay: { price: 3799, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=Mac%20Studio' },
       cdw: { price: 3999, inStock: true, url: 'https://cdw.com/product/apple-mac-studio-m2-ultra/7389024' }
     }
   },
@@ -211,7 +211,7 @@ const products = [
       target: { price: 1199, inStock: true, url: 'https://target.com/p/apple-iphone-17-pro-max/-/A-89012349' },
       bestbuy: { price: 1199, inStock: true, url: 'https://bestbuy.com/site/apple-iphone-17-pro-max-256gb-natural-titanium/6534580.p' },
       bh: { price: 1199, inStock: true, url: 'https://bhphotovideo.com/c/product/1801675-REG/apple_mywx3ll_a.html' },
-      adorama: { price: 1199, inStock: true, url: 'https://adorama.com/acmywx3lla.html' },
+      adorama: { price: 1199, inStock: true, url: 'https://www.adorama.com/search?query=iPhone%2017%20Pro%20Max' },
       cdw: { price: 1199, inStock: true, url: 'https://cdw.com/product/apple-iphone-17-pro-max-256gb/7389025' }
     }
   },
@@ -229,7 +229,7 @@ const products = [
       target: { price: 1099, inStock: true, url: 'https://target.com/p/apple-iphone-17-pro/-/A-89012350' },
       bestbuy: { price: 1099, inStock: true, url: 'https://bestbuy.com/site/apple-iphone-17-pro-256gb-natural-titanium/6534581.p' },
       bh: { price: 1099, inStock: true, url: 'https://bhphotovideo.com/c/product/1801676-REG/apple_mywy3ll_a.html' },
-      adorama: { price: 1099, inStock: true, url: 'https://adorama.com/acmywy3lla.html' },
+      adorama: { price: 1099, inStock: true, url: 'https://www.adorama.com/search?query=iPhone%2017%20Pro' },
       cdw: { price: 1099, inStock: true, url: 'https://cdw.com/product/apple-iphone-17-pro-256gb/7389026' }
     }
   },
@@ -247,7 +247,7 @@ const products = [
       target: { price: 899, inStock: true, url: 'https://target.com/p/apple-iphone-17-air/-/A-89012351' },
       bestbuy: { price: 899, inStock: true, url: 'https://bestbuy.com/site/apple-iphone-17-air-256gb-midnight/6534582.p' },
       bh: { price: 899, inStock: true, url: 'https://bhphotovideo.com/c/product/1801677-REG/apple_mywz3ll_a.html' },
-      adorama: { price: 899, inStock: true, url: 'https://adorama.com/acmywz3lla.html' },
+      adorama: { price: 899, inStock: true, url: 'https://www.adorama.com/search?query=iPhone%2017%20Air' },
       cdw: { price: 899, inStock: true, url: 'https://cdw.com/product/apple-iphone-17-air-256gb/7389027' }
     }
   },
@@ -265,7 +265,7 @@ const products = [
       target: { price: 999, inStock: true, url: 'https://target.com/p/apple-iphone-17/-/A-89012352' },
       bestbuy: { price: 999, inStock: true, url: 'https://bestbuy.com/site/apple-iphone-17-256gb-midnight/6534583.p' },
       bh: { price: 999, inStock: true, url: 'https://bhphotovideo.com/c/product/1801678-REG/apple_myxa3ll_a.html' },
-      adorama: { price: 999, inStock: true, url: 'https://adorama.com/acmyxa3lla.html' },
+      adorama: { price: 999, inStock: true, url: 'https://www.adorama.com/search?query=iPhone%2017' },
       cdw: { price: 999, inStock: true, url: 'https://cdw.com/product/apple-iphone-17-256gb/7389028' }
     }
   },
@@ -283,7 +283,7 @@ const products = [
       target: { price: 1099, inStock: true, url: 'https://target.com/p/apple-iphone-16-pro-max/-/A-89012353' },
       bestbuy: { price: 1099, inStock: true, url: 'https://bestbuy.com/site/apple-iphone-16-pro-max-256gb-natural-titanium/6534584.p' },
       bh: { price: 1099, inStock: true, url: 'https://bhphotovideo.com/c/product/1801679-REG/apple_mytm3ll_a.html' },
-      adorama: { price: 1099, inStock: true, url: 'https://adorama.com/acmytm3lla.html' },
+      adorama: { price: 1099, inStock: true, url: 'https://www.adorama.com/search?query=iPhone%2016%20Pro%20Max' },
       cdw: { price: 1099, inStock: true, url: 'https://cdw.com/product/apple-iphone-16-pro-max-256gb/7389029' }
     }
   },
@@ -301,7 +301,7 @@ const products = [
       target: { price: 999, inStock: true, url: 'https://target.com/p/apple-iphone-16-pro/-/A-89012354' },
       bestbuy: { price: 999, inStock: true, url: 'https://bestbuy.com/site/apple-iphone-16-pro-128gb-natural-titanium/6534585.p' },
       bh: { price: 999, inStock: true, url: 'https://bhphotovideo.com/c/product/1801680-REG/apple_mymc3ll_a.html' },
-      adorama: { price: 999, inStock: true, url: 'https://adorama.com/acmymc3lla.html' },
+      adorama: { price: 999, inStock: true, url: 'https://www.adorama.com/search?query=iPhone%2016%20Pro' },
       cdw: { price: 999, inStock: true, url: 'https://cdw.com/product/apple-iphone-16-pro-128gb/7389030' }
     }
   },
@@ -319,7 +319,7 @@ const products = [
       target: { price: 899, inStock: true, url: 'https://target.com/p/apple-iphone-16-plus/-/A-89012355' },
       bestbuy: { price: 899, inStock: true, url: 'https://bestbuy.com/site/apple-iphone-16-plus-128gb-midnight/6534586.p' },
       bh: { price: 899, inStock: true, url: 'https://bhphotovideo.com/c/product/1801681-REG/apple_myac3ll_a.html' },
-      adorama: { price: 899, inStock: true, url: 'https://adorama.com/acmyac3lla.html' },
+      adorama: { price: 899, inStock: true, url: 'https://www.adorama.com/search?query=iPhone%2016%20Plus' },
       cdw: { price: 899, inStock: true, url: 'https://cdw.com/product/apple-iphone-16-plus-128gb/7389031' }
     }
   },
@@ -337,7 +337,7 @@ const products = [
       target: { price: 799, inStock: true, url: 'https://target.com/p/apple-iphone-16/-/A-89012356' },
       bestbuy: { price: 799, inStock: true, url: 'https://bestbuy.com/site/apple-iphone-16-128gb-midnight/6534587.p' },
       bh: { price: 799, inStock: true, url: 'https://bhphotovideo.com/c/product/1801682-REG/apple_mylj3ll_a.html' },
-      adorama: { price: 799, inStock: true, url: 'https://adorama.com/acmylj3lla.html' },
+      adorama: { price: 799, inStock: true, url: 'https://www.adorama.com/search?query=iPhone%2016' },
       cdw: { price: 799, inStock: true, url: 'https://cdw.com/product/apple-iphone-16-128gb/7389032' }
     }
   },
@@ -355,7 +355,7 @@ const products = [
       target: { price: 599, inStock: true, url: 'https://target.com/p/apple-iphone-16e/-/A-89012357' },
       bestbuy: { price: 599, inStock: true, url: 'https://bestbuy.com/site/apple-iphone-16e-128gb-midnight/6534588.p' },
       bh: { price: 599, inStock: true, url: 'https://bhphotovideo.com/c/product/1801683-REG/apple_mmye3ll_a.html' },
-      adorama: { price: 599, inStock: true, url: 'https://adorama.com/acmmye3lla.html' },
+      adorama: { price: 599, inStock: true, url: 'https://www.adorama.com/search?query=iPhone%2016e' },
       cdw: { price: 599, inStock: true, url: 'https://cdw.com/product/apple-iphone-16e-128gb/7389033' }
     }
   }
@@ -373,7 +373,7 @@ const products = [
       target: { price: 799, inStock: true, url: 'https://target.com/p/apple-watch-ultra-2/-/A-89012358' },
       bestbuy: { price: 779, inStock: true, url: 'https://bestbuy.com/site/apple-watch-ultra-2-49mm-titanium-case/6534589.p' },
       bh: { price: 779, inStock: true, url: 'https://bhphotovideo.com/c/product/1801684-REG/apple_mxdj3ll_a_watch_ultra_2.html' },
-      adorama: { price: 779, inStock: true, url: 'https://adorama.com/acmxdj3lla.html' },
+      adorama: { price: 779, inStock: true, url: 'https://www.adorama.com/search?query=Apple%20Watch%20Ultra%202' },
       cdw: { price: 799, inStock: true, url: 'https://cdw.com/product/apple-watch-ultra-2/7389034' }
     }
   },
@@ -390,7 +390,7 @@ const products = [
       target: { price: 399, inStock: true, url: 'https://target.com/p/apple-watch-series-10/-/A-89012359' },
       bestbuy: { price: 379, inStock: true, url: 'https://bestbuy.com/site/apple-watch-series-10-45mm-aluminum-gps/6534590.p' },
       bh: { price: 379, inStock: true, url: 'https://bhphotovideo.com/c/product/1801685-REG/apple_mx1j3ll_a_watch_series_10.html' },
-      adorama: { price: 379, inStock: true, url: 'https://adorama.com/acmx1j3lla.html' },
+      adorama: { price: 379, inStock: true, url: 'https://www.adorama.com/search?query=Apple%20Watch%20Series%2010' },
       cdw: { price: 399, inStock: true, url: 'https://cdw.com/product/apple-watch-series-10/7389035' }
     }
   },
@@ -407,7 +407,7 @@ const products = [
       target: { price: 499, inStock: true, url: 'https://target.com/p/apple-watch-series-11/-/A-89012360' },
       bestbuy: { price: 479, inStock: true, url: 'https://bestbuy.com/site/apple-watch-series-11-45mm-aluminum-cellular/6534591.p' },
       bh: { price: 479, inStock: true, url: 'https://bhphotovideo.com/c/product/1801686-REG/apple_a3100_watch_series_11.html' },
-      adorama: { price: 479, inStock: true, url: 'https://adorama.com/aca3100.html' },
+      adorama: { price: 479, inStock: true, url: 'https://www.adorama.com/search?query=Apple%20Watch%20Series%2011' },
       cdw: { price: 499, inStock: true, url: 'https://cdw.com/product/apple-watch-series-11/7389036' }
     }
   },
@@ -424,7 +424,7 @@ const products = [
       target: { price: 249, inStock: true, url: 'https://target.com/p/airpods-pro-3rd-generation/-/A-89012361' },
       bestbuy: { price: 229, inStock: true, url: 'https://bestbuy.com/site/apple-airpods-pro-3rd-generation/6534592.p' },
       bh: { price: 229, inStock: true, url: 'https://bhphotovideo.com/c/product/1801687-REG/apple_a3200_airpods_pro_3.html' },
-      adorama: { price: 229, inStock: true, url: 'https://adorama.com/aca3200.html' },
+      adorama: { price: 229, inStock: true, url: 'https://www.adorama.com/search?query=AirPods%20Pro%20(3rd%20Gen)' },
       cdw: { price: 249, inStock: true, url: 'https://cdw.com/product/airpods-pro-3rd-generation/7389037' }
     }
   },
@@ -441,7 +441,7 @@ const products = [
       target: { price: 179, inStock: true, url: 'https://target.com/p/airpods-4-with-anc/-/A-89012362' },
       bestbuy: { price: 159, inStock: true, url: 'https://bestbuy.com/site/apple-airpods-4-with-anc/6534593.p' },
       bh: { price: 159, inStock: true, url: 'https://bhphotovideo.com/c/product/1801688-REG/apple_a3100_airpods_4.html' },
-      adorama: { price: 159, inStock: true, url: 'https://adorama.com/aca3100a.html' },
+      adorama: { price: 159, inStock: true, url: 'https://www.adorama.com/search?query=AirPods%204%20with%20ANC' },
       cdw: { price: 179, inStock: true, url: 'https://cdw.com/product/airpods-4-with-anc/7389038' }
     }
   },
@@ -459,7 +459,7 @@ const products = [
       walmart: { price: 799, inStock: true, url: 'https://walmart.com/ip/Apple-11-inch-iPad-Pro-M4/976543210' },
       target: { price: 799, inStock: true, url: 'https://target.com/p/apple-11-inch-ipad-pro-m4/-/A-89054321' },
       bh: { price: 799, inStock: true, url: 'https://bhphotovideo.com/c/product/1802345-REG/apple_mvv83ll_a_11_ipad_pro_m4.html' },
-      adorama: { price: 799, inStock: true, url: 'https://adorama.com/acmvv83lla.html' },
+      adorama: { price: 799, inStock: true, url: 'https://www.adorama.com/search?query=iPad%20Pro%2011%20M4' },
       cdw: { price: 799, inStock: true, url: 'https://cdw.com/product/apple-11-inch-ipad-pro-m4/7390123' }
     }
   },
@@ -477,7 +477,7 @@ const products = [
       walmart: { price: 1099, inStock: true, url: 'https://walmart.com/ip/Apple-13-inch-iPad-Pro-M4/976543211' },
       target: { price: 1099, inStock: true, url: 'https://target.com/p/apple-13-inch-ipad-pro-m4/-/A-89054322' },
       bh: { price: 1099, inStock: true, url: 'https://bhphotovideo.com/c/product/1802346-REG/apple_mvx23ll_a_13_ipad_pro_m4.html' },
-      adorama: { price: 1099, inStock: true, url: 'https://adorama.com/acmvx23lla.html' },
+      adorama: { price: 1099, inStock: true, url: 'https://www.adorama.com/search?query=iPad%20Pro%2013%20M4' },
       cdw: { price: 1099, inStock: true, url: 'https://cdw.com/product/apple-13-inch-ipad-pro-m4/7390124' }
     }
   },
@@ -495,7 +495,7 @@ const products = [
       walmart: { price: 1199, inStock: true, url: 'https://walmart.com/ip/Apple-13-inch-iPad-Pro-M5-WiFi/976543212' },
       target: { price: 1199, inStock: true, url: 'https://target.com/p/apple-13-inch-ipad-pro-m5-wifi/-/A-89054323' },
       bh: { price: 1199, inStock: true, url: 'https://bhphotovideo.com/c/product/1802347-REG/apple_mvx43ll_a_13_ipad_pro_m5.html' },
-      adorama: { price: 1199, inStock: true, url: 'https://adorama.com/acmvx43lla.html' },
+      adorama: { price: 1199, inStock: true, url: 'https://www.adorama.com/search?query=iPad%20Pro%2013%20M5%20Wi-Fi' },
       cdw: { price: 1199, inStock: true, url: 'https://cdw.com/product/apple-13-inch-ipad-pro-m5-wifi/7390125' }
     }
   },
@@ -513,7 +513,7 @@ const products = [
       walmart: { price: 899, inStock: true, url: 'https://walmart.com/ip/Apple-11-inch-iPad-Pro-M5-WiFi/976543213' },
       target: { price: 899, inStock: true, url: 'https://target.com/p/apple-11-inch-ipad-pro-m5-wifi/-/A-89054324' },
       bh: { price: 899, inStock: true, url: 'https://bhphotovideo.com/c/product/1802348-REG/apple_mvv93ll_a_11_ipad_pro_m5.html' },
-      adorama: { price: 899, inStock: true, url: 'https://adorama.com/acmvv93lla.html' },
+      adorama: { price: 899, inStock: true, url: 'https://www.adorama.com/search?query=iPad%20Pro%2011%20M5%20Wi-Fi' },
       cdw: { price: 899, inStock: true, url: 'https://cdw.com/product/apple-11-inch-ipad-pro-m5-wifi/7390126' }
     }
   },
@@ -531,7 +531,7 @@ const products = [
       walmart: { price: 1399, inStock: true, url: 'https://walmart.com/ip/Apple-13-inch-iPad-Pro-M5-WiFi-Cellular/976543214' },
       target: { price: 1399, inStock: true, url: 'https://target.com/p/apple-13-inch-ipad-pro-m5-wifi-cellular/-/A-89054325' },
       bh: { price: 1399, inStock: true, url: 'https://bhphotovideo.com/c/product/1802349-REG/apple_mvx53ll_a_13_ipad_pro_m5.html' },
-      adorama: { price: 1399, inStock: true, url: 'https://adorama.com/acmvx53lla.html' },
+      adorama: { price: 1399, inStock: true, url: 'https://www.adorama.com/search?query=iPad%20Pro%2013%20M5%20Wi-Fi%20%2B%20Cellular' },
       cdw: { price: 1399, inStock: true, url: 'https://cdw.com/product/apple-13-inch-ipad-pro-m5-wifi-cellular/7390127' }
     }
   },
@@ -549,7 +549,7 @@ const products = [
       walmart: { price: 1099, inStock: true, url: 'https://walmart.com/ip/Apple-11-inch-iPad-Pro-M5-WiFi-Cellular/976543215' },
       target: { price: 1099, inStock: true, url: 'https://target.com/p/apple-11-inch-ipad-pro-m5-wifi-cellular/-/A-89054326' },
       bh: { price: 1099, inStock: true, url: 'https://bhphotovideo.com/c/product/1802350-REG/apple_mvva3ll_a_11_ipad_pro_m5.html' },
-      adorama: { price: 1099, inStock: true, url: 'https://adorama.com/acmvva3lla.html' },
+      adorama: { price: 1099, inStock: true, url: 'https://www.adorama.com/search?query=iPad%20Pro%2011%20M5%20Wi-Fi%20%2B%20Cellular' },
       cdw: { price: 1099, inStock: true, url: 'https://cdw.com/product/apple-11-inch-ipad-pro-m5-wifi-cellular/7390128' }
     }
   },
@@ -567,7 +567,7 @@ const products = [
       walmart: { price: 899, inStock: true, url: 'https://walmart.com/ip/Apple-13-inch-iPad-Air-M3-WiFi/976543216' },
       target: { price: 899, inStock: true, url: 'https://target.com/p/apple-13-inch-ipad-air-m3/-/A-89054327' },
       bh: { price: 899, inStock: true, url: 'https://bhphotovideo.com/c/product/1802351-REG/apple_mv2c3ll_a_13_ipad_air_m3.html' },
-      adorama: { price: 899, inStock: true, url: 'https://adorama.com/acmv2c3lla.html' },
+      adorama: { price: 899, inStock: true, url: 'https://www.adorama.com/search?query=iPad%20Air%2013%20M3' },
       cdw: { price: 899, inStock: true, url: 'https://cdw.com/product/apple-13-inch-ipad-air-m3/7390129' }
     }
   },
@@ -585,7 +585,7 @@ const products = [
       walmart: { price: 1099, inStock: true, url: 'https://walmart.com/ip/Apple-13-inch-iPad-Air-M3-WiFi-Cellular/976543217' },
       target: { price: 1099, inStock: true, url: 'https://target.com/p/apple-13-inch-ipad-air-m3-cellular/-/A-89054328' },
       bh: { price: 1099, inStock: true, url: 'https://bhphotovideo.com/c/product/1802352-REG/apple_mv2d3ll_a_13_ipad_air_m3.html' },
-      adorama: { price: 1099, inStock: true, url: 'https://adorama.com/acmv2d3lla.html' },
+      adorama: { price: 1099, inStock: true, url: 'https://www.adorama.com/search?query=iPad%20Air%2013%20M3%20Wi-Fi%20%2B%20Cellular' },
       cdw: { price: 1099, inStock: true, url: 'https://cdw.com/product/apple-13-inch-ipad-air-m3-cellular/7390130' }
     }
   }
