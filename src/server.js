@@ -647,3 +647,4 @@ app.listen(PORT, () => {
   console.log(`MacTrackr API running on port ${PORT}`);
   console.log(`Products: ${products.length}, Retailers: ${retailers.length}`);
 });// force redeploy Wed Feb 18 17:20:00 EST 2026// Deploy check: Wed Feb 18 17:23:27 EST 2026
+// Force fresh deploy: Wed Feb 18 18:31:00 EST 2026
