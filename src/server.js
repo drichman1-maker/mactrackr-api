@@ -47,12 +47,12 @@ const products = [
     category: 'mac',
     specs: { chip: 'M4 Pro', color: 'Space Black', storage: '512GB SSD', ram: '24GB', display: '16.2" XDR' },
     prices: {
-      apple: { price: 2499, inStock: true },
-      amazon: { price: 2449, inStock: true },
+      apple: { price: 2499, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-pro/16-inch-space-black-apple-m4-pro-chip-14-core-cpu-20-core-gpu-512gb' },
+      amazon: { price: 2449, inStock: true, url: 'https://amazon.com/dp/B0DKLHHMZ7' },
+      bestbuy: { price: 2449, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-pro-16-laptop-m4-pro-chip-48gb-memory-512gb-ssd-space-black/6534609.p' },
+      bh: { price: 2449, inStock: true, url: 'https://bhphotovideo.com/c/product/1801672-REG/apple_mrw13ll_a_16_macbook_pro_with.html' },
       walmart: { price: 2499, inStock: true },
       target: { price: 2499, inStock: false },
-      bestbuy: { price: 2449, inStock: true },
-      bh: { price: 2449, inStock: true },
       adorama: { price: 2449, inStock: true },
       ebay: { price: 2399, inStock: true },
       cdw: { price: 2499, inStock: true }
