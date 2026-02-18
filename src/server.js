@@ -140,6 +140,7 @@ const products = [
     modelNumber: 'A3185',
     sku: 'MRW13LL/A',
     category: 'mac',
+    releaseDate: '2024-11-01',
     specs: { chip: 'M4 Pro', color: 'Space Black', storage: '512GB SSD', ram: '24GB', display: '16.2" XDR' },
     prices: {
       apple: { price: 2499, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-pro-16/MRW13LL/A' },
@@ -159,6 +160,7 @@ const products = [
     modelNumber: 'A3232',
     sku: 'MU9D3LL/A',
     category: 'mac',
+    releaseDate: '2024-11-01',
     specs: { chip: 'M4', color: 'Silver', storage: '256GB SSD', ram: '16GB', ports: '3x Thunderbolt 4' },
     prices: {
       apple: { price: 599, inStock: true, url: 'https://apple.com/shop/buy-mac/mac-mini/MU9D3LL/A' },
@@ -184,6 +186,7 @@ const products = [
     modelNumber: 'A2901',
     sku: 'MQH63LL/A',
     category: 'mac',
+    releaseDate: '2023-06-01',
     specs: { chip: 'M2 Ultra', color: 'Silver', storage: '1TB SSD', ram: '64GB', ports: '6x Thunderbolt 4' },
     prices: {
       apple: { price: 3999, inStock: true, url: 'https://apple.com/shop/buy-mac/mac-studio/MQH63LL/A' },
@@ -366,6 +369,7 @@ const products = [
     name: 'Apple Watch Ultra 2',
     modelNumber: 'MXDJ3LL/A',
     category: 'watch',
+    releaseDate: '2023-09-01',
     specs: { size: '49mm', connectivity: 'GPS + Cellular', case: 'Titanium', display: 'Always-On Retina' },
     prices: {
       apple: { price: 799, inStock: true, url: 'https://apple.com/shop/buy-watch/apple-watch-ultra-2/MXDJ3LL/A' },
@@ -383,6 +387,7 @@ const products = [
     name: 'Apple Watch Series 10',
     modelNumber: 'MX1J3LL/A',
     category: 'watch',
+    releaseDate: '2024-09-01',
     specs: { size: '45mm', connectivity: 'GPS', case: 'Aluminum', display: 'Always-On Retina' },
     prices: {
       apple: { price: 399, inStock: true, url: 'https://apple.com/shop/buy-watch/apple-watch/MX1J3LL/A' },
@@ -400,6 +405,7 @@ const products = [
     name: 'Apple Watch Series 11',
     modelNumber: 'A3100',
     category: 'watch',
+    releaseDate: '2025-09-01',
     specs: { size: '45mm', connectivity: 'GPS + Cellular', case: 'Aluminum', display: 'Always-On Retina' },
     prices: {
       apple: { price: 499, inStock: true, url: 'https://apple.com/shop/buy-watch/apple-watch/A3100' },
@@ -417,6 +423,7 @@ const products = [
     name: 'AirPods Pro (3rd Gen)',
     modelNumber: 'A3200',
     category: 'audio',
+    releaseDate: '2025-09-01',
     specs: { type: 'In-ear', features: ['Active Noise Cancellation', 'Adaptive Audio', 'Transparency Mode'] },
     prices: {
       apple: { price: 249, inStock: true, url: 'https://apple.com/shop/buy-airpods/airpods-pro-3rd-generation/A3200' },
@@ -434,6 +441,7 @@ const products = [
     name: 'AirPods 4 with ANC',
     modelNumber: 'A3100',
     category: 'audio',
+    releaseDate: '2024-09-01',
     specs: { type: 'In-ear', features: ['Active Noise Cancellation', 'Spatial Audio', 'Adaptive EQ'] },
     prices: {
       apple: { price: 179, inStock: true, url: 'https://apple.com/shop/buy-airpods/airpods-4th-generation/A3100' },
@@ -452,6 +460,7 @@ const products = [
     modelNumber: 'A3145',
     sku: 'MVV83LL/A',
     category: 'ipad',
+    releaseDate: '2024-05-01',
     specs: { chip: 'M4', display: '11" Liquid Retina XDR', storage: '128GB' },
     prices: {
       apple: { price: 799, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-11/MVV83LL/A' },
@@ -470,6 +479,7 @@ const products = [
     modelNumber: 'A3146',
     sku: 'MVX23LL/A',
     category: 'ipad',
+    releaseDate: '2024-05-01',
     specs: { chip: 'M4', display: '12.9" Liquid Retina XDR', storage: '128GB' },
     prices: {
       apple: { price: 1099, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-13/MVX23LL/A' },
@@ -488,6 +498,7 @@ const products = [
     modelNumber: 'A3147',
     sku: 'MVX43LL/A',
     category: 'ipad',
+    releaseDate: '2026-05-01',
     specs: { chip: 'M5', display: '12.9" Liquid Retina XDR', storage: '128GB', connectivity: 'Wi-Fi' },
     prices: {
       apple: { price: 1199, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-13/MVX43LL/A' },
@@ -506,6 +517,7 @@ const products = [
     modelNumber: 'A3148',
     sku: 'MVV93LL/A',
     category: 'ipad',
+    releaseDate: '2026-05-01',
     specs: { chip: 'M5', display: '11" Liquid Retina XDR', storage: '128GB', connectivity: 'Wi-Fi' },
     prices: {
       apple: { price: 899, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-11/MVV93LL/A' },
@@ -524,6 +536,7 @@ const products = [
     modelNumber: 'A3149',
     sku: 'MVX53LL/A',
     category: 'ipad',
+    releaseDate: '2026-05-01',
     specs: { chip: 'M5', display: '12.9" Liquid Retina XDR', storage: '128GB', connectivity: 'Wi-Fi + Cellular' },
     prices: {
       apple: { price: 1399, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-13/MVX53LL/A' },
@@ -542,6 +555,7 @@ const products = [
     modelNumber: 'A3150',
     sku: 'MVVA3LL/A',
     category: 'ipad',
+    releaseDate: '2026-05-01',
     specs: { chip: 'M5', display: '11" Liquid Retina XDR', storage: '128GB', connectivity: 'Wi-Fi + Cellular' },
     prices: {
       apple: { price: 1099, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-11/MVVA3LL/A' },
@@ -560,6 +574,7 @@ const products = [
     modelNumber: 'A3151',
     sku: 'MV2C3LL/A',
     category: 'ipad',
+    releaseDate: '2024-05-01',
     specs: { chip: 'M3', display: '12.9" Liquid Retina', storage: '128GB', connectivity: 'Wi-Fi' },
     prices: {
       apple: { price: 899, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-air/MV2C3LL/A' },
@@ -578,6 +593,7 @@ const products = [
     modelNumber: 'A3152',
     sku: 'MV2D3LL/A',
     category: 'ipad',
+    releaseDate: '2024-05-01',
     specs: { chip: 'M3', display: '12.9" Liquid Retina', storage: '128GB', connectivity: 'Wi-Fi + Cellular' },
     prices: {
       apple: { price: 1099, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-air/MV2D3LL/A' },
