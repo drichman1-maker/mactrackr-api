@@ -20,6 +20,7 @@ const products = [
     modelNumber: 'A3112',
     sku: 'MRX33LL/A',
     category: 'mac',
+    releaseDate: '2024-11-01',
     specs: { chip: 'M4 Pro', color: 'Space Black', storage: '512GB SSD', ram: '18GB', display: '14.2" XDR' },
     prices: {
       apple: { price: 1699, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-pro/14-inch-space-black-apple-m4-pro-chip-14-core-cpu-20-core-gpu-512gb' },
@@ -261,12 +262,13 @@ const products = [
     modelNumber: 'A3401',
     sku: 'MC5X3LL/A',
     category: 'mac',
+    releaseDate: '2025-03-01',
     specs: { chip: 'M4', color: 'Starlight', storage: '256GB SSD', ram: '16GB', display: '13.6" Liquid Retina' },
     prices: {
-      apple: { price: 999, inStock: true },
-      amazon: { price: 949, inStock: true },
-      bestbuy: { price: 949, inStock: true },
-      bh: { price: 929, inStock: true },
+      apple: { price: 999, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-air/13-inch-starlight-apple-m4-chip-10-core-cpu-10-core-gpu-256gb' },
+      amazon: { price: 949, inStock: true, url: 'https://amazon.com/dp/B0DKLHHMZ7' },
+      bestbuy: { price: 949, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-air-13-laptop-m4-chip-16gb-memory-256gb-ssd-starlight/6534576.p' },
+      bh: { price: 929, inStock: true, url: 'https://bhphotovideo.com/c/product/1801671-REG/apple_mc5x3ll_a_13_macbook_air_with.html' },
       adorama: { price: 929, inStock: true },
       ebay: { price: 899, inStock: true }
     },
