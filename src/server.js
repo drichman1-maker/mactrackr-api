@@ -22,20 +22,20 @@ const products = [
     category: 'mac',
     specs: { chip: 'M4 Pro', color: 'Space Black', storage: '512GB SSD', ram: '18GB', display: '14.2" XDR' },
     prices: {
-      apple: { price: 1699, inStock: true },
-      amazon: { price: 1649, inStock: true },
+      apple: { price: 1699, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-pro/14-inch-space-black-apple-m4-pro-chip-14-core-cpu-20-core-gpu-512gb' },
+      amazon: { price: 1649, inStock: true, url: 'https://amazon.com/dp/B0DKLHHMZ7' },
       walmart: { price: 1699, inStock: true },
       target: { price: 1699, inStock: false },
-      bestbuy: { price: 1649, inStock: true },
-      bh: { price: 1649, inStock: true },
+      bestbuy: { price: 1649, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-pro-14-laptop-m4-pro-chip-24gb-memory-512gb-ssd-space-black/6534576.p' },
+      bh: { price: 1649, inStock: true, url: 'https://bhphotovideo.com/c/product/1801670-REG/apple_mrx33ll_a_14_macbook_pro_with.html' },
       adorama: { price: 1649, inStock: true },
       ebay: { price: 1599, inStock: true },
       cdw: { price: 1699, inStock: true }
     },
     refurbishedPrices: {
       apple: { price: 1449, inStock: true, url: 'https://apple.com/shop/product/MTQM3LL/A' },
-      amazon: { price: 1299, inStock: true, url: 'https://amazon.com' },
-      bestbuy: { price: 1399, inStock: true, url: 'https://bestbuy.com' }
+      amazon: { price: 1299, inStock: true },
+      bestbuy: { price: 1399, inStock: true }
     }
   },
   {
