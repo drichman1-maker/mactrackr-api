@@ -58,6 +58,8 @@ const products = [
       cdw: { price: 2499, inStock: true }
     }
   },
+  {
+    id: 'mac-mini-m4',
     name: 'Mac mini',
     modelNumber: 'A3232',
     sku: 'MU9D3LL/A',
