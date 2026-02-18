@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // 9 Retailers
-const retailers = ['apple', 'amazon', 'walmart', 'target', 'bestbuy', 'bh', 'adorama', 'ebay', 'cdw', 'backmarket'];
+const retailers = ['apple', 'amazon', 'walmart', 'target', 'bestbuy', 'bh', 'adorama', 'ebay', 'cdw', 'backmarket', 'newegg'];
 
 const products = [
   {
