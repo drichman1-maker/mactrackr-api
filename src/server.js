@@ -15,6 +15,101 @@ const retailers = ['apple', 'amazon', 'walmart', 'target', 'bestbuy', 'bh', 'ado
 
 const products = [
   {
+    id: 'macbook-pro-14-m5',
+    name: 'MacBook Pro 14"',
+    modelNumber: 'A3113',
+    sku: 'MP5X3LL/A',
+    category: 'mac',
+    releaseDate: '2026-02-01',
+    specs: { chip: 'M5', color: 'Space Black', storage: '512GB SSD', ram: '24GB', display: '14.2" XDR' },
+    prices: {
+      apple: { price: 1999, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-pro-14/MP5X3LL/A' },
+      amazon: { price: 1949, inStock: true, url: 'https://amazon.com/dp/B0DM5NP7X3' },
+      walmart: { price: 1999, inStock: true, url: 'https://walmart.com/ip/Apple-MacBook-Pro-14-M5-512GB/975631222' },
+      target: { price: 1999, inStock: false, url: 'https://target.com/p/apple-macbook-pro-14-m5/-/A-89012358' },
+      bestbuy: { price: 1949, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-pro-14-laptop-m5-chip-24gb-memory-512gb-ssd-space-black/6534589.p' },
+      bh: { price: 1949, inStock: true, url: 'https://bhphotovideo.com/c/product/1801684-REG/apple_mp5x3ll_a_14_macbook_pro_with.html' },
+      adorama: { price: 1949, inStock: true, url: 'https://adorama.com/acmp5x3lla.html' },
+      cdw: { price: 1999, inStock: true, url: 'https://cdw.com/product/apple-macbook-pro-14-m5-512gb/7389034' }
+    }
+  },
+  {
+    id: 'macbook-pro-14-m5-1tb',
+    name: 'MacBook Pro 14"',
+    modelNumber: 'A3113',
+    sku: 'MHWC3LL/A',
+    category: 'mac',
+    releaseDate: '2026-02-01',
+    specs: { chip: 'M5', color: 'Space Black', storage: '1TB SSD', ram: '32GB', display: '14.2" XDR' },
+    prices: {
+      apple: { price: 2399, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-pro-14/MHWC3LL/A' },
+      amazon: { price: 2349, inStock: true, url: 'https://amazon.com/dp/B0DM5WC3NP' },
+      walmart: { price: 2399, inStock: true, url: 'https://walmart.com/ip/Apple-MacBook-Pro-14-M5-1TB/975631223' },
+      target: { price: 2399, inStock: false, url: 'https://target.com/p/apple-macbook-pro-14-m5-1tb/-/A-89012359' },
+      bestbuy: { price: 2349, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-pro-14-laptop-m5-chip-32gb-memory-1tb-ssd-space-black/6534590.p' },
+      bh: { price: 2349, inStock: true, url: 'https://bhphotovideo.com/c/product/1801685-REG/apple_mhwc3ll_a_14_macbook_pro_with.html' },
+      adorama: { price: 2349, inStock: true, url: 'https://adorama.com/acmhwc3lla.html' },
+      cdw: { price: 2399, inStock: true, url: 'https://cdw.com/product/apple-macbook-pro-14-m5-1tb/7389035' }
+    }
+  },
+  {
+    id: 'macbook-air-13-m4',
+    name: 'MacBook Air 13"',
+    modelNumber: 'A3115',
+    sku: 'MC5X3LL/A',
+    category: 'mac',
+    releaseDate: '2026-02-01',
+    specs: { chip: 'M4', color: 'Space Gray', storage: '256GB SSD', ram: '16GB', display: '13.6" Liquid Retina' },
+    prices: {
+      apple: { price: 1099, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-air-13/MC5X3LL/A' },
+      amazon: { price: 1049, inStock: true, url: 'https://amazon.com/dp/B0DM5X3NP4' },
+      walmart: { price: 1099, inStock: true, url: 'https://walmart.com/ip/Apple-MacBook-Air-13-M4-256GB/975631224' },
+      target: { price: 1099, inStock: true, url: 'https://target.com/p/apple-macbook-air-13-m4/-/A-89012360' },
+      bestbuy: { price: 1049, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-air-13-laptop-m4-chip-16gb-memory-256gb-ssd-space-gray/6534591.p' },
+      bh: { price: 1049, inStock: true, url: 'https://bhphotovideo.com/c/product/1801686-REG/apple_mc5x3ll_a_13_6_macbook_air.html' },
+      adorama: { price: 1049, inStock: true, url: 'https://adorama.com/acmc5x3lla.html' },
+      cdw: { price: 1099, inStock: true, url: 'https://cdw.com/product/apple-macbook-air-13-m4-256gb/7389036' }
+    }
+  },
+  {
+    id: 'macbook-air-13-m4-512',
+    name: 'MacBook Air 13"',
+    modelNumber: 'A3115',
+    sku: 'MC7V3LL/A',
+    category: 'mac',
+    releaseDate: '2026-02-01',
+    specs: { chip: 'M4', color: 'Space Gray', storage: '512GB SSD', ram: '16GB', display: '13.6" Liquid Retina' },
+    prices: {
+      apple: { price: 1299, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-air-13/MC7V3LL/A' },
+      amazon: { price: 1249, inStock: true, url: 'https://amazon.com/dp/B0DM7V3NP5' },
+      walmart: { price: 1299, inStock: true, url: 'https://walmart.com/ip/Apple-MacBook-Air-13-M4-512GB/975631225' },
+      target: { price: 1299, inStock: true, url: 'https://target.com/p/apple-macbook-air-13-m4-512gb/-/A-89012361' },
+      bestbuy: { price: 1249, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-air-13-laptop-m4-chip-16gb-memory-512gb-ssd-space-gray/6534592.p' },
+      bh: { price: 1249, inStock: true, url: 'https://bhphotovideo.com/c/product/1801687-REG/apple_mc7v3ll_a_13_6_macbook_air.html' },
+      adorama: { price: 1249, inStock: true, url: 'https://adorama.com/acmc7v3lla.html' },
+      cdw: { price: 1299, inStock: true, url: 'https://cdw.com/product/apple-macbook-air-13-m4-512gb/7389037' }
+    }
+  },
+  {
+    id: 'macbook-air-15-m4',
+    name: 'MacBook Air 15"',
+    modelNumber: 'A3116',
+    sku: 'MC9F3LL/A',
+    category: 'mac',
+    releaseDate: '2026-02-01',
+    specs: { chip: 'M4', color: 'Space Gray', storage: '512GB SSD', ram: '16GB', display: '15.3" Liquid Retina' },
+    prices: {
+      apple: { price: 1499, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-air-15/MC9F3LL/A' },
+      amazon: { price: 1449, inStock: true, url: 'https://amazon.com/dp/B0DM9F3NP6' },
+      walmart: { price: 1499, inStock: true, url: 'https://walmart.com/ip/Apple-MacBook-Air-15-M4-512GB/975631226' },
+      target: { price: 1499, inStock: true, url: 'https://target.com/p/apple-macbook-air-15-m4/-/A-89012362' },
+      bestbuy: { price: 1449, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-air-15-laptop-m4-chip-16gb-memory-512gb-ssd-space-gray/6534593.p' },
+      bh: { price: 1449, inStock: true, url: 'https://bhphotovideo.com/c/product/1801688-REG/apple_mc9f3ll_a_15_3_macbook_air.html' },
+      adorama: { price: 1449, inStock: true, url: 'https://adorama.com/acmc9f3lla.html' },
+      cdw: { price: 1499, inStock: true, url: 'https://cdw.com/product/apple-macbook-air-15-m4-512gb/7389038' }
+    }
+  },
+  {
     id: 'macbook-pro-14-m4-pro',
     name: 'MacBook Pro 14"',
     modelNumber: 'A3112',
@@ -262,6 +357,236 @@ const products = [
       bh: { price: 599, inStock: true, url: 'https://bhphotovideo.com/c/product/1801683-REG/apple_mmye3ll_a.html' },
       adorama: { price: 599, inStock: true, url: 'https://adorama.com/acmmye3lla.html' },
       cdw: { price: 599, inStock: true, url: 'https://cdw.com/product/apple-iphone-16e-128gb/7389033' }
+    }
+  }
+,
+  {
+    id: 'apple-watch-ultra-2',
+    name: 'Apple Watch Ultra 2',
+    modelNumber: 'MXDJ3LL/A',
+    category: 'watch',
+    specs: { size: '49mm', connectivity: 'GPS + Cellular', case: 'Titanium', display: 'Always-On Retina' },
+    prices: {
+      apple: { price: 799, inStock: true, url: 'https://apple.com/shop/buy-watch/apple-watch-ultra-2/MXDJ3LL/A' },
+      amazon: { price: 779, inStock: true, url: 'https://amazon.com/dp/B0CHX3VQP9' },
+      walmart: { price: 799, inStock: true, url: 'https://walmart.com/ip/Apple-Watch-Ultra-2-49mm/975631222' },
+      target: { price: 799, inStock: true, url: 'https://target.com/p/apple-watch-ultra-2/-/A-89012358' },
+      bestbuy: { price: 779, inStock: true, url: 'https://bestbuy.com/site/apple-watch-ultra-2-49mm-titanium-case/6534589.p' },
+      bh: { price: 779, inStock: true, url: 'https://bhphotovideo.com/c/product/1801684-REG/apple_mxdj3ll_a_watch_ultra_2.html' },
+      adorama: { price: 779, inStock: true, url: 'https://adorama.com/acmxdj3lla.html' },
+      cdw: { price: 799, inStock: true, url: 'https://cdw.com/product/apple-watch-ultra-2/7389034' }
+    }
+  },
+  {
+    id: 'apple-watch-series-10',
+    name: 'Apple Watch Series 10',
+    modelNumber: 'MX1J3LL/A',
+    category: 'watch',
+    specs: { size: '45mm', connectivity: 'GPS', case: 'Aluminum', display: 'Always-On Retina' },
+    prices: {
+      apple: { price: 399, inStock: true, url: 'https://apple.com/shop/buy-watch/apple-watch/MX1J3LL/A' },
+      amazon: { price: 379, inStock: true, url: 'https://amazon.com/dp/B0CHX4NQP8' },
+      walmart: { price: 399, inStock: true, url: 'https://walmart.com/ip/Apple-Watch-Series-10/975631223' },
+      target: { price: 399, inStock: true, url: 'https://target.com/p/apple-watch-series-10/-/A-89012359' },
+      bestbuy: { price: 379, inStock: true, url: 'https://bestbuy.com/site/apple-watch-series-10-45mm-aluminum-gps/6534590.p' },
+      bh: { price: 379, inStock: true, url: 'https://bhphotovideo.com/c/product/1801685-REG/apple_mx1j3ll_a_watch_series_10.html' },
+      adorama: { price: 379, inStock: true, url: 'https://adorama.com/acmx1j3lla.html' },
+      cdw: { price: 399, inStock: true, url: 'https://cdw.com/product/apple-watch-series-10/7389035' }
+    }
+  },
+  {
+    id: 'apple-watch-series-11',
+    name: 'Apple Watch Series 11',
+    modelNumber: 'A3100',
+    category: 'watch',
+    specs: { size: '45mm', connectivity: 'GPS + Cellular', case: 'Aluminum', display: 'Always-On Retina' },
+    prices: {
+      apple: { price: 499, inStock: true, url: 'https://apple.com/shop/buy-watch/apple-watch/A3100' },
+      amazon: { price: 479, inStock: true, url: 'https://amazon.com/dp/B0CHX5MQP7' },
+      walmart: { price: 499, inStock: true, url: 'https://walmart.com/ip/Apple-Watch-Series-11/975631224' },
+      target: { price: 499, inStock: true, url: 'https://target.com/p/apple-watch-series-11/-/A-89012360' },
+      bestbuy: { price: 479, inStock: true, url: 'https://bestbuy.com/site/apple-watch-series-11-45mm-aluminum-cellular/6534591.p' },
+      bh: { price: 479, inStock: true, url: 'https://bhphotovideo.com/c/product/1801686-REG/apple_a3100_watch_series_11.html' },
+      adorama: { price: 479, inStock: true, url: 'https://adorama.com/aca3100.html' },
+      cdw: { price: 499, inStock: true, url: 'https://cdw.com/product/apple-watch-series-11/7389036' }
+    }
+  },
+  {
+    id: 'airpods-pro-3',
+    name: 'AirPods Pro (3rd Gen)',
+    modelNumber: 'A3200',
+    category: 'audio',
+    specs: { type: 'In-ear', features: ['Active Noise Cancellation', 'Adaptive Audio', 'Transparency Mode'] },
+    prices: {
+      apple: { price: 249, inStock: true, url: 'https://apple.com/shop/buy-airpods/airpods-pro-3rd-generation/A3200' },
+      amazon: { price: 229, inStock: true, url: 'https://amazon.com/dp/B0CHX6LQP6' },
+      walmart: { price: 249, inStock: true, url: 'https://walmart.com/ip/AirPods-Pro-3rd-Generation/975631225' },
+      target: { price: 249, inStock: true, url: 'https://target.com/p/airpods-pro-3rd-generation/-/A-89012361' },
+      bestbuy: { price: 229, inStock: true, url: 'https://bestbuy.com/site/apple-airpods-pro-3rd-generation/6534592.p' },
+      bh: { price: 229, inStock: true, url: 'https://bhphotovideo.com/c/product/1801687-REG/apple_a3200_airpods_pro_3.html' },
+      adorama: { price: 229, inStock: true, url: 'https://adorama.com/aca3200.html' },
+      cdw: { price: 249, inStock: true, url: 'https://cdw.com/product/airpods-pro-3rd-generation/7389037' }
+    }
+  },
+  {
+    id: 'airpods-4',
+    name: 'AirPods 4 with ANC',
+    modelNumber: 'A3100',
+    category: 'audio',
+    specs: { type: 'In-ear', features: ['Active Noise Cancellation', 'Spatial Audio', 'Adaptive EQ'] },
+    prices: {
+      apple: { price: 179, inStock: true, url: 'https://apple.com/shop/buy-airpods/airpods-4th-generation/A3100' },
+      amazon: { price: 159, inStock: true, url: 'https://amazon.com/dp/B0CHX7KQP5' },
+      walmart: { price: 179, inStock: true, url: 'https://walmart.com/ip/AirPods-4-with-ANC/975631226' },
+      target: { price: 179, inStock: true, url: 'https://target.com/p/airpods-4-with-anc/-/A-89012362' },
+      bestbuy: { price: 159, inStock: true, url: 'https://bestbuy.com/site/apple-airpods-4-with-anc/6534593.p' },
+      bh: { price: 159, inStock: true, url: 'https://bhphotovideo.com/c/product/1801688-REG/apple_a3100_airpods_4.html' },
+      adorama: { price: 159, inStock: true, url: 'https://adorama.com/aca3100a.html' },
+      cdw: { price: 179, inStock: true, url: 'https://cdw.com/product/airpods-4-with-anc/7389038' }
+    }
+  },
+  {
+    id: 'ipad-pro-11-m4',
+    name: 'iPad Pro 11" M4',
+    modelNumber: 'A3145',
+    sku: 'MVV83LL/A',
+    category: 'ipad',
+    specs: { chip: 'M4', display: '11" Liquid Retina XDR', storage: '128GB' },
+    prices: {
+      apple: { price: 799, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-11/MVV83LL/A' },
+      amazon: { price: 799, inStock: true, url: 'https://amazon.com/dp/B0CV77JKLM' },
+      bestbuy: { price: 799, inStock: true, url: 'https://bestbuy.com/site/apple-11-inch-ipad-pro-m4-chip-128gb-space-gray/6560123.p' },
+      walmart: { price: 799, inStock: true, url: 'https://walmart.com/ip/Apple-11-inch-iPad-Pro-M4/976543210' },
+      target: { price: 799, inStock: true, url: 'https://target.com/p/apple-11-inch-ipad-pro-m4/-/A-89054321' },
+      bh: { price: 799, inStock: true, url: 'https://bhphotovideo.com/c/product/1802345-REG/apple_mvv83ll_a_11_ipad_pro_m4.html' },
+      adorama: { price: 799, inStock: true, url: 'https://adorama.com/acmvv83lla.html' },
+      cdw: { price: 799, inStock: true, url: 'https://cdw.com/product/apple-11-inch-ipad-pro-m4/7390123' }
+    }
+  },
+  {
+    id: 'ipad-pro-13-m4',
+    name: 'iPad Pro 13" M4',
+    modelNumber: 'A3146',
+    sku: 'MVX23LL/A',
+    category: 'ipad',
+    specs: { chip: 'M4', display: '12.9" Liquid Retina XDR', storage: '128GB' },
+    prices: {
+      apple: { price: 1099, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-13/MVX23LL/A' },
+      amazon: { price: 1099, inStock: true, url: 'https://amazon.com/dp/B0CV77KLMN' },
+      bestbuy: { price: 1099, inStock: true, url: 'https://bestbuy.com/site/apple-13-inch-ipad-pro-m4-chip-128gb-space-gray/6560124.p' },
+      walmart: { price: 1099, inStock: true, url: 'https://walmart.com/ip/Apple-13-inch-iPad-Pro-M4/976543211' },
+      target: { price: 1099, inStock: true, url: 'https://target.com/p/apple-13-inch-ipad-pro-m4/-/A-89054322' },
+      bh: { price: 1099, inStock: true, url: 'https://bhphotovideo.com/c/product/1802346-REG/apple_mvx23ll_a_13_ipad_pro_m4.html' },
+      adorama: { price: 1099, inStock: true, url: 'https://adorama.com/acmvx23lla.html' },
+      cdw: { price: 1099, inStock: true, url: 'https://cdw.com/product/apple-13-inch-ipad-pro-m4/7390124' }
+    }
+  },
+  {
+    id: 'ipad-pro-13-m5-wifi',
+    name: 'iPad Pro 13" M5 Wi-Fi',
+    modelNumber: 'A3147',
+    sku: 'MVX43LL/A',
+    category: 'ipad',
+    specs: { chip: 'M5', display: '12.9" Liquid Retina XDR', storage: '128GB', connectivity: 'Wi-Fi' },
+    prices: {
+      apple: { price: 1199, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-13/MVX43LL/A' },
+      amazon: { price: 1199, inStock: true, url: 'https://amazon.com/dp/B0CV77KLMP' },
+      bestbuy: { price: 1199, inStock: true, url: 'https://bestbuy.com/site/apple-13-inch-ipad-pro-m5-chip-128gb-wifi-space-gray/6560125.p' },
+      walmart: { price: 1199, inStock: true, url: 'https://walmart.com/ip/Apple-13-inch-iPad-Pro-M5-WiFi/976543212' },
+      target: { price: 1199, inStock: true, url: 'https://target.com/p/apple-13-inch-ipad-pro-m5-wifi/-/A-89054323' },
+      bh: { price: 1199, inStock: true, url: 'https://bhphotovideo.com/c/product/1802347-REG/apple_mvx43ll_a_13_ipad_pro_m5.html' },
+      adorama: { price: 1199, inStock: true, url: 'https://adorama.com/acmvx43lla.html' },
+      cdw: { price: 1199, inStock: true, url: 'https://cdw.com/product/apple-13-inch-ipad-pro-m5-wifi/7390125' }
+    }
+  },
+  {
+    id: 'ipad-pro-11-m5-wifi',
+    name: 'iPad Pro 11" M5 Wi-Fi',
+    modelNumber: 'A3148',
+    sku: 'MVV93LL/A',
+    category: 'ipad',
+    specs: { chip: 'M5', display: '11" Liquid Retina XDR', storage: '128GB', connectivity: 'Wi-Fi' },
+    prices: {
+      apple: { price: 899, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-11/MVV93LL/A' },
+      amazon: { price: 899, inStock: true, url: 'https://amazon.com/dp/B0CV77KLMQ' },
+      bestbuy: { price: 899, inStock: true, url: 'https://bestbuy.com/site/apple-11-inch-ipad-pro-m5-chip-128gb-wifi-space-gray/6560126.p' },
+      walmart: { price: 899, inStock: true, url: 'https://walmart.com/ip/Apple-11-inch-iPad-Pro-M5-WiFi/976543213' },
+      target: { price: 899, inStock: true, url: 'https://target.com/p/apple-11-inch-ipad-pro-m5-wifi/-/A-89054324' },
+      bh: { price: 899, inStock: true, url: 'https://bhphotovideo.com/c/product/1802348-REG/apple_mvv93ll_a_11_ipad_pro_m5.html' },
+      adorama: { price: 899, inStock: true, url: 'https://adorama.com/acmvv93lla.html' },
+      cdw: { price: 899, inStock: true, url: 'https://cdw.com/product/apple-11-inch-ipad-pro-m5-wifi/7390126' }
+    }
+  },
+  {
+    id: 'ipad-pro-13-m5-cellular',
+    name: 'iPad Pro 13" M5 Wi-Fi + Cellular',
+    modelNumber: 'A3149',
+    sku: 'MVX53LL/A',
+    category: 'ipad',
+    specs: { chip: 'M5', display: '12.9" Liquid Retina XDR', storage: '128GB', connectivity: 'Wi-Fi + Cellular' },
+    prices: {
+      apple: { price: 1399, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-13/MVX53LL/A' },
+      amazon: { price: 1399, inStock: true, url: 'https://amazon.com/dp/B0CV77KLMR' },
+      bestbuy: { price: 1399, inStock: true, url: 'https://bestbuy.com/site/apple-13-inch-ipad-pro-m5-chip-128gb-wifi-cellular-space-gray/6560127.p' },
+      walmart: { price: 1399, inStock: true, url: 'https://walmart.com/ip/Apple-13-inch-iPad-Pro-M5-WiFi-Cellular/976543214' },
+      target: { price: 1399, inStock: true, url: 'https://target.com/p/apple-13-inch-ipad-pro-m5-wifi-cellular/-/A-89054325' },
+      bh: { price: 1399, inStock: true, url: 'https://bhphotovideo.com/c/product/1802349-REG/apple_mvx53ll_a_13_ipad_pro_m5.html' },
+      adorama: { price: 1399, inStock: true, url: 'https://adorama.com/acmvx53lla.html' },
+      cdw: { price: 1399, inStock: true, url: 'https://cdw.com/product/apple-13-inch-ipad-pro-m5-wifi-cellular/7390127' }
+    }
+  },
+  {
+    id: 'ipad-pro-11-m5-cellular',
+    name: 'iPad Pro 11" M5 Wi-Fi + Cellular',
+    modelNumber: 'A3150',
+    sku: 'MVVA3LL/A',
+    category: 'ipad',
+    specs: { chip: 'M5', display: '11" Liquid Retina XDR', storage: '128GB', connectivity: 'Wi-Fi + Cellular' },
+    prices: {
+      apple: { price: 1099, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-11/MVVA3LL/A' },
+      amazon: { price: 1099, inStock: true, url: 'https://amazon.com/dp/B0CV77KLMS' },
+      bestbuy: { price: 1099, inStock: true, url: 'https://bestbuy.com/site/apple-11-inch-ipad-pro-m5-chip-128gb-wifi-cellular-space-gray/6560128.p' },
+      walmart: { price: 1099, inStock: true, url: 'https://walmart.com/ip/Apple-11-inch-iPad-Pro-M5-WiFi-Cellular/976543215' },
+      target: { price: 1099, inStock: true, url: 'https://target.com/p/apple-11-inch-ipad-pro-m5-wifi-cellular/-/A-89054326' },
+      bh: { price: 1099, inStock: true, url: 'https://bhphotovideo.com/c/product/1802350-REG/apple_mvva3ll_a_11_ipad_pro_m5.html' },
+      adorama: { price: 1099, inStock: true, url: 'https://adorama.com/acmvva3lla.html' },
+      cdw: { price: 1099, inStock: true, url: 'https://cdw.com/product/apple-11-inch-ipad-pro-m5-wifi-cellular/7390128' }
+    }
+  },
+  {
+    id: 'ipad-air-13-m3',
+    name: 'iPad Air 13" M3',
+    modelNumber: 'A3151',
+    sku: 'MV2C3LL/A',
+    category: 'ipad',
+    specs: { chip: 'M3', display: '12.9" Liquid Retina', storage: '128GB', connectivity: 'Wi-Fi' },
+    prices: {
+      apple: { price: 899, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-air/MV2C3LL/A' },
+      amazon: { price: 899, inStock: true, url: 'https://amazon.com/dp/B0CV77KLMT' },
+      bestbuy: { price: 899, inStock: true, url: 'https://bestbuy.com/site/apple-13-inch-ipad-air-m3-chip-128gb-wifi-space-gray/6560129.p' },
+      walmart: { price: 899, inStock: true, url: 'https://walmart.com/ip/Apple-13-inch-iPad-Air-M3-WiFi/976543216' },
+      target: { price: 899, inStock: true, url: 'https://target.com/p/apple-13-inch-ipad-air-m3/-/A-89054327' },
+      bh: { price: 899, inStock: true, url: 'https://bhphotovideo.com/c/product/1802351-REG/apple_mv2c3ll_a_13_ipad_air_m3.html' },
+      adorama: { price: 899, inStock: true, url: 'https://adorama.com/acmv2c3lla.html' },
+      cdw: { price: 899, inStock: true, url: 'https://cdw.com/product/apple-13-inch-ipad-air-m3/7390129' }
+    }
+  },
+  {
+    id: 'ipad-air-13-m3-cellular',
+    name: 'iPad Air 13" M3 Wi-Fi + Cellular',
+    modelNumber: 'A3152',
+    sku: 'MV2D3LL/A',
+    category: 'ipad',
+    specs: { chip: 'M3', display: '12.9" Liquid Retina', storage: '128GB', connectivity: 'Wi-Fi + Cellular' },
+    prices: {
+      apple: { price: 1099, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-air/MV2D3LL/A' },
+      amazon: { price: 1099, inStock: true, url: 'https://amazon.com/dp/B0CV77KLMU' },
+      bestbuy: { price: 1099, inStock: true, url: 'https://bestbuy.com/site/apple-13-inch-ipad-air-m3-chip-128gb-wifi-cellular-space-gray/6560130.p' },
+      walmart: { price: 1099, inStock: true, url: 'https://walmart.com/ip/Apple-13-inch-iPad-Air-M3-WiFi-Cellular/976543217' },
+      target: { price: 1099, inStock: true, url: 'https://target.com/p/apple-13-inch-ipad-air-m3-cellular/-/A-89054328' },
+      bh: { price: 1099, inStock: true, url: 'https://bhphotovideo.com/c/product/1802352-REG/apple_mv2d3ll_a_13_ipad_air_m3.html' },
+      adorama: { price: 1099, inStock: true, url: 'https://adorama.com/acmv2d3lla.html' },
+      cdw: { price: 1099, inStock: true, url: 'https://cdw.com/product/apple-13-inch-ipad-air-m3-cellular/7390130' }
     }
   }
 ];
