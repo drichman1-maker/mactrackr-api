@@ -192,6 +192,11 @@ const products = [
       adorama: { price: 379, inStock: true },
       ebay: { price: 349, inStock: true },
       cdw: { price: 399, inStock: true }
+    },
+    refurbishedPrices: {
+      apple: { price: 259, inStock: true },
+      amazon: { price: 249, inStock: true },
+      bestbuy: { price: 259, inStock: true }
     }
   },
   // 2026 Products
@@ -268,6 +273,11 @@ const products = [
       bh: { price: 559, inStock: true },
       adorama: { price: 559, inStock: true },
       ebay: { price: 549, inStock: true }
+    },
+    refurbishedPrices: {
+      apple: { price: 440, inStock: true },
+      amazon: { price: 419, inStock: true },
+      bestbuy: { price: 429, inStock: true }
     }
   },
   {
@@ -397,6 +407,11 @@ const products = [
       bh: { price: 849, inStock: true },
       adorama: { price: 839, inStock: true },
       ebay: { price: 799, inStock: true }
+    },
+    refurbishedPrices: {
+      apple: { price: 609, inStock: true },
+      amazon: { price: 599, inStock: true },
+      bestbuy: { price: 619, inStock: true }
     }
   },
   {
@@ -413,6 +428,11 @@ const products = [
       bh: { price: 749, inStock: true },
       adorama: { price: 739, inStock: true },
       ebay: { price: 699, inStock: true }
+    },
+    refurbishedPrices: {
+      apple: { price: 559, inStock: true, url: 'https://apple.com/shop/product/...' },
+      amazon: { price: 549, inStock: true },
+      bestbuy: { price: 559, inStock: true }
     }
   },
   {
@@ -478,6 +498,11 @@ const products = [
       bh: { price: 749, inStock: true },
       adorama: { price: 739, inStock: true },
       ebay: { price: 699, inStock: true }
+    },
+    refurbishedPrices: {
+      apple: { price: 465, inStock: true },
+      amazon: { price: 449, inStock: true },
+      bestbuy: { price: 459, inStock: true }
     }
   },
   // New Mac products from Apple Store screenshots (Feb 2026)
@@ -536,6 +561,11 @@ const products = [
       walmart: { price: 1199, inStock: true },
       target: { price: 1199, inStock: true },
       cdw: { price: 1199, inStock: true }
+    },
+    refurbishedPrices: {
+      apple: { price: 899, inStock: true },
+      amazon: { price: 849, inStock: true },
+      bestbuy: { price: 879, inStock: true }
     }
   },
   {
