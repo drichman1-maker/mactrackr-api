@@ -638,4 +638,4 @@ app.get('/api/retailers', (req, res) => {
 app.listen(PORT, () => {
   console.log(`MacTrackr API running on port ${PORT}`);
   console.log(`Products: ${products.length}, Retailers: ${retailers.length}`);
-});// force redeploy Wed Feb 18 08:59:18 EST 2026
+});// force redeploy Wed Feb 18 17:20:00 EST 2026
