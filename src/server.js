@@ -225,6 +225,7 @@ const products = [
     modelNumber: 'A3457',
     sku: 'MYWY3LL/A',
     category: 'iphone',
+    releaseDate: '2026-09-15',
     specs: { storage: '256GB', color: 'Natural Titanium', display: '6.1" Super Retina XDR' },
     prices: {
       apple: { price: 1099, inStock: true, url: 'https://apple.com/shop/buy-iphone/iphone-17-pro/MYWY3LL/A' },
@@ -243,6 +244,7 @@ const products = [
     modelNumber: 'A3458',
     sku: 'MYWZ3LL/A',
     category: 'iphone',
+    releaseDate: '2026-09-15',
     specs: { storage: '256GB', color: 'Midnight', display: '6.1" Liquid Retina' },
     prices: {
       apple: { price: 899, inStock: true, url: 'https://apple.com/shop/buy-iphone/iphone-17-air/MYWZ3LL/A' },
@@ -261,6 +263,7 @@ const products = [
     modelNumber: 'A3459',
     sku: 'MYXA3LL/A',
     category: 'iphone',
+    releaseDate: '2026-09-15',
     specs: { storage: '256GB', color: 'Midnight', display: '6.1" Super Retina XDR' },
     prices: {
       apple: { price: 999, inStock: true, url: 'https://apple.com/shop/buy-iphone/iphone-17/MYXA3LL/A' },
@@ -279,6 +282,7 @@ const products = [
     modelNumber: 'A3460',
     sku: 'MYTM3LL/A',
     category: 'iphone',
+    releaseDate: '2024-09-01',
     specs: { storage: '256GB', color: 'Natural Titanium', display: '6.7" Super Retina XDR' },
     prices: {
       apple: { price: 1099, inStock: true, url: 'https://apple.com/shop/buy-iphone/iphone-16-pro/MYTM3LL/A' },
@@ -297,6 +301,7 @@ const products = [
     modelNumber: 'A3461',
     sku: 'MYMC3LL/A',
     category: 'iphone',
+    releaseDate: '2024-09-01',
     specs: { storage: '128GB', color: 'Natural Titanium', display: '6.1" Super Retina XDR' },
     prices: {
       apple: { price: 999, inStock: true, url: 'https://apple.com/shop/buy-iphone/iphone-16-pro/MYMC3LL/A' },
@@ -315,6 +320,7 @@ const products = [
     modelNumber: 'A3462',
     sku: 'MYAC3LL/A',
     category: 'iphone',
+    releaseDate: '2024-09-01',
     specs: { storage: '128GB', color: 'Midnight', display: '6.7" Super Retina XDR' },
     prices: {
       apple: { price: 899, inStock: true, url: 'https://apple.com/shop/buy-iphone/iphone-16-plus/MYAC3LL/A' },
@@ -333,6 +339,7 @@ const products = [
     modelNumber: 'A3463',
     sku: 'MYLJ3LL/A',
     category: 'iphone',
+    releaseDate: '2024-09-01',
     specs: { storage: '128GB', color: 'Midnight', display: '6.1" Super Retina XDR' },
     prices: {
       apple: { price: 799, inStock: true, url: 'https://apple.com/shop/buy-iphone/iphone-16/MYLJ3LL/A' },
@@ -351,6 +358,7 @@ const products = [
     modelNumber: 'A3464',
     sku: 'MMYE3LL/A',
     category: 'iphone',
+    releaseDate: '2024-09-01',
     specs: { storage: '128GB', color: 'Midnight', display: '6.1" Liquid Retina' },
     prices: {
       apple: { price: 599, inStock: true, url: 'https://apple.com/shop/buy-iphone/iphone-16e/MMYE3LL/A' },
