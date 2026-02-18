@@ -179,7 +179,6 @@ const products = [
       bestbuy: { price: 499, inStock: true, url: 'https://bestbuy.com/site/apple-refurbished-mac-mini-m4/6534578r.p' }
     }
   },
-  // Continue updating URLs for all products following same pattern
   {
     id: 'mac-studio-m2-ultra',
     name: 'Mac Studio',
@@ -370,8 +369,7 @@ const products = [
       adorama: { price: 599, inStock: true, url: 'https://www.adorama.com/search?query=iPhone%2016e' },
       cdw: { price: 599, inStock: true, url: 'https://cdw.com/product/apple-iphone-16e-128gb/7389033' }
     }
-  }
-,
+  },
   {
     id: 'apple-watch-ultra-2',
     name: 'Apple Watch Ultra 2',
@@ -611,7 +609,7 @@ const products = [
       target: { price: 1099, inStock: true, url: 'https://target.com/p/apple-13-inch-ipad-air-m3-cellular/-/A-89054328' },
       bh: { price: 1099, inStock: true, url: 'https://bhphotovideo.com/c/product/1802352-REG/apple_mv2d3ll_a_13_ipad_air_m3.html' },
       adorama: { price: 1099, inStock: true, url: 'https://www.adorama.com/search?query=iPad%20Air%2013%20M3%20Wi-Fi%20%2B%20Cellular' },
-      cdw: { price: 1099, inStock: true, url: 'https://cdw.com/product/apple-13-inch-ipad-air-m3-cellular/7390130' }
+      cdw: { price: 1099, inStock: true, url: 'https://cdw.com/product/apple-13-inch-ipad-pro-m5-wifi-cellular/7390130' }
     }
   }
 ];
