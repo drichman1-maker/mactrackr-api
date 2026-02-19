@@ -36,6 +36,23 @@ function generateSearchUrl(retailer, productName, specs) {
 const retailers = ['apple', 'amazon', 'walmart', 'target', 'bestbuy', 'bh', 'adorama', 'ebay', 'cdw', 'backmarket', 'newegg'];
 
 const products = [
+  // TEST PRODUCT: iPhone 16 128GB - Direct URLs (Feb 19, 2026)
+  {
+    id: 'iphone-16-128-unlocked',
+    name: 'iPhone 16',
+    modelNumber: 'A3287',
+    sku: 'MYNF3LL/A',
+    category: 'iphone',
+    releaseDate: '2024-09-20',
+    specs: { storage: '128GB', color: 'White', display: '6.1" Super Retina XDR', camera: '48MP Fusion' },
+    prices: {
+      apple: { price: 799, inStock: true, url: 'https://www.apple.com/shop/buy-iphone/iphone-16' },
+      bestbuy: { price: 799, inStock: true, url: 'https://www.bestbuy.com/site/product/apple-iphone-16-128gb-unlocked-white/JJGCQ866TH' },
+      walmart: { price: 799, inStock: true, url: 'https://www.walmart.com/ip/iPhone-16-128GB-White-Apple-Intelligence/11469110090' },
+      target: { price: 799, inStock: true, url: 'https://www.target.com/p/apple-iphone-16-128gb-white/-/A-86076262' }
+    }
+  },
+  
   {
     id: 'macbook-pro-14-m5',
     name: 'MacBook Pro 14"',
@@ -634,6 +651,267 @@ const products = [
       adorama: { price: 129, inStock: true },
       ebay: { price: 119, inStock: true },
       cdw: { price: 149, inStock: true }
+    }
+  },
+  // NEW PRODUCTS - Feb 19, 2026
+  {
+    id: 'ipad-air-13-m3',
+    name: 'iPad Air 13" M3',
+    modelNumber: 'A3240',
+    sku: 'MW793LL/A',
+    category: 'ipad',
+    releaseDate: '2025-03-01',
+    specs: { chip: 'M3', color: 'Space Gray', storage: '256GB', display: '13" Liquid Retina' },
+    prices: {
+      apple: { price: 799, inStock: true },
+      amazon: { price: 749, inStock: true },
+      walmart: { price: 799, inStock: true },
+      target: { price: 799, inStock: true },
+      bestbuy: { price: 749, inStock: true },
+      bh: { price: 749, inStock: true },
+      adorama: { price: 749, inStock: true },
+      ebay: { price: 729, inStock: true },
+      cdw: { price: 799, inStock: true }
+    }
+  },
+  {
+    id: 'ipad-air-11-m3',
+    name: 'iPad Air 11" M3',
+    modelNumber: 'A3241',
+    sku: 'MV793LL/A',
+    category: 'ipad',
+    releaseDate: '2025-03-01',
+    specs: { chip: 'M3', color: 'Space Gray', storage: '256GB', display: '11" Liquid Retina' },
+    prices: {
+      apple: { price: 599, inStock: true },
+      amazon: { price: 549, inStock: true },
+      walmart: { price: 599, inStock: true },
+      target: { price: 599, inStock: true },
+      bestbuy: { price: 549, inStock: true },
+      bh: { price: 549, inStock: true },
+      adorama: { price: 549, inStock: true },
+      ebay: { price: 529, inStock: true },
+      cdw: { price: 599, inStock: true }
+    }
+  },
+  {
+    id: 'ipad-11-a16',
+    name: 'iPad 11" A16',
+    modelNumber: 'A3354',
+    sku: 'MUWD3LL/A',
+    category: 'ipad',
+    releaseDate: '2025-03-01',
+    specs: { chip: 'A16', color: 'Blue', storage: '128GB', display: '11" Liquid Retina' },
+    prices: {
+      apple: { price: 499, inStock: true },
+      amazon: { price: 449, inStock: true },
+      walmart: { price: 499, inStock: true },
+      target: { price: 499, inStock: true },
+      bestbuy: { price: 449, inStock: true },
+      bh: { price: 449, inStock: true },
+      adorama: { price: 449, inStock: true },
+      ebay: { price: 429, inStock: true },
+      cdw: { price: 499, inStock: true }
+    }
+  },
+  {
+    id: 'ipad-mini-a17-pro',
+    name: 'iPad mini A17 Pro',
+    modelNumber: 'A2993',
+    sku: 'MU9F3LL/A',
+    category: 'ipad',
+    releaseDate: '2024-10-01',
+    specs: { chip: 'A17 Pro', color: 'Starlight', storage: '256GB', display: '8.3" Liquid Retina' },
+    prices: {
+      apple: { price: 599, inStock: true },
+      amazon: { price: 549, inStock: true },
+      walmart: { price: 599, inStock: true },
+      target: { price: 599, inStock: true },
+      bestbuy: { price: 549, inStock: true },
+      bh: { price: 549, inStock: true },
+      adorama: { price: 549, inStock: true },
+      ebay: { price: 529, inStock: true },
+      cdw: { price: 599, inStock: true }
+    }
+  },
+  {
+    id: 'apple-watch-se-2-40mm',
+    name: 'Apple Watch SE 2',
+    modelNumber: 'A2723',
+    sku: 'MR933LL/A',
+    category: 'watch',
+    releaseDate: '2024-09-01',
+    specs: { chip: 'S8', color: 'Silver Aluminum', storage: '32GB', display: '40mm', caseSize: '40mm' },
+    prices: {
+      apple: { price: 249, inStock: true },
+      amazon: { price: 219, inStock: true },
+      walmart: { price: 249, inStock: true },
+      target: { price: 249, inStock: true },
+      bestbuy: { price: 219, inStock: true },
+      bh: { price: 219, inStock: true },
+      adorama: { price: 219, inStock: true },
+      ebay: { price: 199, inStock: true },
+      cdw: { price: 249, inStock: true }
+    }
+  },
+  {
+    id: 'airpods-4-standard',
+    name: 'AirPods 4',
+    modelNumber: 'A3213',
+    sku: 'MW4K3AM/A',
+    category: 'airpods',
+    releaseDate: '2024-09-01',
+    specs: { chip: 'H2', color: 'White', features: 'Spatial Audio' },
+    prices: {
+      apple: { price: 129, inStock: true },
+      amazon: { price: 109, inStock: true },
+      walmart: { price: 129, inStock: true },
+      target: { price: 129, inStock: true },
+      bestbuy: { price: 109, inStock: true },
+      bh: { price: 109, inStock: true },
+      adorama: { price: 109, inStock: true },
+      ebay: { price: 99, inStock: true },
+      cdw: { price: 129, inStock: true }
+    }
+  },
+  {
+    id: 'homepod-mini',
+    name: 'HomePod mini',
+    modelNumber: 'A2375',
+    sku: 'MY103LL/A',
+    category: 'homepod',
+    releaseDate: '2020-11-01',
+    specs: { chip: 'S5', color: 'Blue', features: 'Spatial Audio, Thread' },
+    prices: {
+      apple: { price: 99, inStock: true },
+      amazon: { price: 79, inStock: true },
+      walmart: { price: 99, inStock: true },
+      target: { price: 99, inStock: true },
+      bestbuy: { price: 79, inStock: true },
+      bh: { price: 79, inStock: true },
+      adorama: { price: 79, inStock: true },
+      ebay: { price: 69, inStock: true },
+      cdw: { price: 99, inStock: true }
+    }
+  },
+  {
+    id: 'homepod-2nd-gen',
+    name: 'HomePod',
+    modelNumber: 'A2919',
+    sku: 'MQHW3AM/A',
+    category: 'homepod',
+    releaseDate: '2023-01-01',
+    specs: { chip: 'S7', color: 'Midnight', features: 'Spatial Audio, Room Sensing' },
+    prices: {
+      apple: { price: 299, inStock: true },
+      amazon: { price: 249, inStock: true },
+      walmart: { price: 299, inStock: true },
+      target: { price: 299, inStock: true },
+      bestbuy: { price: 249, inStock: true },
+      bh: { price: 249, inStock: true },
+      adorama: { price: 249, inStock: true },
+      ebay: { price: 229, inStock: true },
+      cdw: { price: 299, inStock: true }
+    }
+  },
+  {
+    id: 'apple-pencil-pro',
+    name: 'Apple Pencil Pro',
+    modelNumber: 'A2837',
+    sku: 'MX2D3AM/A',
+    category: 'accessories',
+    releaseDate: '2024-05-01',
+    specs: { color: 'White', features: 'Haptic Feedback, Find My' },
+    prices: {
+      apple: { price: 129, inStock: true },
+      amazon: { price: 109, inStock: true },
+      walmart: { price: 129, inStock: true },
+      target: { price: 129, inStock: true },
+      bestbuy: { price: 109, inStock: true },
+      bh: { price: 109, inStock: true },
+      adorama: { price: 109, inStock: true },
+      ebay: { price: 99, inStock: true },
+      cdw: { price: 129, inStock: true }
+    }
+  },
+  {
+    id: 'airtag-4pack',
+    name: 'AirTag (4-Pack)',
+    modelNumber: 'A2198',
+    sku: 'MX544AM/A',
+    category: 'accessories',
+    releaseDate: '2021-04-01',
+    specs: { color: 'Silver', features: 'Precision Finding, Find My Network' },
+    prices: {
+      apple: { price: 79, inStock: true },
+      amazon: { price: 69, inStock: true },
+      walmart: { price: 79, inStock: true },
+      target: { price: 79, inStock: true },
+      bestbuy: { price: 69, inStock: true },
+      bh: { price: 69, inStock: true },
+      adorama: { price: 69, inStock: true },
+      ebay: { price: 59, inStock: true },
+      cdw: { price: 79, inStock: true }
+    }
+  },
+  {
+    id: 'imac-24-m4',
+    name: 'iMac 24" M4',
+    modelNumber: 'A3138',
+    sku: 'MXCR3LL/A',
+    category: 'mac',
+    releaseDate: '2024-11-01',
+    specs: { chip: 'M4', color: 'Blue', storage: '256GB SSD', ram: '16GB', display: '24" 4.5K Retina' },
+    prices: {
+      apple: { price: 1299, inStock: true },
+      amazon: { price: 1199, inStock: true },
+      walmart: { price: 1299, inStock: true },
+      target: { price: 1299, inStock: true },
+      bestbuy: { price: 1199, inStock: true },
+      bh: { price: 1199, inStock: true },
+      adorama: { price: 1199, inStock: true },
+      ebay: { price: 1149, inStock: true },
+      cdw: { price: 1299, inStock: true }
+    }
+  },
+  {
+    id: 'mac-studio-m3-max',
+    name: 'Mac Studio',
+    modelNumber: 'A2901',
+    sku: 'MU1J3LL/A',
+    category: 'mac',
+    releaseDate: '2024-06-01',
+    specs: { chip: 'M3 Max', color: 'Silver', storage: '512GB SSD', ram: '36GB', ports: '6x Thunderbolt 4' },
+    prices: {
+      apple: { price: 2999, inStock: true },
+      amazon: { price: 2799, inStock: true },
+      walmart: { price: 2999, inStock: true },
+      target: { price: 2999, inStock: true },
+      bestbuy: { price: 2799, inStock: true },
+      bh: { price: 2799, inStock: true },
+      adorama: { price: 2799, inStock: true },
+      ebay: { price: 2699, inStock: true },
+      cdw: { price: 2999, inStock: true }
+    }
+  },
+  {
+    id: 'mac-pro-rack',
+    name: 'Mac Pro Rack',
+    modelNumber: 'A2304',
+    sku: 'Z1AF-MAC-PRO-RACK',
+    category: 'mac',
+    releaseDate: '2023-06-01',
+    specs: { chip: 'M2 Ultra', color: 'Stainless Steel', storage: '1TB SSD', ram: '128GB', ports: '8x PCIe' },
+    prices: {
+      apple: { price: 6499, inStock: true },
+      amazon: { price: 5999, inStock: true },
+      walmart: { price: 6499, inStock: true },
+      target: { price: 6499, inStock: false },
+      bestbuy: { price: 5999, inStock: true },
+      bh: { price: 5999, inStock: true },
+      adorama: { price: 5999, inStock: true },
+      ebay: { price: 5799, inStock: true },
+      cdw: { price: 6499, inStock: true }
     }
   }
 ];
