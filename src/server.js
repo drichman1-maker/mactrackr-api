@@ -20,7 +20,7 @@ const products = [
     modelNumber: 'A3113',
     sku: 'MP5X3LL/A',
     category: 'mac',
-    releaseDate: '2026-02-01',
+    releaseDate: '2025-10-01',
     specs: { chip: 'M5', color: 'Space Black', storage: '512GB SSD', ram: '24GB', display: '14.2" XDR' },
     prices: {
       apple: { price: 1999, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-pro-14/MP5X3LL/A' },
@@ -39,7 +39,7 @@ const products = [
     modelNumber: 'A3113',
     sku: 'MHWC3LL/A',
     category: 'mac',
-    releaseDate: '2026-02-01',
+    releaseDate: '2025-10-01',
     specs: { chip: 'M5', color: 'Space Black', storage: '1TB SSD', ram: '32GB', display: '14.2" XDR' },
     prices: {
       apple: { price: 2399, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-pro-14/MHWC3LL/A' },
@@ -58,7 +58,7 @@ const products = [
     modelNumber: 'A3115',
     sku: 'MC5X3LL/A',
     category: 'mac',
-    releaseDate: '2026-02-01',
+    releaseDate: '2025-10-01',
     specs: { chip: 'M4', color: 'Space Gray', storage: '256GB SSD', ram: '16GB', display: '13.6" Liquid Retina' },
     prices: {
       apple: { price: 1099, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-air-13/MC5X3LL/A' },
@@ -77,7 +77,7 @@ const products = [
     modelNumber: 'A3115',
     sku: 'MC7V3LL/A',
     category: 'mac',
-    releaseDate: '2026-02-01',
+    releaseDate: '2025-10-01',
     specs: { chip: 'M4', color: 'Space Gray', storage: '512GB SSD', ram: '16GB', display: '13.6" Liquid Retina' },
     prices: {
       apple: { price: 1299, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-air-13/MC7V3LL/A' },
@@ -96,7 +96,7 @@ const products = [
     modelNumber: 'A3116',
     sku: 'MC9F3LL/A',
     category: 'mac',
-    releaseDate: '2026-02-01',
+    releaseDate: '2025-10-01',
     specs: { chip: 'M4', color: 'Space Gray', storage: '512GB SSD', ram: '16GB', display: '15.3" Liquid Retina' },
     prices: {
       apple: { price: 1499, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-air-15/MC9F3LL/A' },
@@ -205,7 +205,7 @@ const products = [
     modelNumber: 'A3456',
     sku: 'MYWX3LL/A',
     category: 'iphone',
-    releaseDate: '2026-09-15',
+    releaseDate: '2025-09-15',
     specs: { storage: '256GB', color: 'Natural Titanium', display: '6.7" Super Retina XDR' },
     prices: {
       apple: { price: 1199, inStock: true, url: 'https://apple.com/shop/buy-iphone/iphone-17-pro/MYWX3LL/A' },
@@ -224,7 +224,7 @@ const products = [
     modelNumber: 'A3457',
     sku: 'MYWY3LL/A',
     category: 'iphone',
-    releaseDate: '2026-09-15',
+    releaseDate: '2025-09-15',
     specs: { storage: '256GB', color: 'Natural Titanium', display: '6.1" Super Retina XDR' },
     prices: {
       apple: { price: 1099, inStock: true, url: 'https://apple.com/shop/buy-iphone/iphone-17-pro/MYWY3LL/A' },
@@ -243,7 +243,7 @@ const products = [
     modelNumber: 'A3458',
     sku: 'MYWZ3LL/A',
     category: 'iphone',
-    releaseDate: '2026-09-15',
+    releaseDate: '2025-09-15',
     specs: { storage: '256GB', color: 'Midnight', display: '6.1" Liquid Retina' },
     prices: {
       apple: { price: 899, inStock: true, url: 'https://apple.com/shop/buy-iphone/iphone-17-air/MYWZ3LL/A' },
@@ -262,7 +262,7 @@ const products = [
     modelNumber: 'A3459',
     sku: 'MYXA3LL/A',
     category: 'iphone',
-    releaseDate: '2026-09-15',
+    releaseDate: '2025-09-15',
     specs: { storage: '256GB', color: 'Midnight', display: '6.1" Super Retina XDR' },
     prices: {
       apple: { price: 999, inStock: true, url: 'https://apple.com/shop/buy-iphone/iphone-17/MYXA3LL/A' },
@@ -504,7 +504,7 @@ const products = [
     modelNumber: 'A3147',
     sku: 'MVX43LL/A',
     category: 'ipad',
-    releaseDate: '2026-05-01',
+    releaseDate: '2025-05-01',
     specs: { chip: 'M5', display: '12.9" Liquid Retina XDR', storage: '128GB', connectivity: 'Wi-Fi' },
     prices: {
       apple: { price: 1199, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-13/MVX43LL/A' },
@@ -523,7 +523,7 @@ const products = [
     modelNumber: 'A3148',
     sku: 'MVV93LL/A',
     category: 'ipad',
-    releaseDate: '2026-05-01',
+    releaseDate: '2025-05-01',
     specs: { chip: 'M5', display: '11" Liquid Retina XDR', storage: '128GB', connectivity: 'Wi-Fi' },
     prices: {
       apple: { price: 899, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-11/MVV93LL/A' },
@@ -542,7 +542,7 @@ const products = [
     modelNumber: 'A3149',
     sku: 'MVX53LL/A',
     category: 'ipad',
-    releaseDate: '2026-05-01',
+    releaseDate: '2025-05-01',
     specs: { chip: 'M5', display: '12.9" Liquid Retina XDR', storage: '128GB', connectivity: 'Wi-Fi + Cellular' },
     prices: {
       apple: { price: 1399, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-13/MVX53LL/A' },
@@ -561,7 +561,7 @@ const products = [
     modelNumber: 'A3150',
     sku: 'MVVA3LL/A',
     category: 'ipad',
-    releaseDate: '2026-05-01',
+    releaseDate: '2025-05-01',
     specs: { chip: 'M5', display: '11" Liquid Retina XDR', storage: '128GB', connectivity: 'Wi-Fi + Cellular' },
     prices: {
       apple: { price: 1099, inStock: true, url: 'https://apple.com/shop/buy-ipad/ipad-pro-11/MVVA3LL/A' },
