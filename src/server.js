@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-// Deployed: Feb 19, 2026 - All URLs converted to search format
+// Deployed: Feb 19, 2026 12:30 PM EST - Search URLs only, no fake direct URLs
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -955,5 +955,6 @@ app.get('/health', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`MacTrackr API running on port ${PORT}`);
+  console.log(`MacTrackr API v2.0-search - ${products.length} products with search URLs`);
+  console.log(`Running on port ${PORT}`);
 });
