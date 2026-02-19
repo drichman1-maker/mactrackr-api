@@ -918,9 +918,8 @@ const products = [
 
 // Add dynamic URLs to all products
 products.forEach(product => {
-  const searchName = `${product.name} ${product.specs.chip} ${product.specs.ram} ${product.specs.storage || product.specs.display || ''}`.trim();
-  
   Object.keys(product.prices).forEach(retailer => {
+    // Force search URL generation - overwrite any existing URLs
     product.prices[retailer].url = generateSearchUrl(retailer, product.name, product.specs);
   });
   
@@ -952,7 +951,7 @@ app.get('/api/retailers', (req, res) => {
 
 // Health check
 app.get('/health', (req, res) => {
-  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+  res.json({ status: 'ok', version: '2.0-search-urls', timestamp: new Date().toISOString() });
 });
 
 app.listen(PORT, () => {
