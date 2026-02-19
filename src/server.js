@@ -428,7 +428,7 @@ const products = [
     id: 'airpods-pro-3',
     name: 'AirPods Pro (3rd Gen)',
     modelNumber: 'A3200',
-    category: 'audio',
+    category: 'airpods',
     releaseDate: '2025-09-01',
     specs: { type: 'In-ear', features: ['Active Noise Cancellation', 'Adaptive Audio', 'Transparency Mode'] },
     prices: {
@@ -446,7 +446,7 @@ const products = [
     id: 'airpods-4',
     name: 'AirPods 4 with ANC',
     modelNumber: 'A3100',
-    category: 'audio',
+    category: 'airpods',
     releaseDate: '2024-09-01',
     specs: { type: 'In-ear', features: ['Active Noise Cancellation', 'Spatial Audio', 'Adaptive EQ'] },
     prices: {
