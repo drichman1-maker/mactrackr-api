@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+// Deployed: Feb 18, 2026 - Price fixes verified
 const app = express();
 const PORT = process.env.PORT || 3001;
 
