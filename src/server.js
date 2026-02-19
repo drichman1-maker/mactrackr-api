@@ -61,14 +61,14 @@ const products = [
     releaseDate: '2025-10-01',
     specs: { chip: 'M4', color: 'Space Gray', storage: '256GB SSD', ram: '16GB', display: '13.6" Liquid Retina' },
     prices: {
-      apple: { price: 1099, inStock: true, url: 'https://apple.com/shop/buy-mac/macbook-air-13/MC5X3LL/A' },
-      amazon: { price: 1049, inStock: true, url: 'https://amazon.com/dp/B0DM5X3NP4' },
-      walmart: { price: 1099, inStock: true, url: 'https://walmart.com/ip/Apple-MacBook-Air-13-M4-256GB/975631224' },
-      target: { price: 1099, inStock: true, url: 'https://target.com/p/apple-macbook-air-13-m4/-/A-89012360' },
-      bestbuy: { price: 1049, inStock: true, url: 'https://bestbuy.com/site/apple-macbook-air-13-laptop-m4-chip-16gb-memory-256gb-ssd-space-gray/6534591.p' },
-      bh: { price: 1049, inStock: true, url: 'https://bhphotovideo.com/c/product/1801686-REG/apple_mc5x3ll_a_13_6_macbook_air.html' },
-      adorama: { price: 1049, inStock: true, url: 'https://www.adorama.com/search?query=MacBook%20Air%2013' },
-      cdw: { price: 1099, inStock: true, url: 'https://cdw.com/product/apple-macbook-air-13-m4-256gb/7389036' }
+      apple: { price: 999, inStock: true, url: 'https://www.apple.com/shop/buy-mac/macbook-air/13-inch-m4' },
+      amazon: { price: 949, inStock: true, url: 'https://amazon.com/s?k=MacBook+Air+13+M4+16GB+256GB' },
+      walmart: { price: 999, inStock: true, url: 'https://walmart.com/search?q=MacBook+Air+13+M4+16GB+256GB' },
+      target: { price: 999, inStock: true, url: 'https://target.com/s?searchTerm=macbook+air+13+m4+16gb+256gb' },
+      bestbuy: { price: 999, inStock: true, url: 'https://bestbuy.com/site/searchpage.jsp?st=macbook+air+13+m4+16gb+256gb' },
+      bh: { price: 899, inStock: true, url: 'https://bhphotovideo.com/c/product/1801686-REG/apple_mc5x3ll_a_13_6_macbook_air.html' },
+      adorama: { price: 999, inStock: true, url: 'https://www.adorama.com/search?query=MacBook+Air+13+M4+16GB' },
+      cdw: { price: 999, inStock: true, url: 'https://cdw.com/product/apple-macbook-air-13-m4-256gb/7389036' }
     }
   },
   {
