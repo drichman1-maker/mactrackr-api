@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-// Deployed: Feb 18, 2026 - Price fixes verified
+// Deployed: Feb 19, 2026 - All URLs converted to search format
 const app = express();
 const PORT = process.env.PORT || 3001;
 
