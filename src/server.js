@@ -6,7 +6,7 @@ dotenv.config();
 
 // Deployed: Feb 19, 2026 12:30 PM EST - Search URLs only, no fake direct URLs
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8080;
 
 app.use(cors());
 app.use(express.json());
