@@ -4,12 +4,91 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-// Deployed: Feb 19, 2026 12:30 PM EST - Search URLs only, no fake direct URLs
+// Deployed: Feb 20, 2026 3:10 PM EST - Added affiliate link tracking
 const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.use(cors());
 app.use(express.json());
+
+// ==========================================
+// AFFILIATE CONFIGURATION
+// ==========================================
+const AFFILIATE_IDS = {
+  amazon: process.env.AMAZON_ASSOCIATES_TAG || null,
+  apple: process.env.APPLE_AFFILIATE_ID || null,
+  bestbuy: process.env.BESTBUY_AFFILIATE_ID || null,
+  bh: process.env.BH_AFFILIATE_ID || null,
+  adorama: process.env.ADORAMA_AFFILIATE_ID || null,
+  ebay: process.env.EBAY_CAMPAIGN_ID || null
+};
+
+// Build affiliate URL for each retailer
+function buildAffiliateUrl(retailer, baseUrl) {
+  if (!baseUrl || baseUrl === '#') return baseUrl;
+  
+  const affiliateId = AFFILIATE_IDS[retailer];
+  if (!affiliateId) return baseUrl;
+  
+  switch(retailer) {
+    case 'amazon':
+      return baseUrl.includes('?') 
+        ? `${baseUrl}&tag=${affiliateId}`
+        : `${baseUrl}?tag=${affiliateId}`;
+    
+    case 'apple':
+      return `https://apple.sjv.io/c/${affiliateId}?u=${encodeURIComponent(baseUrl)}`;
+    
+    case 'bestbuy':
+      return baseUrl.includes('?')
+        ? `${baseUrl}&ref=${affiliateId}`
+        : `${baseUrl}?ref=${affiliateId}`;
+    
+    case 'bh':
+      return baseUrl.includes('?')
+        ? `${baseUrl}&kw=${affiliateId}`
+        : `${baseUrl}?kw=${affiliateId}`;
+    
+    case 'adorama':
+      return baseUrl.includes('?')
+        ? `${baseUrl}&aff=${affiliateId}`
+        : `${baseUrl}?aff=${affiliateId}`;
+    
+    case 'ebay':
+      return `https://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=${affiliateId}&toolid=10001&customid=&mpre=${encodeURIComponent(baseUrl)}`;
+    
+    default:
+      return baseUrl;
+  }
+}
+
+// Add affiliate URLs to product data
+function enrichProductWithAffiliateUrls(product) {
+  const enrichedPrices = {};
+  
+  for (const [retailer, data] of Object.entries(product.prices)) {
+    enrichedPrices[retailer] = {
+      ...data,
+      affiliateUrl: buildAffiliateUrl(retailer, data.url)
+    };
+  }
+  
+  const enrichedRefurbished = {};
+  if (product.refurbishedPrices) {
+    for (const [retailer, data] of Object.entries(product.refurbishedPrices)) {
+      enrichedRefurbished[retailer] = {
+        ...data,
+        affiliateUrl: buildAffiliateUrl(retailer, data.url)
+      };
+    }
+  }
+  
+  return {
+    ...product,
+    prices: enrichedPrices,
+    ...(product.refurbishedPrices && { refurbishedPrices: enrichedRefurbished })
+  };
+}
 
 // Helper to generate search URLs
 function generateSearchUrl(retailer, productName, specs) {
@@ -1644,25 +1723,49 @@ products.forEach(product => {
 // API Routes
 app.get('/api/products', (req, res) => {
   const { category } = req.query;
-  if (category) {
-    return res.json(products.filter(p => p.category === category));
-  }
-  res.json(products);
+  let result = category 
+    ? products.filter(p => p.category === category)
+    : products;
+  
+  // Enrich with affiliate URLs
+  result = result.map(enrichProductWithAffiliateUrls);
+  
+  res.json(result);
 });
 
 app.get('/api/products/:id', (req, res) => {
   const product = products.find(p => p.id === req.params.id);
   if (!product) return res.status(404).json({ error: 'Product not found' });
-  res.json(product);
+  res.json(enrichProductWithAffiliateUrls(product));
 });
 
 app.get('/api/retailers', (req, res) => {
   res.json(retailers);
 });
 
+// Affiliate status endpoint
+app.get('/api/affiliate-status', (req, res) => {
+  const status = {};
+  for (const [retailer, id] of Object.entries(AFFILIATE_IDS)) {
+    status[retailer] = {
+      configured: !!id,
+      id: id ? 'CONFIGURED' : 'NOT_CONFIGURED'
+    };
+  }
+  res.json({
+    status,
+    note: 'Set affiliate IDs via environment variables (e.g., AMAZON_ASSOCIATES_TAG)'
+  });
+});
+
 // Health check - MUST respond quickly for Railway
 app.get('/health', (req, res) => {
-  res.status(200).json({ status: 'ok', version: '2.0-search-urls', timestamp: new Date().toISOString() });
+  res.status(200).json({ 
+    status: 'ok', 
+    version: '2.1-affiliate-links', 
+    timestamp: new Date().toISOString(),
+    affiliateTracking: true
+  });
 });
 
 // Error handling
@@ -1673,7 +1776,10 @@ app.use((err, req, res, next) => {
 
 // Start server with explicit host binding for Railway
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`MacTrackr API v2.0-search - ${products.length} products with search URLs`);
+  const configuredAffiliates = Object.values(AFFILIATE_IDS).filter(id => !!id).length;
+  console.log(`MacTrackr API v2.1-affiliate-links - ${products.length} products`);
+  console.log(`Affiliate programs configured: ${configuredAffiliates}/${Object.keys(AFFILIATE_IDS).length}`);
   console.log(`Running on port ${PORT}`);
   console.log(`Health check: http://0.0.0.0:${PORT}/health`);
+  console.log(`Affiliate status: http://0.0.0.0:${PORT}/api/affiliate-status`);
 });
