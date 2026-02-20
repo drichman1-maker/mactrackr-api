@@ -2,7 +2,7 @@ app = "mactrackr-backend"
 primary_region = "iad"
 
 [build]
-  builder = "heroku/buildpacks:20"
+  dockerfile = "Dockerfile"
 
 [env]
   PORT = "8080"
