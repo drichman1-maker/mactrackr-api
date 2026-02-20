@@ -1660,12 +1660,20 @@ app.get('/api/retailers', (req, res) => {
   res.json(retailers);
 });
 
-// Health check
+// Health check - MUST respond quickly for Railway
 app.get('/health', (req, res) => {
-  res.json({ status: 'ok', version: '2.0-search-urls', timestamp: new Date().toISOString() });
+  res.status(200).json({ status: 'ok', version: '2.0-search-urls', timestamp: new Date().toISOString() });
 });
 
-app.listen(PORT, () => {
+// Error handling
+app.use((err, req, res, next) => {
+  console.error('Error:', err);
+  res.status(500).json({ error: 'Internal server error' });
+});
+
+// Start server with explicit host binding for Railway
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`MacTrackr API v2.0-search - ${products.length} products with search URLs`);
   console.log(`Running on port ${PORT}`);
+  console.log(`Health check: http://0.0.0.0:${PORT}/health`);
 });
