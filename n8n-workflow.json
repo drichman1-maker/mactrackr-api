@@ -1,0 +1,233 @@
+{
+  "name": "MacTrackr Price & Inventory Alerts",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 2
+            }
+          ]
+        }
+      },
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [200, 400]
+    },
+    {
+      "parameters": {
+        "url": "https://mactrackr-api-backup.fly.dev/api/alerts/price-drops?threshold=0.05",
+        "options": {}
+      },
+      "name": "Check Price Drops",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [400, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://mactrackr-api-backup.fly.dev/api/alerts/restocked",
+        "options": {}
+      },
+      "name": "Check Restocked",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [400, 500]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "cond-1",
+              "leftValue": "={{ $json.count }}",
+              "rightValue": "0",
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ]
+        }
+      },
+      "name": "Has Price Drops?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [600, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "cond-1",
+              "leftValue": "={{ $json.count }}",
+              "rightValue": "0",
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ]
+        }
+      },
+      "name": "Has Restocked?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [600, 500]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Format price drop alerts\nconst drops = $input.first().json.drops;\nconst messages = drops.map(d => {\n  const dropPct = (d.drop_percentage * 100).toFixed(1);\n  return `• ${d.product_id} @ ${d.retailer}: $${d.prev_price} → $${d.new_price} (${dropPct}% drop)`;\n});\n\nreturn [{\n  json: {\n    text: `🚨 PRICE DROP ALERT\\n\\n${messages.join('\\n')}`\n  }\n}];"
+      },
+      "name": "Format Price Drops",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [800, 200]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Format restock alerts\nconst items = $input.first().json.items;\nconst messages = items.map(i => {\n  return `• ${i.product_id} @ ${i.retailer} is back in stock!`;\n});\n\nreturn [{\n  json: {\n    text: `📦 BACK IN STOCK\\n\\n${messages.join('\\n')}`\n  }\n}];"
+      },
+      "name": "Format Restocked",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [800, 500]
+    },
+    {
+      "parameters": {
+        "chatId": "461595428",
+        "text": "={{ $json.text }}\\n\\nCheck mactrackr.com",
+        "options": {}
+      },
+      "name": "Send Telegram Alert",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.1,
+      "position": [1000, 350]
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.webhookUrl }}",
+        "options": {}
+      },
+      "name": "POST to Webhook",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [1200, 350]
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Check Price Drops",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Check Restocked",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Price Drops": {
+      "main": [
+        [
+          {
+            "node": "Has Price Drops?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Restocked": {
+      "main": [
+        [
+          {
+            "node": "Has Restocked?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Has Price Drops?": {
+      "main": [
+        [
+          {
+            "node": "Format Price Drops",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    },
+    "Has Restocked?": {
+      "main": [
+        [
+          {
+            "node": "Format Restocked",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    },
+    "Format Price Drops": {
+      "main": [
+        [
+          {
+            "node": "Send Telegram Alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format Restocked": {
+      "main": [
+        [
+          {
+            "node": "Send Telegram Alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send Telegram Alert": {
+      "main": [
+        [
+          {
+            "node": "POST to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true
+  }
+}
