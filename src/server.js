@@ -1,6 +1,16 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import { 
+  initPriceHistoryTable, 
+  recordPrice, 
+  getPriceHistory, 
+  getRetailerPriceHistory,
+  getLatestPrices,
+  getPriceDrops,
+  getInventoryChanges,
+  cleanupOldData
+} from './db.js';
 
 dotenv.config();
 
@@ -1720,8 +1730,20 @@ products.forEach(product => {
   }
 });
 
+// Record prices to history (async, don't block response)
+async function recordProductPrices(product) {
+  for (const [retailer, data] of Object.entries(product.prices)) {
+    await recordPrice(product.id, retailer, data.price, data.inStock);
+  }
+  if (product.refurbishedPrices) {
+    for (const [retailer, data] of Object.entries(product.refurbishedPrices)) {
+      await recordPrice(`${product.id}_refurb`, retailer, data.price, data.inStock);
+    }
+  }
+}
+
 // API Routes
-app.get('/api/products', (req, res) => {
+app.get('/api/products', async (req, res) => {
   const { category } = req.query;
   let result = category 
     ? products.filter(p => p.category === category)
@@ -1730,15 +1752,98 @@ app.get('/api/products', (req, res) => {
   // Enrich with affiliate URLs
   result = result.map(enrichProductWithAffiliateUrls);
   
+  // Record prices async (don't await, don't block)
+  result.forEach(p => recordProductPrices(p).catch(console.error));
+  
   res.json(result);
 });
 
-app.get('/api/products/:id', (req, res) => {
+app.get('/api/products/:id', async (req, res) => {
   const product = products.find(p => p.id === req.params.id);
   if (!product) return res.status(404).json({ error: 'Product not found' });
+  
+  // Record prices async
+  recordProductPrices(product).catch(console.error);
+  
   res.json(enrichProductWithAffiliateUrls(product));
 });
 
+// Price History Endpoints
+app.get('/api/prices/:id/history', async (req, res) => {
+  const { days } = req.query;
+  const daysInt = parseInt(days) || 90;
+  
+  try {
+    const history = await getPriceHistory(req.params.id, daysInt);
+    res.json({
+      productId: req.params.id,
+      days: daysInt,
+      dataPoints: history.length,
+      history
+    });
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to fetch price history' });
+  }
+});
+
+app.get('/api/prices/:id/history/:retailer', async (req, res) => {
+  const { days } = req.query;
+  const daysInt = parseInt(days) || 90;
+  
+  try {
+    const history = await getRetailerPriceHistory(req.params.id, req.params.retailer, daysInt);
+    res.json({
+      productId: req.params.id,
+      retailer: req.params.retailer,
+      days: daysInt,
+      dataPoints: history.length,
+      history
+    });
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to fetch retailer price history' });
+  }
+});
+
+// Alert endpoints for n8n
+app.get('/api/alerts/price-drops', async (req, res) => {
+  const { threshold } = req.query;
+  const thresholdFloat = parseFloat(threshold) || 0.05; // 5% default
+  
+  try {
+    const drops = await getPriceDrops(thresholdFloat);
+    res.json({
+      threshold: thresholdFloat,
+      count: drops.length,
+      drops
+    });
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to fetch price drops' });
+  }
+});
+
+app.get('/api/alerts/restocked', async (req, res) => {
+  try {
+    const restocked = await getInventoryChanges();
+    res.json({
+      count: restocked.length,
+      items: restocked
+    });
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to fetch inventory changes' });
+  }
+});
+
+// Admin endpoint to trigger cleanup
+app.post('/api/admin/cleanup', async (req, res) => {
+  try {
+    await cleanupOldData();
+    res.json({ message: 'Cleanup completed' });
+  } catch (err) {
+    res.status(500).json({ error: 'Cleanup failed' });
+  }
+});
+
+// Retailers endpoint
 app.get('/api/retailers', (req, res) => {
   res.json(retailers);
 });
@@ -1759,12 +1864,16 @@ app.get('/api/affiliate-status', (req, res) => {
 });
 
 // Health check - MUST respond quickly for Railway
-app.get('/health', (req, res) => {
+app.get('/health', async (req, res) => {
+  const configuredAffiliates = Object.values(AFFILIATE_IDS).filter(id => !!id).length;
   res.status(200).json({ 
     status: 'ok', 
-    version: '2.1-affiliate-links', 
+    version: '2.2-price-history', 
     timestamp: new Date().toISOString(),
-    affiliateTracking: true
+    affiliateTracking: true,
+    priceHistory: true,
+    dbConnected: !!process.env.DATABASE_URL,
+    affiliatesConfigured: `${configuredAffiliates}/${Object.keys(AFFILIATE_IDS).length}`
   });
 });
 
@@ -1774,12 +1883,31 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Internal server error' });
 });
 
-// Start server with explicit host binding for Railway
-app.listen(PORT, '0.0.0.0', () => {
-  const configuredAffiliates = Object.values(AFFILIATE_IDS).filter(id => !!id).length;
-  console.log(`MacTrackr API v2.1-affiliate-links - ${products.length} products`);
-  console.log(`Affiliate programs configured: ${configuredAffiliates}/${Object.keys(AFFILIATE_IDS).length}`);
-  console.log(`Running on port ${PORT}`);
-  console.log(`Health check: http://0.0.0.0:${PORT}/health`);
-  console.log(`Affiliate status: http://0.0.0.0:${PORT}/api/affiliate-status`);
-});
+// Initialize database and start server
+async function startServer() {
+  // Initialize price history table
+  if (process.env.DATABASE_URL) {
+    try {
+      await initPriceHistoryTable();
+    } catch (err) {
+      console.error('⚠️ Database initialization failed:', err.message);
+      console.log('Continuing without price history...');
+    }
+  } else {
+    console.log('⚠️ No DATABASE_URL set — price history disabled');
+  }
+
+  // Start server with explicit host binding for Railway
+  app.listen(PORT, '0.0.0.0', () => {
+    const configuredAffiliates = Object.values(AFFILIATE_IDS).filter(id => !!id).length;
+    console.log(`✅ MacTrackr API v2.2-price-history - ${products.length} products`);
+    console.log(`📊 Price history: ${process.env.DATABASE_URL ? 'ENABLED' : 'DISABLED'}`);
+    console.log(`🔗 Affiliate programs: ${configuredAffiliates}/${Object.keys(AFFILIATE_IDS).length}`);
+    console.log(`🚀 Running on port ${PORT}`);
+    console.log(`💓 Health: http://0.0.0.0:${PORT}/health`);
+    console.log(`📈 Price drops: http://0.0.0.0:${PORT}/api/alerts/price-drops`);
+    console.log(`📦 Restocked: http://0.0.0.0:${PORT}/api/alerts/restocked`);
+  });
+}
+
+startServer();
