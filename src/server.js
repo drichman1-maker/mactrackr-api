@@ -1270,6 +1270,7 @@ const products = [
       walmart: { price: 649, inStock: true, url: 'https://www.walmart.com/ip/Apple-11-inch-iPad-Air-M2-Wi-Fi-256GB-Purple/5038464519' },
       bh: { price: 649, inStock: true, url: 'https://www.bhphotovideo.com/c/product/1794201-REG/apple_fv203ll_a_ipad_air_11_m2.html' },
       adorama: { price: 649, inStock: true, url: 'https://www.adorama.com/ac25611m2p.html' }
+    }
   },
   // === MACBOOK PRODUCTS FROM PDF ===
   {
@@ -1620,6 +1621,507 @@ const products = [
       bh: { price: 549, inStock: true, url: 'https://www.bhphotovideo.com/c/product/1597291-REG/apple_mgyl3am_a_airpods_max_space.html' },
       adorama: { price: 549, inStock: true, url: 'https://www.adorama.com/acmmef2ama.html' }
     }
+  },
+  // === REFURBISHED PRODUCTS (Feb 23, 2026) ===
+  {
+    id: 'iphone-16-128-refurb',
+    name: 'iPhone 16 (Refurbished)',
+    modelNumber: 'A3081',
+    sku: 'MYAP3LL/A-REF',
+    category: 'iphone',
+    condition: 'refurbished',
+    specs: { storage: '128GB', color: 'Various', display: '6.1" Super Retina XDR', chip: 'A18' },
+    prices: {
+      apple: { price: 619, inStock: true, url: 'https://www.apple.com/shop/refurbished/iphone' },
+      bestbuy: { price: 589, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 549, inStock: true, url: 'https://www.amazon.com/s?k=iphone+16+refurbished' },
+      backmarket: { price: 499, inStock: true, url: 'https://www.backmarket.com/search?q=iphone+16' },
+      ebay: { price: 519, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=iphone+16+128gb+refurbished' }
+    }
+  },
+  {
+    id: 'iphone-16-plus-128-refurb',
+    name: 'iPhone 16 Plus (Refurbished)',
+    modelNumber: 'A3082',
+    sku: 'MXUT3LL/A-REF',
+    category: 'iphone',
+    condition: 'refurbished',
+    specs: { storage: '128GB', color: 'Various', display: '6.7" Super Retina XDR', chip: 'A18' },
+    prices: {
+      apple: { price: 699, inStock: true, url: 'https://www.apple.com/shop/refurbished/iphone' },
+      bestbuy: { price: 659, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 599, inStock: true, url: 'https://www.amazon.com/s?k=iphone+16+plus+refurbished' },
+      backmarket: { price: 519, inStock: true, url: 'https://www.backmarket.com/search?q=iphone+16+plus' },
+      ebay: { price: 549, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=iphone+16+plus+128gb+refurbished' }
+    }
+  },
+  {
+    id: 'iphone-15-plus-128-refurb',
+    name: 'iPhone 15 Plus (Refurbished)',
+    modelNumber: 'A2847',
+    sku: 'MU2U3LL/A-REF',
+    category: 'iphone',
+    condition: 'refurbished',
+    specs: { storage: '128GB', color: 'Various', display: '6.7" Super Retina XDR', chip: 'A16' },
+    prices: {
+      apple: { price: 619, inStock: true, url: 'https://www.apple.com/shop/refurbished/iphone' },
+      bestbuy: { price: 579, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 539, inStock: true, url: 'https://www.amazon.com/s?k=iphone+15+plus+refurbished' },
+      backmarket: { price: 420, inStock: true, url: 'https://www.backmarket.com/search?q=iphone+15+plus' },
+      ebay: { price: 499, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=iphone+15+plus+128gb+refurbished' }
+    }
+  },
+  {
+    id: 'iphone-14-pro-256-refurb',
+    name: 'iPhone 14 Pro (Refurbished)',
+    modelNumber: 'A2650',
+    sku: 'MQ0X3LL/A-REF',
+    category: 'iphone',
+    condition: 'refurbished',
+    specs: { storage: '256GB', color: 'Various', display: '6.1" Super Retina XDR', chip: 'A16' },
+    prices: {
+      apple: { price: 679, inStock: false, url: 'https://www.apple.com/shop/refurbished/iphone' },
+      bestbuy: { price: 629, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 589, inStock: true, url: 'https://www.amazon.com/s?k=iphone+14+pro+256gb+refurbished' },
+      backmarket: { price: 449, inStock: true, url: 'https://www.backmarket.com/search?q=iphone+14+pro' },
+      ebay: { price: 519, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=iphone+14+pro+256gb+refurbished' }
+    }
+  },
+  {
+    id: 'iphone-14-pro-max-256-refurb',
+    name: 'iPhone 14 Pro Max (Refurbished)',
+    modelNumber: 'A2651',
+    sku: 'MQ8W3LL/A-REF',
+    category: 'iphone',
+    condition: 'refurbished',
+    specs: { storage: '256GB', color: 'Various', display: '6.7" Super Retina XDR', chip: 'A16' },
+    prices: {
+      apple: { price: 779, inStock: false, url: 'https://www.apple.com/shop/refurbished/iphone' },
+      bestbuy: { price: 719, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 669, inStock: true, url: 'https://www.amazon.com/s?k=iphone+14+pro+max+256gb+refurbished' },
+      backmarket: { price: 520, inStock: true, url: 'https://www.backmarket.com/search?q=iphone+14+pro+max' },
+      ebay: { price: 599, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=iphone+14+pro+max+256gb+refurbished' }
+    }
+  },
+  {
+    id: 'iphone-14-256-refurb',
+    name: 'iPhone 14 (Refurbished)',
+    modelNumber: 'A2649',
+    sku: 'MPW83LL/A-REF',
+    category: 'iphone',
+    condition: 'refurbished',
+    specs: { storage: '256GB', color: 'Various', display: '6.1" Super Retina XDR', chip: 'A15' },
+    prices: {
+      apple: { price: 529, inStock: true, url: 'https://www.apple.com/shop/refurbished/iphone' },
+      bestbuy: { price: 489, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 449, inStock: true, url: 'https://www.amazon.com/s?k=iphone+14+256gb+refurbished' },
+      backmarket: { price: 319, inStock: true, url: 'https://www.backmarket.com/search?q=iphone+14' },
+      ebay: { price: 389, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=iphone+14+256gb+refurbished' }
+    }
+  },
+  {
+    id: 'iphone-14-plus-128-refurb',
+    name: 'iPhone 14 Plus (Refurbished)',
+    modelNumber: 'A2632',
+    sku: 'MPUJ3LL/A-REF',
+    category: 'iphone',
+    condition: 'refurbished',
+    specs: { storage: '128GB', color: 'Various', display: '6.7" Super Retina XDR', chip: 'A15' },
+    prices: {
+      apple: { price: 529, inStock: true, url: 'https://www.apple.com/shop/refurbished/iphone' },
+      bestbuy: { price: 489, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 449, inStock: true, url: 'https://www.amazon.com/s?k=iphone+14+plus+refurbished' },
+      backmarket: { price: 319, inStock: true, url: 'https://www.backmarket.com/search?q=iphone+14+plus' },
+      ebay: { price: 389, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=iphone+14+plus+128gb+refurbished' }
+    }
+  },
+  {
+    id: 'iphone-15-pro-512-refurb',
+    name: 'iPhone 15 Pro (Refurbished)',
+    modelNumber: 'A2848',
+    sku: 'MU6A3LL/A-REF',
+    category: 'iphone',
+    condition: 'refurbished',
+    specs: { storage: '512GB', color: 'Various', display: '6.1" Super Retina XDR', chip: 'A17 Pro' },
+    prices: {
+      apple: { price: 959, inStock: true, url: 'https://www.apple.com/shop/refurbished/iphone' },
+      bestbuy: { price: 899, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 829, inStock: true, url: 'https://www.amazon.com/s?k=iphone+15+pro+512gb+refurbished' },
+      backmarket: { price: 699, inStock: true, url: 'https://www.backmarket.com/search?q=iphone+15+pro' },
+      ebay: { price: 769, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=iphone+15+pro+512gb+refurbished' }
+    }
+  },
+  // iPad Refurbished
+  {
+    id: 'ipad-10-256-refurb',
+    name: 'iPad 10th Gen (Refurbished)',
+    modelNumber: 'A2757',
+    sku: 'FPQ83LL/A-REF',
+    category: 'ipad',
+    condition: 'refurbished',
+    specs: { storage: '256GB', color: 'Various', display: '10.9" Liquid Retina', chip: 'A14' },
+    prices: {
+      apple: { price: 379, inStock: true, url: 'https://www.apple.com/shop/refurbished/ipad' },
+      bestbuy: { price: 349, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 319, inStock: true, url: 'https://www.amazon.com/s?k=ipad+10th+gen+256gb+refurbished' },
+      backmarket: { price: 269, inStock: true, url: 'https://www.backmarket.com/search?q=ipad+10th+generation' },
+      ebay: { price: 299, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=ipad+10th+gen+256gb+refurbished' }
+    }
+  },
+  {
+    id: 'ipad-air-11-m2-128-refurb',
+    name: 'iPad Air 11" M2 (Refurbished)',
+    modelNumber: 'A2902',
+    sku: 'FV203LL/A-REF',
+    category: 'ipad',
+    condition: 'refurbished',
+    specs: { storage: '128GB', color: 'Various', display: '11" Liquid Retina', chip: 'M2' },
+    prices: {
+      apple: { price: 509, inStock: true, url: 'https://www.apple.com/shop/refurbished/ipad' },
+      bestbuy: { price: 479, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 439, inStock: true, url: 'https://www.amazon.com/s?k=ipad+air+m2+11+128gb+refurbished' },
+      backmarket: { price: 389, inStock: true, url: 'https://www.backmarket.com/search?q=ipad+air+m2' },
+      ebay: { price: 429, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=ipad+air+m2+11+128gb+refurbished' }
+    }
+  },
+  {
+    id: 'ipad-air-11-m3-128-refurb',
+    name: 'iPad Air 11" M3 (Refurbished)',
+    modelNumber: 'A3266',
+    sku: 'MCA14LL/A-REF',
+    category: 'ipad',
+    condition: 'refurbished',
+    specs: { storage: '128GB', color: 'Various', display: '11" Liquid Retina', chip: 'M3' },
+    prices: {
+      apple: { price: 509, inStock: true, url: 'https://www.apple.com/shop/refurbished/ipad' },
+      bestbuy: { price: 479, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 459, inStock: true, url: 'https://www.amazon.com/s?k=ipad+air+m3+11+128gb+refurbished' },
+      backmarket: { price: 420, inStock: true, url: 'https://www.backmarket.com/search?q=ipad+air+m3' },
+      ebay: { price: 449, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=ipad+air+m3+11+128gb+refurbished' }
+    }
+  },
+  {
+    id: 'ipad-air-13-m2-128-refurb',
+    name: 'iPad Air 13" M2 (Refurbished)',
+    modelNumber: 'A2898',
+    sku: 'MV2D3LL/A-REF',
+    category: 'ipad',
+    condition: 'refurbished',
+    specs: { storage: '128GB', color: 'Various', display: '13" Liquid Retina', chip: 'M2' },
+    prices: {
+      apple: { price: 639, inStock: true, url: 'https://www.apple.com/shop/refurbished/ipad' },
+      bestbuy: { price: 599, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 559, inStock: true, url: 'https://www.amazon.com/s?k=ipad+air+m2+13+128gb+refurbished' },
+      backmarket: { price: 499, inStock: true, url: 'https://www.backmarket.com/search?q=ipad+air+13+m2' },
+      ebay: { price: 539, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=ipad+air+13+m2+128gb+refurbished' }
+    }
+  },
+  {
+    id: 'ipad-mini-a17-128-refurb',
+    name: 'iPad mini A17 Pro (Refurbished)',
+    modelNumber: 'A2993',
+    sku: 'MXN63LL/A-REF',
+    category: 'ipad',
+    condition: 'refurbished',
+    specs: { storage: '128GB', color: 'Various', display: '8.3" Liquid Retina', chip: 'A17 Pro' },
+    prices: {
+      apple: { price: 430, inStock: true, url: 'https://www.apple.com/shop/refurbished/ipad' },
+      bestbuy: { price: 399, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 369, inStock: true, url: 'https://www.amazon.com/s?k=ipad+mini+a17+pro+128gb+refurbished' },
+      backmarket: { price: 340, inStock: true, url: 'https://www.backmarket.com/search?q=ipad+mini+a17' },
+      ebay: { price: 379, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=ipad+mini+a17+pro+128gb+refurbished' }
+    }
+  },
+  {
+    id: 'ipad-pro-11-m4-256-refurb',
+    name: 'iPad Pro 11" M4 (Refurbished)',
+    modelNumber: 'A2836',
+    sku: 'MVV93LL/A-REF',
+    category: 'ipad',
+    condition: 'refurbished',
+    specs: { storage: '256GB', color: 'Various', display: '11" Ultra Retina XDR', chip: 'M4' },
+    prices: {
+      apple: { price: 849, inStock: true, url: 'https://www.apple.com/shop/refurbished/ipad' },
+      bestbuy: { price: 799, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 749, inStock: true, url: 'https://www.amazon.com/s?k=ipad+pro+11+m4+256gb+refurbished' },
+      backmarket: { price: 699, inStock: true, url: 'https://www.backmarket.com/search?q=ipad+pro+11+m4' },
+      ebay: { price: 739, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=ipad+pro+11+m4+256gb+refurbished' }
+    }
+  },
+  // Mac Refurbished
+  {
+    id: 'macbook-air-13-m3-8gb-256-refurb',
+    name: 'MacBook Air 13" M3 (Refurbished)',
+    modelNumber: 'A3114',
+    sku: 'MRXN3LL/A-REF',
+    category: 'mac',
+    condition: 'refurbished',
+    specs: { chip: 'M3', color: 'Various', storage: '256GB SSD', ram: '8GB', display: '13.6" Liquid Retina' },
+    prices: {
+      apple: { price: 999, inStock: true, url: 'https://www.apple.com/shop/refurbished/mac' },
+      bestbuy: { price: 949, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 899, inStock: true, url: 'https://www.amazon.com/s?k=macbook+air+13+m3+refurbished' },
+      backmarket: { price: 746, inStock: true, url: 'https://www.backmarket.com/search?q=macbook+air+13+m3' },
+      ebay: { price: 829, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=macbook+air+13+m3+refurbished' }
+    }
+  },
+  {
+    id: 'macbook-air-15-m3-8gb-256-refurb',
+    name: 'MacBook Air 15" M3 (Refurbished)',
+    modelNumber: 'A3114',
+    sku: 'MRYM3LL/A-REF',
+    category: 'mac',
+    condition: 'refurbished',
+    specs: { chip: 'M3', color: 'Various', storage: '256GB SSD', ram: '8GB', display: '15.3" Liquid Retina' },
+    prices: {
+      apple: { price: 1019, inStock: true, url: 'https://www.apple.com/shop/refurbished/mac' },
+      bestbuy: { price: 979, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 929, inStock: true, url: 'https://www.amazon.com/s?k=macbook+air+15+m3+refurbished' },
+      backmarket: { price: 849, inStock: true, url: 'https://www.backmarket.com/search?q=macbook+air+15+m3' },
+      ebay: { price: 899, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=macbook+air+15+m3+refurbished' }
+    }
+  },
+  {
+    id: 'macbook-air-13-m2-8gb-256-refurb',
+    name: 'MacBook Air 13" M2 (Refurbished)',
+    modelNumber: 'A2681',
+    sku: 'MLXW3LL/A-REF',
+    category: 'mac',
+    condition: 'refurbished',
+    specs: { chip: 'M2', color: 'Various', storage: '256GB SSD', ram: '8GB', display: '13.6" Liquid Retina' },
+    prices: {
+      apple: { price: 759, inStock: true, url: 'https://www.apple.com/shop/refurbished/mac' },
+      bestbuy: { price: 719, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 679, inStock: true, url: 'https://www.amazon.com/s?k=macbook+air+13+m2+refurbished' },
+      backmarket: { price: 579, inStock: true, url: 'https://www.backmarket.com/search?q=macbook+air+13+m2' },
+      ebay: { price: 649, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=macbook+air+13+m2+refurbished' }
+    }
+  },
+  {
+    id: 'macbook-pro-14-m4-16gb-512-refurb',
+    name: 'MacBook Pro 14" M4 (Refurbished)',
+    modelNumber: 'A3401',
+    sku: 'MX2T3LL/A-REF',
+    category: 'mac',
+    condition: 'refurbished',
+    specs: { chip: 'M4 Pro', color: 'Various', storage: '512GB SSD', ram: '16GB', display: '14.2" Liquid Retina XDR' },
+    prices: {
+      apple: { price: 1349, inStock: true, url: 'https://www.apple.com/shop/refurbished/mac' },
+      bestbuy: { price: 1299, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 1199, inStock: true, url: 'https://www.amazon.com/s?k=macbook+pro+14+m4+refurbished' },
+      backmarket: { price: 1099, inStock: true, url: 'https://www.backmarket.com/search?q=macbook+pro+14+m4' },
+      ebay: { price: 1179, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=macbook+pro+14+m4+refurbished' }
+    }
+  },
+  {
+    id: 'macbook-pro-14-m3-pro-18gb-512-refurb',
+    name: 'MacBook Pro 14" M3 Pro (Refurbished)',
+    modelNumber: 'A2990',
+    sku: 'MRX33LL/A-REF',
+    category: 'mac',
+    condition: 'refurbished',
+    specs: { chip: 'M3 Pro', color: 'Various', storage: '512GB SSD', ram: '18GB', display: '14.2" Liquid Retina XDR' },
+    prices: {
+      apple: { price: 1599, inStock: true, url: 'https://www.apple.com/shop/refurbished/mac' },
+      bestbuy: { price: 1549, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 1449, inStock: true, url: 'https://www.amazon.com/s?k=macbook+pro+14+m3+pro+refurbished' },
+      backmarket: { price: 1299, inStock: true, url: 'https://www.backmarket.com/search?q=macbook+pro+14+m3+pro' },
+      ebay: { price: 1399, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=macbook+pro+14+m3+pro+refurbished' }
+    }
+  },
+  {
+    id: 'macbook-pro-16-m4-pro-24gb-512-refurb',
+    name: 'MacBook Pro 16" M4 Pro (Refurbished)',
+    modelNumber: 'A3403',
+    sku: 'MX2X3LL/A-REF',
+    category: 'mac',
+    condition: 'refurbished',
+    specs: { chip: 'M4 Pro', color: 'Various', storage: '512GB SSD', ram: '24GB', display: '16.2" Liquid Retina XDR' },
+    prices: {
+      apple: { price: 2119, inStock: true, url: 'https://www.apple.com/shop/refurbished/mac' },
+      bestbuy: { price: 2049, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 1949, inStock: true, url: 'https://www.amazon.com/s?k=macbook+pro+16+m4+pro+refurbished' },
+      backmarket: { price: 1849, inStock: true, url: 'https://www.backmarket.com/search?q=macbook+pro+16+m4+pro' },
+      ebay: { price: 1949, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=macbook+pro+16+m4+pro+refurbished' }
+    }
+  },
+  {
+    id: 'macbook-pro-16-m3-pro-18gb-512-refurb',
+    name: 'MacBook Pro 16" M3 Pro (Refurbished)',
+    modelNumber: 'A2991',
+    sku: 'MNWG3LL/A-REF',
+    category: 'mac',
+    condition: 'refurbished',
+    specs: { chip: 'M3 Pro', color: 'Various', storage: '512GB SSD', ram: '18GB', display: '16.2" Liquid Retina XDR' },
+    prices: {
+      apple: { price: 2039, inStock: true, url: 'https://www.apple.com/shop/refurbished/mac' },
+      bestbuy: { price: 1979, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 1849, inStock: true, url: 'https://www.amazon.com/s?k=macbook+pro+16+m3+pro+refurbished' },
+      backmarket: { price: 1749, inStock: true, url: 'https://www.backmarket.com/search?q=macbook+pro+16+m3+pro' },
+      ebay: { price: 1849, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=macbook+pro+16+m3+pro+refurbished' }
+    }
+  },
+  {
+    id: 'mac-mini-m4-16gb-256-refurb',
+    name: 'Mac mini M4 (Refurbished)',
+    modelNumber: 'A3238',
+    sku: 'MU9D3LL/A-REF',
+    category: 'mac',
+    condition: 'refurbished',
+    specs: { chip: 'M4', color: 'Various', storage: '256GB SSD', ram: '16GB', ports: '3x Thunderbolt 4' },
+    prices: {
+      apple: { price: 500, inStock: true, url: 'https://www.apple.com/shop/refurbished/mac' },
+      bestbuy: { price: 479, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 439, inStock: true, url: 'https://www.amazon.com/s?k=mac+mini+m4+refurbished' },
+      backmarket: { price: 380, inStock: true, url: 'https://www.backmarket.com/search?q=mac+mini+m4' },
+      ebay: { price: 429, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=mac+mini+m4+refurbished' }
+    }
+  },
+  {
+    id: 'mac-mini-m4-pro-24gb-512-refurb',
+    name: 'Mac mini M4 Pro (Refurbished)',
+    modelNumber: 'A3239',
+    sku: 'MCX44LL/A-REF',
+    category: 'mac',
+    condition: 'refurbished',
+    specs: { chip: 'M4 Pro', color: 'Various', storage: '512GB SSD', ram: '24GB', ports: '3x Thunderbolt 4' },
+    prices: {
+      apple: { price: 1279, inStock: true, url: 'https://www.apple.com/shop/refurbished/mac' },
+      bestbuy: { price: 1229, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 1149, inStock: true, url: 'https://www.amazon.com/s?k=mac+mini+m4+pro+refurbished' },
+      backmarket: { price: 1049, inStock: true, url: 'https://www.backmarket.com/search?q=mac+mini+m4+pro' },
+      ebay: { price: 1129, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=mac+mini+m4+pro+refurbished' }
+    }
+  },
+  // Apple Watch Refurbished
+  {
+    id: 'apple-watch-se-40mm-refurb',
+    name: 'Apple Watch SE 40mm (Refurbished)',
+    modelNumber: 'A2722',
+    sku: 'MRE33LL/A-REF',
+    category: 'watch',
+    condition: 'refurbished',
+    specs: { size: '40mm', case: 'Aluminum', features: 'GPS' },
+    prices: {
+      apple: { price: 169, inStock: true, url: 'https://www.apple.com/shop/refurbished/apple-watch' },
+      bestbuy: { price: 149, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 129, inStock: true, url: 'https://www.amazon.com/s?k=apple+watch+se+40mm+refurbished' },
+      backmarket: { price: 99, inStock: true, url: 'https://www.backmarket.com/search?q=apple+watch+se' },
+      ebay: { price: 119, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=apple+watch+se+40mm+refurbished' }
+    }
+  },
+  {
+    id: 'apple-watch-s10-42mm-refurb',
+    name: 'Apple Watch Series 10 42mm (Refurbished)',
+    modelNumber: 'A2999',
+    sku: 'MXL83LL/A-REF',
+    category: 'watch',
+    condition: 'refurbished',
+    specs: { size: '42mm', case: 'Aluminum', features: 'GPS' },
+    prices: {
+      apple: { price: 299, inStock: true, url: 'https://www.apple.com/shop/refurbished/apple-watch' },
+      bestbuy: { price: 279, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 249, inStock: true, url: 'https://www.amazon.com/s?k=apple+watch+series+10+42mm+refurbished' },
+      backmarket: { price: 219, inStock: true, url: 'https://www.backmarket.com/search?q=apple+watch+series+10' },
+      ebay: { price: 249, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=apple+watch+series+10+42mm+refurbished' }
+    }
+  },
+  // === IPHONE 17 SERIES (2025 - Upcoming) ===
+  {
+    id: 'iphone-17-128',
+    name: 'iPhone 17',
+    modelNumber: 'A3280',
+    sku: 'MZ8J3LL/A',
+    category: 'iphone',
+    releaseDate: '2025-09-01',
+    specs: { storage: '128GB', color: 'Various', display: '6.3" Super Retina XDR', chip: 'A19' },
+    prices: {
+      apple: { price: 899, inStock: true, url: 'https://www.apple.com/shop/buy-iphone/iphone-17' },
+      bestbuy: { price: 899, inStock: true, url: 'https://www.amazon.com/s?k=iphone+17+128gb' },
+      amazon: { price: 849, inStock: true, url: 'https://www.amazon.com/s?k=iphone+17' },
+      walmart: { price: 899, inStock: true, url: 'https://www.walmart.com/search?q=iphone+17' },
+      target: { price: 899, inStock: true, url: 'https://www.target.com/s?searchTerm=iphone+17' }
+    }
+  },
+  {
+    id: 'iphone-17-plus-128',
+    name: 'iPhone 17 Plus',
+    modelNumber: 'A3281',
+    sku: 'MZ8P3LL/A',
+    category: 'iphone',
+    releaseDate: '2025-09-01',
+    specs: { storage: '128GB', color: 'Various', display: '6.9" Super Retina XDR', chip: 'A19' },
+    prices: {
+      apple: { price: 999, inStock: true, url: 'https://www.apple.com/shop/buy-iphone/iphone-17' },
+      bestbuy: { price: 999, inStock: true, url: 'https://www.bestbuy.com/site/searchpage.jsp?st=iphone+17+plus' },
+      amazon: { price: 949, inStock: true, url: 'https://www.amazon.com/s?k=iphone+17+plus' },
+      walmart: { price: 999, inStock: true, url: 'https://www.walmart.com/search?q=iphone+17+plus' },
+      target: { price: 999, inStock: true, url: 'https://www.target.com/s?searchTerm=iphone+17+plus' }
+    }
+  },
+  {
+    id: 'iphone-17-pro-256',
+    name: 'iPhone 17 Pro',
+    modelNumber: 'A3282',
+    sku: 'MZ983LL/A',
+    category: 'iphone',
+    releaseDate: '2025-09-01',
+    specs: { storage: '256GB', color: 'Various', display: '6.3" Super Retina XDR ProMotion', chip: 'A19 Pro' },
+    prices: {
+      apple: { price: 1099, inStock: true, url: 'https://www.apple.com/shop/buy-iphone/iphone-17-pro' },
+      bestbuy: { price: 1099, inStock: true, url: 'https://www.bestbuy.com/site/searchpage.jsp?st=iphone+17+pro' },
+      amazon: { price: 1049, inStock: true, url: 'https://www.amazon.com/s?k=iphone+17+pro' },
+      walmart: { price: 1099, inStock: true, url: 'https://www.walmart.com/search?q=iphone+17+pro' },
+      target: { price: 1099, inStock: true, url: 'https://www.target.com/s?searchTerm=iphone+17+pro' }
+    }
+  },
+  {
+    id: 'iphone-17-pro-max-256',
+    name: 'iPhone 17 Pro Max',
+    modelNumber: 'A3283',
+    sku: 'MZAE3LL/A',
+    category: 'iphone',
+    releaseDate: '2025-09-01',
+    specs: { storage: '256GB', color: 'Various', display: '6.9" Super Retina XDR ProMotion', chip: 'A19 Pro' },
+    prices: {
+      apple: { price: 1299, inStock: true, url: 'https://www.apple.com/shop/buy-iphone/iphone-17-pro' },
+      bestbuy: { price: 1299, inStock: true, url: 'https://www.bestbuy.com/site/searchpage.jsp?st=iphone+17+pro+max' },
+      amazon: { price: 1249, inStock: true, url: 'https://www.amazon.com/s?k=iphone+17+pro+max' },
+      walmart: { price: 1299, inStock: true, url: 'https://www.walmart.com/search?q=iphone+17+pro+max' },
+      target: { price: 1299, inStock: true, url: 'https://www.target.com/s?searchTerm=iphone+17+pro+max' }
+    }
+  },
+  {
+    id: 'iphone-17-air-128',
+    name: 'iPhone 17 Air',
+    modelNumber: 'A3284',
+    sku: 'MZ9Y3LL/A',
+    category: 'iphone',
+    releaseDate: '2025-09-01',
+    specs: { storage: '128GB', color: 'Various', display: '6.6" Super Retina XDR', chip: 'A19', features: 'Ultra-thin design' },
+    prices: {
+      apple: { price: 1099, inStock: true, url: 'https://www.apple.com/shop/buy-iphone/iphone-17-air' },
+      bestbuy: { price: 1099, inStock: true, url: 'https://www.bestbuy.com/site/searchpage.jsp?st=iphone+17+air' },
+      amazon: { price: 1049, inStock: true, url: 'https://www.amazon.com/s?k=iphone+17+air' },
+      walmart: { price: 1099, inStock: true, url: 'https://www.walmart.com/search?q=iphone+17+air' },
+      target: { price: 1099, inStock: true, url: 'https://www.target.com/s?searchTerm=iphone+17+air' }
+    }
+  },
+  {
+    id: 'iphone-17-128-refurb',
+    name: 'iPhone 17 (Refurbished)',
+    modelNumber: 'A3280',
+    sku: 'MZ8J3LL/A-REF',
+    category: 'iphone',
+    condition: 'refurbished',
+    specs: { storage: '128GB', color: 'Various', display: '6.3" Super Retina XDR', chip: 'A19' },
+    prices: {
+      apple: { price: 759, inStock: true, url: 'https://www.apple.com/shop/refurbished/iphone' },
+      bestbuy: { price: 699, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 649, inStock: true, url: 'https://www.amazon.com/s?k=iphone+17+refurbished' },
+      backmarket: { price: 599, inStock: true, url: 'https://www.backmarket.com/search?q=iphone+17' },
+      ebay: { price: 679, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=iphone+17+128gb+refurbished' }
+    }
   }
 ];
 
@@ -1662,6 +2164,11 @@ app.get('/api/retailers', (req, res) => {
 
 // Health check - MUST respond quickly for Railway
 app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'ok', version: '2.0-search-urls', timestamp: new Date().toISOString() });
+});
+
+// API Health check - matches frontend expectations
+app.get('/api/health', (req, res) => {
   res.status(200).json({ status: 'ok', version: '2.0-search-urls', timestamp: new Date().toISOString() });
 });
 
