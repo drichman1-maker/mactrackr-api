@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import fs from 'fs';
 
 dotenv.config();
 
@@ -10,6 +11,24 @@ const PORT = process.env.PORT || 8080;
 
 app.use(cors());
 app.use(express.json());
+
+// ── Load real stock data from stock-checker.py ───────────────────
+let stockData = null;
+try {
+  const stockFile = new URL('../stock-data.json', import.meta.url);
+  const stockContent = await fs.promises.readFile(stockFile, 'utf-8');
+  stockData = JSON.parse(stockContent);
+  console.log(`📦 Loaded stock data: ${Object.keys(stockData.products || {}).length} products verified`);
+} catch (e) {
+  console.log('⚠️  No stock-data.json found, using hardcoded values');
+}
+
+// Helper to get real stock status
+function getRealStock(productId, retailer) {
+  if (!stockData?.products?.[productId]?.[retailer]) return null;
+  const data = stockData.products[productId][retailer];
+  return data.verified ? data.inStock : null;
+}
 
 // Helper to generate search URLs
 function generateSearchUrl(retailer, productName, specs) {
@@ -2146,15 +2165,43 @@ products.forEach(product => {
 // API Routes
 app.get('/api/products', (req, res) => {
   const { category } = req.query;
+  
+  // Apply real stock data if available
+  let result = products.map(p => {
+    if (!p.prices) return p;
+    
+    const updatedPrices = { ...p.prices };
+    for (const [retailer, data] of Object.entries(updatedPrices)) {
+      const realStock = getRealStock(p.id, retailer);
+      if (realStock !== null) {
+        updatedPrices[retailer] = { ...data, inStock: realStock };
+      }
+    }
+    return { ...p, prices: updatedPrices };
+  });
+  
   if (category) {
-    return res.json(products.filter(p => p.category === category));
+    return res.json(result.filter(p => p.category === category));
   }
-  res.json(products);
+  res.json(result);
 });
 
 app.get('/api/products/:id', (req, res) => {
-  const product = products.find(p => p.id === req.params.id);
+  let product = products.find(p => p.id === req.params.id);
   if (!product) return res.status(404).json({ error: 'Product not found' });
+  
+  // Apply real stock data
+  if (product.prices) {
+    const updatedPrices = { ...product.prices };
+    for (const [retailer, data] of Object.entries(updatedPrices)) {
+      const realStock = getRealStock(product.id, retailer);
+      if (realStock !== null) {
+        updatedPrices[retailer] = { ...data, inStock: realStock };
+      }
+    }
+    product = { ...product, prices: updatedPrices };
+  }
+  
   res.json(product);
 });
 
