@@ -31,6 +31,18 @@ function getRealStock(productId, retailer) {
   return data.verified ? data.inStock : null;
 }
 
+// Helper to get stock info (both status and verified flag)
+function getStockInfo(productId, retailer) {
+  if (!stockData?.products?.[productId]?.[retailer]) {
+    return { inStock: null, verified: false };
+  }
+  const data = stockData.products[productId][retailer];
+  return {
+    inStock: data.verified ? data.inStock : null,
+    verified: data.verified || false
+  };
+}
+
 // Helper to generate search URLs
 function generateSearchUrl(retailer, productName, specs) {
   const query = encodeURIComponent(`${productName} ${specs.chip} ${specs.ram} ${specs.storage}`.trim());
@@ -2173,10 +2185,12 @@ app.get('/api/products', (req, res) => {
     
     const updatedPrices = { ...p.prices };
     for (const [retailer, data] of Object.entries(updatedPrices)) {
-      const realStock = getRealStock(p.id, retailer);
-      if (realStock !== null) {
-        updatedPrices[retailer] = { ...data, inStock: realStock };
-      }
+      const stockInfo = getStockInfo(p.id, retailer);
+      updatedPrices[retailer] = { 
+        ...data, 
+        inStock: stockInfo.inStock !== null ? stockInfo.inStock : data.inStock,
+        verified: stockInfo.verified
+      };
     }
     return { ...p, prices: updatedPrices };
   });
@@ -2195,10 +2209,12 @@ app.get('/api/products/:id', (req, res) => {
   if (product.prices) {
     const updatedPrices = { ...product.prices };
     for (const [retailer, data] of Object.entries(updatedPrices)) {
-      const realStock = getRealStock(product.id, retailer);
-      if (realStock !== null) {
-        updatedPrices[retailer] = { ...data, inStock: realStock };
-      }
+      const stockInfo = getStockInfo(product.id, retailer);
+      updatedPrices[retailer] = { 
+        ...data, 
+        inStock: stockInfo.inStock !== null ? stockInfo.inStock : data.inStock,
+        verified: stockInfo.verified
+      };
     }
     product = { ...product, prices: updatedPrices };
   }
