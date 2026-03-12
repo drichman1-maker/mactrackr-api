@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import fs from 'fs';
+import path from 'path';
 
 dotenv.config();
 
@@ -15,7 +16,7 @@ app.use(express.json());
 // ── Load real stock data from stock-checker.py ───────────────────
 let stockData = null;
 try {
-  const stockFile = new URL('../stock-data.json', import.meta.url);
+  const stockFile = path.join(process.cwd(), 'stock-data.json');
   const stockContent = await fs.promises.readFile(stockFile, 'utf-8');
   stockData = JSON.parse(stockContent);
   console.log(`📦 Loaded stock data: ${Object.keys(stockData.products || {}).length} products verified`);
