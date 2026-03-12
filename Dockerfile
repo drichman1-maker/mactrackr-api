@@ -4,6 +4,7 @@ FROM node:18-alpine
 WORKDIR /app
 
 COPY package*.json ./
+COPY stock-data.json ./
 RUN npm install --production
 
 COPY src/ ./src/
