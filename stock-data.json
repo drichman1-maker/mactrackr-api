@@ -1,0 +1,4464 @@
+{
+  "generated": "2026-03-12T15:28:13.744611",
+  "checked": true,
+  "products": {
+    "iphone-17-128": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.744662",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "iphone-17-plus-128": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.744707",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "iphone-17-pro-256": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.744726",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "iphone-17-pro-max-256": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.744752",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "iphone-17-air-128": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "iphone-17-128-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.744778",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.744790",
+        "isSearchUrl": false
+      }
+    },
+    "iphone-16-128-unlocked": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.744797",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.744805",
+        "isSearchUrl": false
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-pro-14-m5": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": false,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "macbook-pro-14-m5-1tb": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": false,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "macbook-air-13-m4": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "macbook-air-13-m4-512": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "macbook-air-15-m4": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "macbook-pro-14-m4-pro": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746052",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-pro-16-m4-pro": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746032",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "mac-mini-m4": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "mac-studio-m2-ultra": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": false,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": false,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "ipad-pro-13-m4": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "ipad-pro-11-m4": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "ipad-air-13-m2": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "ipad-air-11-m3": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "ipad-11-a16": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "ipad-mini-7": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "iphone-16-pro-max": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "iphone-16-pro": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "iphone-16": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "iphone-16-plus": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "iphone-15": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "apple-watch-series-10-46mm": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746224",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "apple-watch-series-10-42mm": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "apple-watch-ultra-2": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746204",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "apple-watch-se-2-44mm": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "airpods-pro-3": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "airpods-4-anc": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746312",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746318",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "airpods-max-usb-c": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746341",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "apple-tv-4k-3rd-gen": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "ipad-air-13-m3": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "ipad-mini-a17-pro": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "apple-watch-se-2-40mm": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "airpods-4-standard": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "homepod-mini": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "homepod-2nd-gen": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "apple-pencil-pro": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "airtag-4pack": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "imac-24-m4": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745407",
+        "isSearchUrl": false
+      }
+    },
+    "mac-studio-m3-max": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "mac-pro-rack": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "target": {
+        "inStock": false,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "cdw": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      }
+    },
+    "iphone-16-pro-max-256": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745463",
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-16-pro-max-512": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745492",
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-16-pro-max-1tb": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745511",
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-16-pro-256": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745521",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745535",
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-16-pro-512": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745544",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745560",
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-16-128": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745570",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745584",
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-16-plus-128": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745593",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745607",
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-15-pro-max-256": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745617",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745629",
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-15-pro-256": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745638",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745651",
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-15-128": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745660",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-14-pro-max-256": {
+      "apple": {
+        "inStock": false,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "amazon": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745680",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745690",
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-14-256": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745699",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "target": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "ipad-pro-13-m4-256": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745718",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745724",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745732",
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745738",
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "ipad-pro-11-m4-256": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745747",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745757",
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745763",
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "ipad-air-13-m3-256": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745772",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "ipad-air-11-m3-256": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745794",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "ipad-mini-7-128": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745827",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "ipad-mini-6-64": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745862",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745868",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "ipad-10-256": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745884",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745889",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "ipad-air-m2-11-256": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745905",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745914",
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-air-13-m4-24gb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745926",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745936",
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-air-15-m4-24gb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745948",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-air-13-m3-8gb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745966",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745972",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-air-15-m3-8gb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745988",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.745994",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-air-13-m2-8gb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746009",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746015",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-pro-14-m4": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746069",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746079",
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-pro-16-m3-pro": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746091",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746097",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-pro-14-m3": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746113",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "mac-mini-m4-16gb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746131",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "mac-mini-m4-pro": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746149",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "mac-mini-m2-8gb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746181",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "apple-watch-se-44mm": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746244",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "target": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746256",
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "apple-watch-series-9-45mm": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746268",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "airpods-pro-2-usb-c": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746285",
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "walmart": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "target": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746299",
+        "isSearchUrl": false
+      },
+      "bh": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "adorama": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-16-128-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746361",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-16-plus-128-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746376",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-15-plus-128-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746390",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-14-pro-256-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746409",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-14-pro-max-256-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746423",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-14-256-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746444",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-14-plus-128-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746458",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "iphone-15-pro-512-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746472",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "ipad-10-256-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746486",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "ipad-air-11-m2-128-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746499",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "ipad-air-11-m3-128-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746512",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "ipad-air-13-m2-128-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746526",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "ipad-mini-a17-128-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746539",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "ipad-pro-11-m4-256-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746553",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-air-13-m3-8gb-256-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746566",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-air-15-m3-8gb-256-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746580",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-air-13-m2-8gb-256-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746594",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-pro-14-m4-16gb-512-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746607",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-pro-14-m3-pro-18gb-512-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746621",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-pro-16-m4-pro-24gb-512-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746635",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "macbook-pro-16-m3-pro-18gb-512-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746649",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "mac-mini-m4-16gb-256-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746663",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "mac-mini-m4-pro-24gb-512-refurb": {
+      "apple": {
+        "inStock": false,
+        "verified": true,
+        "lastChecked": "2026-03-12T15:28:13.746677",
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "apple-watch-se-40mm-refurb": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    },
+    "apple-watch-s10-42mm-refurb": {
+      "apple": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "bestbuy": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      },
+      "amazon": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "backmarket": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": true
+      },
+      "ebay": {
+        "inStock": true,
+        "verified": false,
+        "lastChecked": null,
+        "isSearchUrl": false
+      }
+    }
+  }
+}
