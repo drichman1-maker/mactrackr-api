@@ -1,11 +1,11 @@
 {
-  "generated": "2026-03-12T15:28:13.744611",
+  "generated": "2026-03-13T17:54:07.688Z",
   "checked": true,
   "products": {
     "iphone-17-128": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.744662",
         "isSearchUrl": false
       },
@@ -37,7 +37,7 @@
     "iphone-17-plus-128": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.744707",
         "isSearchUrl": false
       },
@@ -69,7 +69,7 @@
     "iphone-17-pro-256": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.744726",
         "isSearchUrl": false
       },
@@ -101,7 +101,7 @@
     "iphone-17-pro-max-256": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.744752",
         "isSearchUrl": false
       },
@@ -165,7 +165,7 @@
     "iphone-17-128-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.744778",
         "isSearchUrl": false
       },
@@ -197,7 +197,7 @@
     "iphone-16-128-unlocked": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.744797",
         "isSearchUrl": false
       },
@@ -503,7 +503,7 @@
     "macbook-pro-14-m4-pro": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746052",
         "isSearchUrl": false
       },
@@ -541,7 +541,7 @@
     "macbook-pro-16-m4-pro": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746032",
         "isSearchUrl": false
       },
@@ -1307,7 +1307,7 @@
     "apple-watch-series-10-46mm": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746224",
         "isSearchUrl": false
       },
@@ -1407,7 +1407,7 @@
     "apple-watch-ultra-2": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746204",
         "isSearchUrl": false
       },
@@ -1557,7 +1557,7 @@
     "airpods-4-anc": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746312",
         "isSearchUrl": false
       },
@@ -1601,7 +1601,7 @@
     "airpods-max-usb-c": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746341",
         "isSearchUrl": false
       },
@@ -2443,7 +2443,7 @@
     "iphone-16-pro-256": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745521",
         "isSearchUrl": false
       },
@@ -2487,7 +2487,7 @@
     "iphone-16-pro-512": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745544",
         "isSearchUrl": false
       },
@@ -2525,7 +2525,7 @@
     "iphone-16-128": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745570",
         "isSearchUrl": false
       },
@@ -2569,7 +2569,7 @@
     "iphone-16-plus-128": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745593",
         "isSearchUrl": false
       },
@@ -2613,7 +2613,7 @@
     "iphone-15-pro-max-256": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745617",
         "isSearchUrl": false
       },
@@ -2651,7 +2651,7 @@
     "iphone-15-pro-256": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745638",
         "isSearchUrl": false
       },
@@ -2689,7 +2689,7 @@
     "iphone-15-128": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745660",
         "isSearchUrl": false
       },
@@ -2771,7 +2771,7 @@
     "iphone-14-256": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745699",
         "isSearchUrl": false
       },
@@ -2815,7 +2815,7 @@
     "ipad-pro-13-m4-256": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745718",
         "isSearchUrl": false
       },
@@ -2853,7 +2853,7 @@
     "ipad-pro-11-m4-256": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745747",
         "isSearchUrl": false
       },
@@ -2891,7 +2891,7 @@
     "ipad-air-13-m3-256": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745772",
         "isSearchUrl": false
       },
@@ -2929,7 +2929,7 @@
     "ipad-air-11-m3-256": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745794",
         "isSearchUrl": false
       },
@@ -2967,7 +2967,7 @@
     "ipad-mini-7-128": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745827",
         "isSearchUrl": false
       },
@@ -3005,7 +3005,7 @@
     "ipad-mini-6-64": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745862",
         "isSearchUrl": false
       },
@@ -3043,7 +3043,7 @@
     "ipad-10-256": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745884",
         "isSearchUrl": false
       },
@@ -3081,7 +3081,7 @@
     "ipad-air-m2-11-256": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745905",
         "isSearchUrl": false
       },
@@ -3119,7 +3119,7 @@
     "macbook-air-13-m4-24gb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745926",
         "isSearchUrl": false
       },
@@ -3157,7 +3157,7 @@
     "macbook-air-15-m4-24gb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745948",
         "isSearchUrl": false
       },
@@ -3195,7 +3195,7 @@
     "macbook-air-13-m3-8gb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745966",
         "isSearchUrl": false
       },
@@ -3233,7 +3233,7 @@
     "macbook-air-15-m3-8gb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.745988",
         "isSearchUrl": false
       },
@@ -3271,7 +3271,7 @@
     "macbook-air-13-m2-8gb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746009",
         "isSearchUrl": false
       },
@@ -3309,7 +3309,7 @@
     "macbook-pro-14-m4": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746069",
         "isSearchUrl": false
       },
@@ -3347,7 +3347,7 @@
     "macbook-pro-16-m3-pro": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746091",
         "isSearchUrl": false
       },
@@ -3385,7 +3385,7 @@
     "macbook-pro-14-m3": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746113",
         "isSearchUrl": false
       },
@@ -3423,7 +3423,7 @@
     "mac-mini-m4-16gb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746131",
         "isSearchUrl": false
       },
@@ -3461,7 +3461,7 @@
     "mac-mini-m4-pro": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746149",
         "isSearchUrl": false
       },
@@ -3499,7 +3499,7 @@
     "mac-mini-m2-8gb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746181",
         "isSearchUrl": false
       },
@@ -3537,7 +3537,7 @@
     "apple-watch-se-44mm": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746244",
         "isSearchUrl": false
       },
@@ -3581,7 +3581,7 @@
     "apple-watch-series-9-45mm": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746268",
         "isSearchUrl": false
       },
@@ -3619,7 +3619,7 @@
     "airpods-pro-2-usb-c": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746285",
         "isSearchUrl": false
       },
@@ -3663,7 +3663,7 @@
     "iphone-16-128-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746361",
         "isSearchUrl": false
       },
@@ -3695,7 +3695,7 @@
     "iphone-16-plus-128-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746376",
         "isSearchUrl": false
       },
@@ -3727,7 +3727,7 @@
     "iphone-15-plus-128-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746390",
         "isSearchUrl": false
       },
@@ -3759,7 +3759,7 @@
     "iphone-14-pro-256-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746409",
         "isSearchUrl": false
       },
@@ -3791,7 +3791,7 @@
     "iphone-14-pro-max-256-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746423",
         "isSearchUrl": false
       },
@@ -3823,7 +3823,7 @@
     "iphone-14-256-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746444",
         "isSearchUrl": false
       },
@@ -3855,7 +3855,7 @@
     "iphone-14-plus-128-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746458",
         "isSearchUrl": false
       },
@@ -3887,7 +3887,7 @@
     "iphone-15-pro-512-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746472",
         "isSearchUrl": false
       },
@@ -3919,7 +3919,7 @@
     "ipad-10-256-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746486",
         "isSearchUrl": false
       },
@@ -3951,7 +3951,7 @@
     "ipad-air-11-m2-128-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746499",
         "isSearchUrl": false
       },
@@ -3983,7 +3983,7 @@
     "ipad-air-11-m3-128-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746512",
         "isSearchUrl": false
       },
@@ -4015,7 +4015,7 @@
     "ipad-air-13-m2-128-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746526",
         "isSearchUrl": false
       },
@@ -4047,7 +4047,7 @@
     "ipad-mini-a17-128-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746539",
         "isSearchUrl": false
       },
@@ -4079,7 +4079,7 @@
     "ipad-pro-11-m4-256-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746553",
         "isSearchUrl": false
       },
@@ -4111,7 +4111,7 @@
     "macbook-air-13-m3-8gb-256-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746566",
         "isSearchUrl": false
       },
@@ -4143,7 +4143,7 @@
     "macbook-air-15-m3-8gb-256-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746580",
         "isSearchUrl": false
       },
@@ -4175,7 +4175,7 @@
     "macbook-air-13-m2-8gb-256-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746594",
         "isSearchUrl": false
       },
@@ -4207,7 +4207,7 @@
     "macbook-pro-14-m4-16gb-512-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746607",
         "isSearchUrl": false
       },
@@ -4239,7 +4239,7 @@
     "macbook-pro-14-m3-pro-18gb-512-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746621",
         "isSearchUrl": false
       },
@@ -4271,7 +4271,7 @@
     "macbook-pro-16-m4-pro-24gb-512-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746635",
         "isSearchUrl": false
       },
@@ -4303,7 +4303,7 @@
     "macbook-pro-16-m3-pro-18gb-512-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746649",
         "isSearchUrl": false
       },
@@ -4335,7 +4335,7 @@
     "mac-mini-m4-16gb-256-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746663",
         "isSearchUrl": false
       },
@@ -4367,7 +4367,7 @@
     "mac-mini-m4-pro-24gb-512-refurb": {
       "apple": {
         "inStock": false,
-        "verified": true,
+        "verified": false,
         "lastChecked": "2026-03-12T15:28:13.746677",
         "isSearchUrl": false
       },
@@ -4460,5 +4460,6 @@
         "isSearchUrl": false
       }
     }
-  }
+  },
+  "note": "Apple entries reset to unverified due to incorrect stock checker data"
 }
