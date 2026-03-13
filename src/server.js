@@ -126,38 +126,17 @@ const products = [
     }
   },
   {
-    id: 'macbook-air-13-m4',
+    id: 'macbook-air-13-m5-512',
     name: 'MacBook Air 13"',
-    modelNumber: 'A3115',
-    sku: 'MC5X3LL/A',
+    modelNumber: 'A3501',
+    sku: 'MC6A4LL/A',
     category: 'mac',
-    releaseDate: '2025-10-01',
-    specs: { chip: 'M4', color: 'Space Gray', storage: '256GB SSD', ram: '16GB', display: '13.6" Liquid Retina' },
-    prices: {
-      apple: { price: 999, inStock: true },
-      amazon: { price: 949, inStock: true },
-      walmart: { price: 999, inStock: true },
-      target: { price: 999, inStock: true },
-      bestbuy: { price: 999, inStock: true },
-      bh: { price: 899, inStock: true },
-      adorama: { price: 999, inStock: true },
-      ebay: { price: 949, inStock: true },
-      cdw: { price: 999, inStock: true }
-    }
-  },
-  {
-    id: 'macbook-air-13-m4-512',
-    name: 'MacBook Air 13"',
-    modelNumber: 'A3115',
-    sku: 'MC7V3LL/A',
-    category: 'mac',
-    releaseDate: '2025-10-01',
-    specs: { chip: 'M4', color: 'Space Gray', storage: '512GB SSD', ram: '16GB', display: '13.6" Liquid Retina' },
+    releaseDate: '2026-03-15',
+    specs: { chip: 'M5', color: 'Space Gray', storage: '512GB SSD', ram: '16GB', display: '13.6" Liquid Retina' },
     prices: {
       apple: { price: 1199, inStock: true },
       amazon: { price: 1149, inStock: true },
       walmart: { price: 1199, inStock: true },
-      target: { price: 1199, inStock: true },
       bestbuy: { price: 1199, inStock: true },
       bh: { price: 1099, inStock: true },
       adorama: { price: 1199, inStock: true },
@@ -166,23 +145,41 @@ const products = [
     }
   },
   {
-    id: 'macbook-air-15-m4',
-    name: 'MacBook Air 15"',
-    modelNumber: 'A3116',
-    sku: 'MC9F3LL/A',
+    id: 'macbook-air-13-m5-1tb',
+    name: 'MacBook Air 13"',
+    modelNumber: 'A3501',
+    sku: 'MC6B4LL/A',
     category: 'mac',
-    releaseDate: '2025-10-01',
-    specs: { chip: 'M4', color: 'Space Gray', storage: '512GB SSD', ram: '16GB', display: '15.3" Liquid Retina' },
+    releaseDate: '2026-03-15',
+    specs: { chip: 'M5', color: 'Silver', storage: '1TB SSD', ram: '16GB', display: '13.6" Liquid Retina' },
     prices: {
-      apple: { price: 1299, inStock: true },
-      amazon: { price: 1249, inStock: true },
-      walmart: { price: 1299, inStock: true },
-      target: { price: 1299, inStock: true },
-      bestbuy: { price: 1299, inStock: true },
-      bh: { price: 1199, inStock: true },
-      adorama: { price: 1299, inStock: true },
-      ebay: { price: 1249, inStock: true },
-      cdw: { price: 1299, inStock: true }
+      apple: { price: 1399, inStock: true },
+      amazon: { price: 1349, inStock: true },
+      walmart: { price: 1399, inStock: true },
+      bestbuy: { price: 1399, inStock: true },
+      bh: { price: 1299, inStock: true },
+      adorama: { price: 1399, inStock: true },
+      ebay: { price: 1349, inStock: true },
+      cdw: { price: 1399, inStock: true }
+    }
+  },
+  {
+    id: 'macbook-air-15-m5-512',
+    name: 'MacBook Air 15"',
+    modelNumber: 'A3502',
+    sku: 'MC8D4LL/A',
+    category: 'mac',
+    releaseDate: '2026-03-15',
+    specs: { chip: 'M5', color: 'Space Gray', storage: '512GB SSD', ram: '16GB', display: '15.3" Liquid Retina' },
+    prices: {
+      apple: { price: 1399, inStock: true },
+      amazon: { price: 1349, inStock: true },
+      walmart: { price: 1399, inStock: true },
+      bestbuy: { price: 1399, inStock: true },
+      bh: { price: 1299, inStock: true },
+      adorama: { price: 1399, inStock: true },
+      ebay: { price: 1349, inStock: true },
+      cdw: { price: 1399, inStock: true }
     }
   },
   {
@@ -1306,71 +1303,37 @@ const products = [
   },
   // === MACBOOK PRODUCTS FROM PDF ===
   {
-    id: 'macbook-air-13-m4-24gb',
+    id: 'macbook-air-13-m5-24gb',
     name: 'MacBook Air 13"',
-    modelNumber: 'A3240',
-    sku: 'MC654LL/A',
+    modelNumber: 'A3501',
+    sku: 'MC7A4LL/A',
     category: 'mac',
-    releaseDate: '2025-03-12',
-    specs: { chip: 'M4', color: 'Midnight', storage: '256GB SSD', ram: '24GB', display: '13.6" Liquid Retina' },
-    prices: {
-      apple: { price: 1199, inStock: true, url: 'https://www.apple.com/shop/buy-mac/macbook-air' },
-      amazon: { price: 1199, inStock: true, url: 'https://www.amazon.com/dp/B0DKLHHMZ4' },
-      bestbuy: { price: 1199, inStock: true, url: 'https://www.bestbuy.com/site/apple-macbook-air-13-inch-laptop-m4-chip-24gb-memory-256gb-ssd-midnight/MC654LL-A' },
-      walmart: { price: 1199, inStock: true, url: 'https://www.walmart.com/ip/Apple-13-inch-MacBook-Air-M4-24GB-256GB-Midnight/15481367422' },
-      bh: { price: 1199, inStock: true, url: 'https://www.bhphotovideo.com/c/product/1811193-REG/apple_mc654ll_a_macbook_air_13_m4.html' },
-      adorama: { price: 1199, inStock: true, url: 'https://www.adorama.com/acmba1324m4.html' }
-    }
-  },
-  {
-    id: 'macbook-air-15-m4-24gb',
-    name: 'MacBook Air 15"',
-    modelNumber: 'A3241',
-    sku: 'MC6J4LL/A',
-    category: 'mac',
-    releaseDate: '2025-03-12',
-    specs: { chip: 'M4', color: 'Starlight', storage: '256GB SSD', ram: '24GB', display: '15.3" Liquid Retina' },
+    releaseDate: '2026-03-15',
+    specs: { chip: 'M5', color: 'Midnight', storage: '512GB SSD', ram: '24GB', display: '13.6" Liquid Retina' },
     prices: {
       apple: { price: 1399, inStock: true, url: 'https://www.apple.com/shop/buy-mac/macbook-air' },
-      amazon: { price: 1399, inStock: true, url: 'https://www.amazon.com/dp/B0DKLJ8X7L' },
-      bestbuy: { price: 1399, inStock: true, url: 'https://www.bestbuy.com/site/apple-macbook-air-15-inch-laptop-m4-chip-24gb-memory-256gb-ssd-starlight/MC6J4LL-A' },
-      walmart: { price: 1399, inStock: true, url: 'https://www.walmart.com/ip/Apple-15-inch-MacBook-Air-M4-24GB-256GB-Starlight/15481367423' },
-      bh: { price: 1399, inStock: true, url: 'https://www.bhphotovideo.com/c/product/1811196-REG/apple_mc6j4ll_a_macbook_air_15_m4.html' },
-      adorama: { price: 1399, inStock: true, url: 'https://www.adorama.com/acmba1524m4.html' }
+      amazon: { price: 1399, inStock: true, url: 'https://www.amazon.com/dp/B0DKLHHMZ5' },
+      bestbuy: { price: 1399, inStock: true, url: 'https://www.bestbuy.com/site/apple-macbook-air-13-inch-laptop-m5-chip-24gb-memory-512gb-ssd-midnight/MC7A4LL-A' },
+      walmart: { price: 1399, inStock: true, url: 'https://www.walmart.com/ip/Apple-13-inch-MacBook-Air-M5-24GB-512GB-Midnight/15481367500' },
+      bh: { price: 1399, inStock: true, url: 'https://www.bhphotovideo.com/c/product/1811200-REG/apple_mc7a4ll_a_macbook_air_13_m5.html' },
+      adorama: { price: 1399, inStock: true, url: 'https://www.adorama.com/acmba1324m5.html' }
     }
   },
   {
-    id: 'macbook-air-13-m3-8gb',
-    name: 'MacBook Air 13"',
-    modelNumber: 'A3114',
-    sku: 'MRXN3LL/A',
-    category: 'mac',
-    releaseDate: '2024-03-08',
-    specs: { chip: 'M3', color: 'Silver', storage: '256GB SSD', ram: '8GB', display: '13.6" Liquid Retina' },
-    prices: {
-      apple: { price: 1099, inStock: true, url: 'https://www.apple.com/shop/buy-mac/macbook-air' },
-      amazon: { price: 999, inStock: true, url: 'https://www.amazon.com/dp/B0CM5JV26D' },
-      bestbuy: { price: 999, inStock: true, url: 'https://www.bestbuy.com/site/apple-macbook-air-13-inch-laptop-m3-chip-8gb-memory-256gb-ssd-silver/MRXN3LL-A' },
-      walmart: { price: 999, inStock: true, url: 'https://www.walmart.com/ip/Apple-2024-MacBook-Air-13-inch-Laptop-with-M3-chip-8GB-256GB-Silver/5354013022' },
-      bh: { price: 999, inStock: true, url: 'https://www.bhphotovideo.com/c/product/1780500-REG/apple_mrxn3ll_a_macbook_air_13_m3.html' },
-      adorama: { price: 999, inStock: true, url: 'https://www.adorama.com/ac256m3s.html' }
-    }
-  },
-  {
-    id: 'macbook-air-15-m3-8gb',
+    id: 'macbook-air-15-m5-24gb',
     name: 'MacBook Air 15"',
-    modelNumber: 'A3114',
-    sku: 'MRYM3LL/A',
+    modelNumber: 'A3502',
+    sku: 'MC9A4LL/A',
     category: 'mac',
-    releaseDate: '2024-03-08',
-    specs: { chip: 'M3', color: 'Midnight', storage: '256GB SSD', ram: '8GB', display: '15.3" Liquid Retina' },
+    releaseDate: '2026-03-15',
+    specs: { chip: 'M5', color: 'Starlight', storage: '512GB SSD', ram: '24GB', display: '15.3" Liquid Retina' },
     prices: {
-      apple: { price: 1299, inStock: true, url: 'https://www.apple.com/shop/buy-mac/macbook-air' },
-      amazon: { price: 1199, inStock: true, url: 'https://www.amazon.com/dp/B0CM5JV268' },
-      bestbuy: { price: 1199, inStock: true, url: 'https://www.bestbuy.com/site/apple-macbook-air-15-inch-laptop-m3-chip-8gb-memory-256gb-ssd-midnight/MRYM3LL-A' },
-      walmart: { price: 1199, inStock: true, url: 'https://www.walmart.com/ip/Apple-2024-MacBook-Air-15-inch-Laptop-with-M3-chip-8GB-256GB-Midnight/5354013023' },
-      bh: { price: 1199, inStock: true, url: 'https://www.bhphotovideo.com/c/product/1780503-REG/apple_mrym3ll_a_macbook_air_15_m3.html' },
-      adorama: { price: 1199, inStock: true, url: 'https://www.adorama.com/ac25615m3m.html' }
+      apple: { price: 1599, inStock: true, url: 'https://www.apple.com/shop/buy-mac/macbook-air' },
+      amazon: { price: 1599, inStock: true, url: 'https://www.amazon.com/dp/B0DKLJ8X8M' },
+      bestbuy: { price: 1599, inStock: true, url: 'https://www.bestbuy.com/site/apple-macbook-air-15-inch-laptop-m5-chip-24gb-memory-512gb-ssd-starlight/MC9A4LL-A' },
+      walmart: { price: 1599, inStock: true, url: 'https://www.walmart.com/ip/Apple-15-inch-MacBook-Air-M5-24GB-512GB-Starlight/15481367501' },
+      bh: { price: 1599, inStock: true, url: 'https://www.bhphotovideo.com/c/product/1811203-REG/apple_mc9a4ll_a_macbook_air_15_m5.html' },
+      adorama: { price: 1599, inStock: true, url: 'https://www.adorama.com/acmba1524m5.html' }
     }
   },
   {
@@ -1882,35 +1845,35 @@ const products = [
   },
   // Mac Refurbished
   {
-    id: 'macbook-air-13-m3-8gb-256-refurb',
-    name: 'MacBook Air 13" M3 (Refurbished)',
-    modelNumber: 'A3114',
-    sku: 'MRXN3LL/A-REF',
+    id: 'macbook-air-13-m5-512-refurb',
+    name: 'MacBook Air 13" M5 (Refurbished)',
+    modelNumber: 'A3501',
+    sku: 'MC6A4LL/A-REF',
     category: 'mac',
     condition: 'refurbished',
-    specs: { chip: 'M3', color: 'Various', storage: '256GB SSD', ram: '8GB', display: '13.6" Liquid Retina' },
-    prices: {
-      apple: { price: 999, inStock: true, url: 'https://www.apple.com/shop/refurbished/mac' },
-      bestbuy: { price: 949, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
-      amazon: { price: 899, inStock: true, url: 'https://www.amazon.com/s?k=macbook+air+13+m3+refurbished' },
-      backmarket: { price: 746, inStock: true, url: 'https://www.backmarket.com/search?q=macbook+air+13+m3' },
-      ebay: { price: 829, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=macbook+air+13+m3+refurbished' }
-    }
-  },
-  {
-    id: 'macbook-air-15-m3-8gb-256-refurb',
-    name: 'MacBook Air 15" M3 (Refurbished)',
-    modelNumber: 'A3114',
-    sku: 'MRYM3LL/A-REF',
-    category: 'mac',
-    condition: 'refurbished',
-    specs: { chip: 'M3', color: 'Various', storage: '256GB SSD', ram: '8GB', display: '15.3" Liquid Retina' },
+    specs: { chip: 'M5', color: 'Various', storage: '512GB SSD', ram: '16GB', display: '13.6" Liquid Retina' },
     prices: {
       apple: { price: 1019, inStock: true, url: 'https://www.apple.com/shop/refurbished/mac' },
       bestbuy: { price: 979, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
-      amazon: { price: 929, inStock: true, url: 'https://www.amazon.com/s?k=macbook+air+15+m3+refurbished' },
-      backmarket: { price: 849, inStock: true, url: 'https://www.backmarket.com/search?q=macbook+air+15+m3' },
-      ebay: { price: 899, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=macbook+air+15+m3+refurbished' }
+      amazon: { price: 929, inStock: true, url: 'https://www.amazon.com/s?k=macbook+air+13+m5+refurbished' },
+      backmarket: { price: 849, inStock: true, url: 'https://www.backmarket.com/search?q=macbook+air+13+m5' },
+      ebay: { price: 899, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=macbook+air+13+m5+refurbished' }
+    }
+  },
+  {
+    id: 'macbook-air-15-m5-512-refurb',
+    name: 'MacBook Air 15" M5 (Refurbished)',
+    modelNumber: 'A3502',
+    sku: 'MC8D4LL/A-REF',
+    category: 'mac',
+    condition: 'refurbished',
+    specs: { chip: 'M5', color: 'Various', storage: '512GB SSD', ram: '16GB', display: '15.3" Liquid Retina' },
+    prices: {
+      apple: { price: 1189, inStock: true, url: 'https://www.apple.com/shop/refurbished/mac' },
+      bestbuy: { price: 1139, inStock: true, url: 'https://www.bestbuy.com/site/promo/apple-deals' },
+      amazon: { price: 1089, inStock: true, url: 'https://www.amazon.com/s?k=macbook+air+15+m5+refurbished' },
+      backmarket: { price: 989, inStock: true, url: 'https://www.backmarket.com/search?q=macbook+air+15+m5' },
+      ebay: { price: 1049, inStock: true, url: 'https://www.ebay.com/sch/i.html?_nkw=macbook+air+15+m5+refurbished' }
     }
   },
   {
